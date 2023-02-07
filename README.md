@@ -13,6 +13,8 @@ Table of contents:
 - [Swedish]
 - [Scots]
 - [English]
+- [West Frisian]
+- [North Frisian]
 
 ## Faroese · fao · [fao1244](https://glottolog.org/resource/languoid/id/faro1244)
 
@@ -64,19 +66,36 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
 | [Scottish Corpus of Texts & Speech (SCOTS)](https://scottishcorpus.ac.uk/) (subset) ([Anderson ea 2007](https://link.springer.com/chapter/10.1057/9780230223936_2)) | | ? | mix of ad-hoc spelling and English ortho |
-| [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated; did *not* make it past the corpus-cleaning for [CC-100](https://data.statmt.org/cc-100/) and [OSCAR 22.01](https://oscar-project.org/post/oscar-v22-01/) | 35 MB | Faroese ortho |
+| [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated; did *not* make it past the corpus-cleaning for [CC-100](https://data.statmt.org/cc-100/) and [OSCAR 22.01](https://oscar-project.org/post/oscar-v22-01/) | 35 MB | ? |
 | [Wikipedia](https://dumps.wikimedia.org/) (subset) | uncurated, see also [here](https://www.theguardian.com/uk-news/2020/aug/26/shock-an-aw-us-teenager-wrote-huge-slice-of-scots-wikipedia) and [here](https://slate.com/technology/2020/09/scots-wikipedia-language-american-teenager.html) | 39k articles | [Scots ortho](https://sco.wikipedia.org/wiki/Wikipedia:Spellin_an_grammar) |
 
-## ENG · eng · [stan1293](https://glottolog.org/resource/languoid/id/stan1293)
+## English · eng · [stan1293](https://glottolog.org/resource/languoid/id/stan1293)
 
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
-| [TwitterAAE-UD](https://slanglab.cs.umass.edu/TwitterAAE/) ([Blodgett ea 2016](https://slanglab.cs.umass.edu/TwitterAAE/)) | POS (UPOS), AAVE/​[afri1276](https://glottolog.org/resource/languoid/id/afri1276) | 250 tweets | ad-hoc spelling |
+| [TwitterAAE-UD](https://slanglab.cs.umass.edu/TwitterAAE/) ([Blodgett ea 2016](https://slanglab.cs.umass.edu/TwitterAAE/)) | POS (UPOS). AAVE | 250 tweets | ad-hoc spelling |
 | [Diachronic Electronic Corpus of Tyneside English (DECTE)](https://research.ncl.ac.uk/decte/index.htm) ([Corrigan ea 2012](https://research.ncl.ac.uk/decte/index.htm) | Tyneside (UK) | 72 hrs / 804k toks | audio, English ortho, partially: [phono](https://research.ncl.ac.uk/decte/representation.htm) |
 | [Intonational Variation in English (IViE)](http://www.phon.ox.ac.uk/files/apps/IViE/) ([Nolan & Post 2013](https://research.ncl.ac.uk/decte/representation.htm)) | locations (British Isles) | 36 hrs | audio, English ortho |
 | [Crowdsourced high-quality UK and Ireland English Dialect speech data set](https://openslr.org/83) ([Demirsahin ea 2020](https://aclanthology.org/2020.lrec-1.804/)) | locations (British Isles) | locations (British Isles) | 31 hrs | audio, English ortho |
 | [Helsinki Corpus of British English Dialects](https://varieng.helsinki.fi/CoRD/corpora/Dialects/) | locations (UK: East Anglia, South-West England, Lancashire) | 1M toks | audio, English ortho |
 | [Nationwide Speech Project (NSP)](https://u.osu.edu/nspcorpus/) ([Clopper & Pisoni 2006](https://www.sciencedirect.com/science/article/abs/pii/S0167639305002232)) | locations (USA) | 60 × 1 hr | audio, partially: English ortho |
 
+## West(ern) Frisian · fry · [west2354](https://glottolog.org/resource/languoid/id/west2354)
 
+| Corpus | Notes | Size | Representation |
+|--------|-------|------|----------------|
+| [UD Frisian/Dutch Fame](https://github.com/UniversalDependencies/UD_Frisian_Dutch-Fame) ([Braggar & van der Goot 2021](https://aclanthology.org/2021.adaptnlp-1.6/), [Yılmaz ea 2016](https://aclanthology.org/L16-1739/)) | POS (UPOS), dependencies (UD), code-switching. Code-mixed Frisian and Dutch | 400 sents | Frisian​(/Dutch) ortho |
+| [Common Voice](https://commonvoice.mozilla.org/en/datasets) (subset) ([Ardila ea 2020](https://aclanthology.org/2020.lrec-1.520/)) | 150 hrs | audio, Frisian ortho |
+| [Frisian AudioMining Enterprise (FAME)](https://www.ru.nl/clst/tools-demos/datasets/) ([Yılmaz ea 2016](https://aclanthology.org/L16-1739/)) | partially: location | 18.5 hrs | audio, Frisian ortho |
+| [Recordings of Dutch-Frisian council meetings](https://frisian.eu/dutchfrisiancouncilmeetings/) ([Bentum ea 2022](https://aclanthology.org/2022.lrec-1.107/)) | 26 hrs / 281k toks | audio, Frisian ortho |
+| [Corpus Spoken Frisian (KSF)](https://www1.fa.knaw.nl/ksf.html) | | 200 hrs (65 hrs thereof transcribed) | audio, partially: Frisian ortho |
+| [Tatoeba](https://tatoeba.org/en/downloads) (subset) | some translations into other languages | 641 sents | Frisian ortho |
+| [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated | 72 MB | Frisian ortho |
+| [CC-100](https://data.statmt.org/cc-100/) (subset) ([Wenzek ea 2020](https://aclanthology.org/2020.lrec-1.494/)) | uncurated | 174 MB | Frisian ortho |
+| [OSCAR](https://oscar-project.org/post/oscar-v22-01/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated | 75.3 MB / 6.4M toks | Frisian ortho |
+| [Wikipedia](https://dumps.wikimedia.org/) (subset)| uncurated | 50k articles | Frisian ortho |
 
+## North(ern) Frisian · frr · [north2626](https://glottolog.org/resource/languoid/id/nort2626)
+
+| [Tatoeba](https://tatoeba.org/en/downloads) (subset) | some translations into other languages | 2.9k sents | ? |
+| [Wikipedia](https://dumps.wikimedia.org/) (subset)| uncurated | 17k articles | [different dialect-based spelling systems](https://frr.wikipedia.org/wiki/Wikipedia:Spr%C3%A4kekoordinasjoon) |
