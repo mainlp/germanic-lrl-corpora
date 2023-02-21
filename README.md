@@ -26,7 +26,7 @@ Table of contents:
 - [Limburgish](#limburgishlimburgan--lim--lim1263)
 - [Palatine German](#palatine-german--pfl--pala1330)
 - [Pennsylvania Dutch](#pennsylvania-dutch--pdc--penn1240)
-- [Yiddish](#yiddish--yid--west2361httpsglottologorgresourcelanguoididwest2361east2295)
+- [Yiddish](#yiddish--yid--west2361east2295)
 - [German](#german--deu--stan1295)
 - [Bavarian](#bavarian)
 - [Cimbrian](#cimbrian)
@@ -50,7 +50,7 @@ Table of contents:
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated; *not* in [CC-100](https://data.statmt.org/cc-100/) or [OSCAR 22.01](https://oscar-project.org/post/oscar-v22-01/) | 102 MB | Faroese ortho |
 | [Wikipedia](https://dumps.wikimedia.org/) ([fo](https://fo.wikipedia.org/) subset) | uncurated | 14k articles | Faroese ortho |
 
-[↑](#corpora-for-germanic-low-resource-languages-and-dialects)
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
 ## Norwegian · nor · [norw1258](https://glottolog.org/resource/languoid/id/norw1258)
 
@@ -67,6 +67,8 @@ Table of contents:
 | [Speech Database for Norwegian (NB Tale)](https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-31/) | locations | 365 × 2 mins (spontaneous speech), 7.6k sents (reading) | audio, Bokmål ortho, mod. X-SAMPA |
 | [Norwegian Parliamentary Speech Corpus (NPSC)](https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-58/) | locations | 140 hrs / 65k sents / 1.2M toks | audio, Bokmål/​Nynorsk ortho |
 
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
+
 ## Elfdalian/Övdalian · ovd · [elfd1234](https://glottolog.org/resource/languoid/id/elfd1234)
 
 Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https://glottolog.org/resource/languoid/id/dale1238).
@@ -75,11 +77,15 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 |--------|-------|------|----------------|
 | [Nordic Dialect Corpus](http://tekstlab.uio.no/nota/scandiasyn/) (subset) ([Johannessen ea 2009](https://aclanthology.org/W09-4612/)) | locations | 15.7k toks | Elfdalian ortho (Råðdjärum's orthography), Swedish ortho |
 
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
+
 ## Swedish · swe · [swe1254](https://glottolog.org/resource/languoid/id/swed1254)
 
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
 | [American Nordic Speech Corpus (CANS)](https://tekstlab.uio.no/norskiamerika/korpus.html) (subset) ([Johannessen ea 2015](https://aclanthology.org/W15-1840/)) | locations (USA) | 46k toks | Swedish ortho, [phono](https://tekstlab.uio.no/norskiamerika/CANS-f%C3%B6r-svensk.pdf) |
+
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
 ## Scots · sco · [scot1243](https://glottolog.org/resource/languoid/id/scot1243)
 
@@ -88,6 +94,8 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [Scottish Corpus of Texts & Speech (SCOTS)](https://scottishcorpus.ac.uk/) (subset) ([Anderson ea 2007](https://link.springer.com/chapter/10.1057/9780230223936_2)) | | ? | mix of ad-hoc spelling and English ortho |
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated; *not* in [CC-100](https://data.statmt.org/cc-100/) or [OSCAR 22.01](https://oscar-project.org/post/oscar-v22-01/) | 35 MB | ? |
 | [Wikipedia](https://dumps.wikimedia.org/) ([sco](https://sco.wikipedia.org/) subset) | uncurated, see also [here](https://www.theguardian.com/uk-news/2020/aug/26/shock-an-aw-us-teenager-wrote-huge-slice-of-scots-wikipedia) and [here](https://slate.com/technology/2020/09/scots-wikipedia-language-american-teenager.html) | 39k articles | [Scots ortho](https://sco.wikipedia.org/wiki/Wikipedia:Spellin_an_grammar) |
+
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
 ## English · eng · [stan1293](https://glottolog.org/resource/languoid/id/stan1293)
 
@@ -99,6 +107,8 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [Crowdsourced high-quality UK and Ireland English Dialect speech data set](https://openslr.org/83) ([Demirsahin ea 2020](https://aclanthology.org/2020.lrec-1.804/)) | locations (British Isles) | locations (British Isles) | 31 hrs | audio, English ortho |
 | [Helsinki Corpus of British English Dialects](https://varieng.helsinki.fi/CoRD/corpora/Dialects/) | locations (UK: East Anglia, South-West England, Lancashire) | 1M toks | audio, English ortho |
 | [Nationwide Speech Project (NSP)](https://u.osu.edu/nspcorpus/) ([Clopper & Pisoni 2006](https://www.sciencedirect.com/science/article/abs/pii/S0167639305002232)) | locations (USA) | 60 × 1 hr | audio, partially: English ortho |
+
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
 ## West(ern) Frisian · fry · [west2354](https://glottolog.org/resource/languoid/id/west2354)
 
@@ -117,6 +127,8 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 
 *UD Frisian/Dutch Fame* is an annotated subset of *FAME.*
 
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
+
 ## North(ern) Frisian · frr · [north2626](https://glottolog.org/resource/languoid/id/nort2626)
 
 | Corpus | Notes | Size | Representation |
@@ -124,11 +136,15 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [Tatoeba](https://tatoeba.org/en/downloads) (subset) | some translations into other languages | 2.9k sents | ? |
 | [Wikipedia](https://dumps.wikimedia.org/) ([frr](https://frr.wikipedia.org/wiki/) subset)| uncurated, partially [tagged with dialect information](https://frr.wikipedia.org/wiki/Kategorie:Spriakwiisen) | 17k articles | [different dialect-based (ad-hoc?) orthographies](https://frr.wikipedia.org/wiki/Wikipedia:Spr%C3%A4kekoordinasjoon) |
 
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
+
 ## Saterland Frisian/Saterfrisian · stq · [sate1242](https://glottolog.org/resource/languoid/id/sate1242)
 
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
 | [Wikipedia](https://dumps.wikimedia.org/) ([stq](https://stq.wikipedia.org/) subset)| uncurated | 4k articles | [revised Kramer orthography for Saterfrisian](https://stq.wikipedia.org/wiki/Wikipedia:H%C3%A4lpe_bie_ju_seelter_Sproake) (unclear if example, recommendation or rule for this wiki) |
+
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
 ## Low Saxon/Low German · nds · [lowg1239](https://glottolog.org/resource/languoid/id/lowg1239)
 
@@ -150,11 +166,15 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 *UD Low Saxon LSDC* is an annotated subset of *LSDC.*
 *TaPaCO* is an annotated subset of *Tatoeba.*
 
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
+
 ## East Frisian Low Saxon · frs · [east2288](https://glottolog.org/resource/languoid/id/east2288)
 
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
 | [Sprachvariation in Norddeutschland (SiN, Hamburg collection)](https://corpora.uni-hamburg.de/hzsk/de/islandora/object/spoken-corpus:sin) (East Frisian Low Saxon subset) | varieties of Low Saxon, East Frisian Low Saxon and (Northern) German | unknown (300 hrs total) | audio |
+
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
 ## Gronings · gos · [gron1242](https://glottolog.org/resource/languoid/id/gron1242)
 
@@ -165,6 +185,8 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 
 *TaPaCO* is an annotated subset of *Tatoeba.*
 
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
+
 ## West(ern) Flemish · vls · [vlaa1240](https://glottolog.org/resource/languoid/id/vlaa1240)
 
 | Corpus | Notes | Size | Representation |
@@ -172,11 +194,15 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [Stemmen uit het verleden (annotated subset)](https://dataverse.no/dataset.xhtml?persistentId=doi:10.18710/NSFN2B) ([Lybaert ea 2019](https://www.cambridge.org/core/journals/journal-of-germanic-linguistics/article/corpusbased-analysis-of-v2-variation-in-west-flemish-and-french-flemish-dialects/EAA18DFD4B507EECCAEF90395B60DD95), [Van Keymeulen ea 2019](https://biblio.ugent.be/publication/8629057)) | V2 variation, location | 1.4k sents | phono |
 | [Wikipedia](https://dumps.wikimedia.org/) ([vls](https://vls.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://vls.wikipedia.org/wiki/Categorie:Wikipedia:Artikels_noar_dialect) | 8k articles | [Standoardvlams](https://vls.wikipedia.org/wiki/Wikipedia:Gebruuk_van_streektoaln) (orthography developped by vls.wikipedia.org editors) |
 
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
+
 ## Zeelandic/Zeeuws · zea · [zeeu1238](https://glottolog.org/resource/languoid/id/zeeu1238)
 
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
 | [Wikipedia](https://dumps.wikimedia.org/) ([zea](https://zea.wikipedia.org/) subset)| uncurated | 6k articles | ? |
+
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
 ## Moselle Franconian · [luxe1241](https://glottolog.org/resource/languoid/id/luxe1241)
 
@@ -190,11 +216,15 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [OSCAR](https://oscar-project.org/post/oscar-v22-01/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated | 15.8 MB / 1.5M toks | ? |
 | [Wikipedia](https://dumps.wikimedia.org/) ([lb](https://lb.wikipedia.org/) subset)| uncurated | 61k articles | Luxembourgish ortho |
 
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
+
 ### Transylvanian Saxon · [tran1294](https://glottolog.org/resource/languoid/id/tran1294)
 
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
 | [Audioatlas siebenbürgisch-sächsischer Dialekte (ASD)](https://clarin.phonetik.uni-muenchen.de/BASRepository/index.php?target=Public/Corpora/ASD/ASD.1.php)) ([University of Munich](http://www.asd.gwi.uni-muenchen.de/index.php)) | 360 hrs / 450k tokens | audio, German ortho, partially phono |
+
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
 ## Colognian · ksh · [kols1241](https://glottolog.org/resource/languoid/id/kols1241)
 
@@ -202,11 +232,15 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 |--------|-------|------|----------------|
 | [Wikipedia](https://dumps.wikimedia.org/) ([ksh](https://ksh.wikipedia.org/) subset)| uncurated, Colognian and other varieties of Ripuarian, partially [tagged with dialect and/or orthography information](https://ksh.wikipedia.org/wiki/Saachjrupp:Wikipedia:Atikkel_ier_Shprooche) | 3k articles | [ad-hoc spelling, some articles according to various Ripuarian orthographies](https://ksh.wikipedia.org/wiki/Wikipedia:Schrievwies) |
 
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
+
 ## Limburgish/Limburgan · lim · [lim1263](https://glottolog.org/resource/languoid/id/limb1263)
 
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
 | [Wikipedia](https://dumps.wikimedia.org/) ([li](https://li.wikipedia.org/) subset)| uncurated, partially [tagged with dialect and/or orthography information](https://li.wikipedia.org/wiki/Categorie:Wikipedia:Artikele_nao_dialek) | 14k articles | [Veldeke-sjpelling, Algemein Gesjreve Limburgs](https://li.wikipedia.org/wiki/Wikipedia:Wie_sjrief_ich_Limburgs) |
+
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
 ## Palatine German · pfl · [pala1330](https://glottolog.org/resource/languoid/id/pala1330)
 
@@ -214,19 +248,25 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 |--------|-------|------|----------------|
 | [Wikipedia](https://dumps.wikimedia.org/) ([pfl](https://pfl.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://pfl.wikipedia.org/wiki/Sachgrubb:Adiggel_noch_em_Dialegd) | 3k articles | [ad-hoc spelling](https://pfl.wikipedia.org/wiki/Wikipedia_Dischbediere:Schdammdisch) |
 
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
+
 ## Pennsylvania Dutch · pdc · [penn1240](https://glottolog.org/resource/languoid/id/penn1240)
 
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
 | [Wikipedia](https://dumps.wikimedia.org/) (subset)| uncurated | 2k articles | ? |
 
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
+
 ## Yiddish · yid · [west2361](https://glottolog.org/resource/languoid/id/west2361)/[east2295](https://glottolog.org/resource/languoid/id/east2295)
 
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
-| [Penn Parsed Corpus of Historical Yiddish](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish) (Santorini 2021) | POS ([Penn-historical](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish/blob/main/doc/annotation-yiddish/annotation.html), phrase structure (Penn-historical) | 200k toks | [partially YIVO transliteration, partially YIVO-inspired ad-hoc transliteration](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish/blob/main/doc/annotation-yiddish/transliteration.html) | New York | 1 hr | audio, transcriptions (partially IPA, partially orthography-based (YIVO-transliteration-based?)) |
-| [CABank Yiddish Corpus](https://ca.talkbank.org/access/Yiddish.html) ([Newman 2015](https://benjamins.com/catalog/silv.18.08kah)) | | 1 hr | audio, phono (partially IPA, partially orthography-based) |
+| [Penn Parsed Corpus of Historical Yiddish](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish) (Santorini 2021) | POS ([Penn-historical](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish/blob/main/doc/annotation-yiddish/annotation.html), phrase structure (Penn-historical) | 200k toks | [partially YIVO transliteration, partially YIVO-inspired ad-hoc transliteration](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish/blob/main/doc/annotation-yiddish/transliteration.html) |
+| [CABank Yiddish Corpus](https://ca.talkbank.org/access/Yiddish.html) ([Newman 2015](https://benjamins.com/catalog/silv.18.08kah)) | | New York | 1 hr | audio, transcriptions (partially IPA, partially orthography-based (YIVO-transliteration-based?)) |
 | [Wikipedia](https://dumps.wikimedia.org/) ([pdc](https://pdc.wikipedia.org/) subset)| uncurated | 15k articles | Yiddish ortho |
+
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
 ## German · deu · [stan1295](https://glottolog.org/resource/languoid/id/stan1295)
 
@@ -235,6 +275,8 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [Sprachvariation in Norddeutschland (SiN, Hamburg collection)](https://corpora.uni-hamburg.de/hzsk/de/islandora/object/spoken-corpus:sin) (German subset) | varieties of Low Saxon, East Frisian Low Saxon and (Northern) German | unknown (300 hrs total) | audio |
 | [Regional Variants of German 1 (RVG1)](https://www.bas.uni-muenchen.de/forschung/Bas/BasRVG1eng.html) ([link2](https://clarin.phonetik.uni-muenchen.de/BASRepository/index.php?target=Public/Corpora/RVG1_CLARIN/RVG1_CLARIN.3.php)) ([Burger & Schiel 1998](https://www.phonetik.uni-muenchen.de/forschung/publikationen/Burger-98-RVG1.pdf)) | unclear whether all of the recordings are in regionally accented (Standard) German or some are in Low Saxon/Bavarian/Colognian/etc. instead | 500 × 1 min spontaneous speech | audio, phono (SAMPA), German ortho |
 | Texas German Sample Corpus (TGSC) ([Blevins 2022](https://dataverse.tdl.org/dataset.xhtml?persistentId=doi:10.18738/T8/IOX9ZA)) | | 13.5 hrs / 75k tokens | audio, German ortho |
+
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
 
 ## Bavarian
