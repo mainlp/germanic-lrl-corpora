@@ -15,6 +15,24 @@ Table of contents:
 - [English](#english--eng--stan1293)
 - [West Frisian](#western-frisian--fry--west2354)
 - [North Frisian](#northern-frisian--frr--north2626)
+- [Saterland Frisian](#saterland-frisiansaterfrisian--stq--sate1242)
+- [Low Saxon](#low-saxonlow-german--nds--lowg1239)
+- [East Frisian Low Saxon](#east-frisian-low-saxon--frs--east2288)
+- [Gronings](#gronings--gos--gron1242)
+- [West Flemish](#western-flemish--vls--vlaa1240)
+- [Zeelandic](#zeelandiczeeuws--zea--zeeu1238)
+- [Moselle Franconian incl. Luxembourgish](#moselle-franconian--luxe1241)
+- [Colognian](#colognian--ksh--kols1241)
+- [Limburgish](#limburgishlimburgan--lim--lim1263)
+- [Palatine German](#palatine-german--pfl--pala1330)
+- [Pennsylvania Dutch](#pennsylvania-dutch--pdc--penn1240)
+- [Yiddish](#yiddish--yid--west2361httpsglottologorgresourcelanguoididwest2361east2295)
+- [German](#german--deu--stan1295)
+- [Bavarian](#bavarian)
+- [Cimbrian](#cimbrian)
+- [Swabian](#swabian)
+- [Alemannic](#alemannic)
+- [Walser](#walser)
 
 ## Faroese · fao · [fao1244](https://glottolog.org/resource/languoid/id/faro1244)
 
@@ -31,6 +49,8 @@ Table of contents:
 | [Tatoeba](https://tatoeba.org/en/downloads) (subset) | some translations into other languages | 417 sents | Faroese ortho |
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated; *not* in [CC-100](https://data.statmt.org/cc-100/) or [OSCAR 22.01](https://oscar-project.org/post/oscar-v22-01/) | 102 MB | Faroese ortho |
 | [Wikipedia](https://dumps.wikimedia.org/) ([fo](https://fo.wikipedia.org/) subset) | uncurated | 14k articles | Faroese ortho |
+
+[↑](#corpora-for-germanic-low-resource-languages-and-dialects)
 
 ## Norwegian · nor · [norw1258](https://glottolog.org/resource/languoid/id/norw1258)
 
@@ -200,20 +220,20 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 |--------|-------|------|----------------|
 | [Wikipedia](https://dumps.wikimedia.org/) (subset)| uncurated | 2k articles | ? |
 
-## Yiddish · yid · west2361[https://glottolog.org/resource/languoid/id/west2361]/[east2295](https://glottolog.org/resource/languoid/id/east2295)
+## Yiddish · yid · [west2361](https://glottolog.org/resource/languoid/id/west2361)/[east2295](https://glottolog.org/resource/languoid/id/east2295)
 
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
 | [Penn Parsed Corpus of Historical Yiddish](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish) (Santorini 2021) | POS ([Penn-historical](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish/blob/main/doc/annotation-yiddish/annotation.html), phrase structure (Penn-historical) | 200k toks | [partially YIVO transliteration, partially YIVO-inspired ad-hoc transliteration](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish/blob/main/doc/annotation-yiddish/transliteration.html) | New York | 1 hr | audio, transcriptions (partially IPA, partially orthography-based (YIVO-transliteration-based?)) |
-| [CABank Yiddish Corpus](https://ca.talkbank.org/access/Yiddish.html) ([Newman 2015](https://benjamins.com/catalog/silv.18.08kah)) | 
-| [Wikipedia](https://dumps.wikimedia.org/) (subset)| uncurated | 15k articles | Yiddish ortho |
+| [CABank Yiddish Corpus](https://ca.talkbank.org/access/Yiddish.html) ([Newman 2015](https://benjamins.com/catalog/silv.18.08kah)) | | 1 hr | audio, phono (partially IPA, partially orthography-based) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([pdc](https://pdc.wikipedia.org/) subset)| uncurated | 15k articles | Yiddish ortho |
 
 ## German · deu · [stan1295](https://glottolog.org/resource/languoid/id/stan1295)
 
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
 | [Sprachvariation in Norddeutschland (SiN, Hamburg collection)](https://corpora.uni-hamburg.de/hzsk/de/islandora/object/spoken-corpus:sin) (German subset) | varieties of Low Saxon, East Frisian Low Saxon and (Northern) German | unknown (300 hrs total) | audio |
-| [Regional Variants of German 1 (RVG1)](https://www.bas.uni-muenchen.de/forschung/Bas/BasRVG1eng.html) ([link2](https://clarin.phonetik.uni-muenchen.de/BASRepository/index.php?target=Public/Corpora/RVG1_CLARIN/RVG1_CLARIN.3.php)) ([Burger & Schiel 1998](https://www.phonetik.uni-muenchen.de/forschung/publikationen/Burger-98-RVG1.pdf)) | unclear whether all of the recordings are in regionally accented (Standard) German or some are in Low Saxon/Bavarian/Colognian/etc. instead | 500 × 1 min spontaneous speech | audio, SAMPA, German ortho |
+| [Regional Variants of German 1 (RVG1)](https://www.bas.uni-muenchen.de/forschung/Bas/BasRVG1eng.html) ([link2](https://clarin.phonetik.uni-muenchen.de/BASRepository/index.php?target=Public/Corpora/RVG1_CLARIN/RVG1_CLARIN.3.php)) ([Burger & Schiel 1998](https://www.phonetik.uni-muenchen.de/forschung/publikationen/Burger-98-RVG1.pdf)) | unclear whether all of the recordings are in regionally accented (Standard) German or some are in Low Saxon/Bavarian/Colognian/etc. instead | 500 × 1 min spontaneous speech | audio, phono (SAMPA), German ortho |
 | Texas German Sample Corpus (TGSC) ([Blevins 2022](https://dataverse.tdl.org/dataset.xhtml?persistentId=doi:10.18738/T8/IOX9ZA)) | | 13.5 hrs / 75k tokens | audio, German ortho |
 
 
