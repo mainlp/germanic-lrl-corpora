@@ -6,16 +6,26 @@ If you find this overview useful for your research, please cite:
 citation TBD
 ```
 
-Table of contents:
-- [North Germanic](#north-germanic) ([Faroese](#faroese--fao--fao1244) · (non-std.) [Norwegian](#norwegian--nor--norw1258) · [Elfdalian](#elfdalianövdalian--ovd--elfd1234) · (non-std.) [Swedish](#swedish--swe--swe1254))
+Language varieties:
+- [North Germanic](#north-germanic) ([Faroese](#faroese--fao--fao1244) · [(non-std.) Norwegian](#norwegian--nor--norw1258) · [Elfdalian](#elfdalianövdalian--ovd--elfd1234) · [(non-std.) Swedish](#swedish--swe--swe1254))
 - West Germanic
     - North Sea Germanic
-        - [Anglo-Frisian](#anglo-frisian) ([Scots](#scots--sco--scot1243) · (non-std.) [English](#english--eng--stan1293) · [West Frisian](#western-frisian--fry--west2354) · [North Frisian](#northern-frisian--frr--north2626) · [Saterland Frisian](#saterland-frisiansaterfrisian--stq--sate1242))
+        - [Anglo-Frisian](#anglo-frisian) ([Scots](#scots--sco--scot1243) · [(non-std.) English](#english--eng--stan1293) · [West Frisian](#western-frisian--fry--west2354) · [North Frisian](#northern-frisian--frr--north2626) · [Saterland Frisian](#saterland-frisiansaterfrisian--stq--sate1242))
         - [Low German](#low-german) ([Low Saxon](#low-saxonlow-german--nds--lowg1239) · [East Frisian Low Saxon](#east-frisian-low-saxon--frs--east2288) · [Gronings](#gronings--gos--gron1242))
     - [Macro-Dutch](#macro-dutch) ([West Flemish](#western-flemish--vls--vlaa1240) · [Zeelandic](#zeelandiczeeuws--zea--zeeu1238))
     - High German
         - [Middle German](#middle-german) ([Moselle Franconian incl. Luxembourgish](#moselle-franconian--luxe1241) · [Colognian](#colognian--ksh--kols1241) · [Limburgish](#limburgishlimburgan--lim--lim1263) · [Palatine German](#palatine-german--pfl--pala1330) · [Pennsylvania Dutch](#pennsylvania-dutch--pdc--penn1240) · [Yiddish](#yiddish--yid--west2361east2295))
-        - [Upper German](#upper-german) ((non-std.) [German](#german--deu--stan1295) · [Bavarian](#bavarian--bar--bava1246) · [Cimbrian](#cimbrian--cim--cimb1238) · [Swabian](#swabian--swg--swab1242) · [Central Alemannic (Swiss German & Alsatian)](#central-alemannic-swiss-german--alsatian--gsw--swis1247) · [Walser](#walser--wae--wals1238))
+        - [Upper German](#upper-german) ([(non-std.) German](#german--deu--stan1295) · [Bavarian](#bavarian--bar--bava1246) · [Cimbrian](#cimbrian--cim--cimb1238) · [Swabian](#swabian--swg--swab1242) · [Central Alemannic (Swiss German & Alsatian)](#central-alemannic-incl-swiss-german--alsatian--gsw--swis1247) · [Walser](#walser--wae--wals1238))
+
+Inclusion criteria:
+- Accessiblity to researchers
+- Can be downloaded (easily)
+- No extensive pre-processing required (appropriate file formats; no abundance of OCR errors)
+- Full sentences/utterances rather than word lists
+- Data are contemporaneous or from the past century
+- If only a written version is available, it should be (manually) annotated and/or showcase variation through phone[t/m]ic transcriptions or orthographies used specifically for that language variety
+
+We focus on manual or manually corrected annotations rather than fully automatically annotated data.
 
 ## North Germanic
 
@@ -23,15 +33,15 @@ Table of contents:
 
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
-| [UD Faroese OFT](https://github.com/UniversalDependencies/UD_Faroese-OFT) ([Tyers ea 2018](https://aclanthology.org/W18-6017/)) | POS (UPOS, Giellatekno-FAO), dependencies (UD), morpho (UD), lemmas | 1.2k sents | Faroese ortho |
-| [FarPaHC](https://repository.clarin.is/repository/xmlui/handle/20.500.12537/92) ([Ingason ea 2012](https://repository.clarin.is/repository/xmlui/handle/20.500.12537/92), [Rögnvalsson ea 2012](https://aclanthology.org/L12-1228/)) | POS (mod. [Penn-historical](https://www.ling.upenn.edu/hist-corpora/annotation/index.html), phrase structure (mod. Penn-historical) | 53k toks | Faroese ortho |
-| [UD Faroese FarPaHC](https://github.com/UniversalDependencies/UD_Faroese-FarPaHC) ([Ingason ea 2012](https://repository.clarin.is/repository/xmlui/handle/20.500.12537/92), [Rögnvalsson ea 2012](https://aclanthology.org/L12-1228/)) | POS (UPOS), dependencies (UD), morpho (UD) | 40k toks | Faroese ortho |
-| [Føroyskur talumálsbanki](https://clarino.uib.no/corpuscle-classic/corpus-list) ([Jacobsen 2022](https://septentrio.uit.no/index.php/nordlyd/article/view/6440)) | | 599.9k toks | Faroese ortho |
-| [BLARK 1.0](https://maltokni.fo/en/resources) (background corpus) ([Simonsen ea 2022](https://aclanthology.org/2022.lrec-1.495/)) | | 25M toks | Faroese ortho |
-| [Faroese text collection (FTS)](https://spraakbanken.gu.se/en/resources/fts) | in BLARK 1.0 background corpus | 1.1M toks | Faroese ortho |
+| [UD Faroese OFT](https://github.com/UniversalDependencies/UD_Faroese-OFT) ([Tyers ea 2018](https://aclanthology.org/W18-6017/)) | POS (UPOS, Giellatekno-FAO), dependencies (UD), morpho (UD), lemmas | 1.2k sentences | Faroese ortho |
+| [FarPaHC](https://repository.clarin.is/repository/xmlui/handle/20.500.12537/92) ([Ingason ea 2012](https://repository.clarin.is/repository/xmlui/handle/20.500.12537/92), [Rögnvalsson ea 2012](https://aclanthology.org/L12-1228/)) | POS (mod. [Penn-historical](https://www.ling.upenn.edu/hist-corpora/annotation/index.html), phrase structure (mod. Penn-historical) | 53k tokens | Faroese ortho |
+| [UD Faroese FarPaHC](https://github.com/UniversalDependencies/UD_Faroese-FarPaHC) ([Ingason ea 2012](https://repository.clarin.is/repository/xmlui/handle/20.500.12537/92), [Rögnvalsson ea 2012](https://aclanthology.org/L12-1228/)) | POS (UPOS), dependencies (UD), morpho (UD) | 40k tokens | Faroese ortho |
+| [Føroyskur talumálsbanki](https://clarino.uib.no/corpuscle-classic/corpus-list) ([Jacobsen 2022](https://septentrio.uit.no/index.php/nordlyd/article/view/6440)) | | 599.9k tokens | Faroese ortho |
+| [BLARK 1.0](https://maltokni.fo/en/resources) (background corpus) ([Simonsen ea 2022](https://aclanthology.org/2022.lrec-1.495/)) | | 25M tokens | Faroese ortho |
+| [Faroese text collection (FTS)](https://spraakbanken.gu.se/en/resources/fts) | in BLARK 1.0 background corpus | 1.1M tokens | Faroese ortho |
 | [BLARK 1.0](https://maltokni.fo/en/resources) (audio) ([Simonsen ea 2022](https://aclanthology.org/2022.lrec-1.495/)) | locations | 100 hrs | audio, Faroese ortho, some phono |
 | [Faroese Danish Corpus Hamburg (FADAC Hamburg)](https://corpora.uni-hamburg.de/hzsk/de/islandora/object/spoken-corpus:fadac-0.2.dan) (subset) ([Debess 2019](https://macau.uni-kiel.de/receive/publ_mods_00002318)) | locations | 31 hrs | audio, Faroese ortho |
-| [Tatoeba](https://tatoeba.org/en/downloads) (subset) | some translations into other languages | 417 sents | Faroese ortho |
+| [Tatoeba](https://tatoeba.org/en/downloads) ([fao](https://tatoeba.org/en/sentences/show_all_in/fao/none) subset) | some translations into other languages | 417 sentences | Faroese ortho |
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated; *not* in [CC-100](https://data.statmt.org/cc-100/) or [OSCAR 22.01](https://oscar-project.org/post/oscar-v22-01/) | 102 MB | Faroese ortho |
 | [Wikipedia](https://dumps.wikimedia.org/) ([fo](https://fo.wikipedia.org/) subset) | uncurated | 14k articles | Faroese ortho |
 
@@ -41,16 +51,16 @@ Table of contents:
 
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
-| [LIA Treebank](https://github.com/textlab/spoken_norwegian_resources/tree/master/treebanks/Norwegian-NynorskLIA) ([+transcriptions](https://tekstlab.uio.no/LIA/norsk/index_english.html)) ([Øvrelid ea 2018](https://aclanthology.org/L18-1710/)) | POS ([mod](https://tekstlab.uio.no/LIA/pdf/parseretningslinjer-lia12042019.pdf). [NDT](https://tekstlab.uio.no/LIA/pdf/retningslinjer_NDT_norsk.pdf)), dependencies (mod. NDT), morpho (mod. NDT), lemmas, locations | 7.5k speech segments / 78k toks | [Nynorsk ortho](https://tekstlab.uio.no/LIA/pdf/rettleiing-translitterator.pdf), [phono](https://tekstlab.uio.no/LIA/pdf/transkripsjonsrettleiing_lia.pdf) |
-| [UD Norwegian Nynorsk LIA](https://github.com/UniversalDependencies/UD_Norwegian-NynorskLIA) ([+transcriptions](https://tekstlab.uio.no/LIA/norsk/index_english.html)) ([Øvrelid ea 2018](https://aclanthology.org/L18-1710/)) | POS (UPOS), dependencies (UD), morpho (UD), lemmas, locations | 5.3k speech segments / 55k toks |  [Nynorsk ortho](https://tekstlab.uio.no/LIA/pdf/rettleiing-translitterator.pdf), [phono](https://tekstlab.uio.no/LIA/pdf/transkripsjonsrettleiing_lia.pdf) |
-| [NDC Treebank](https://github.com/textlab/spoken_norwegian_resources/tree/master/treebanks/Norwegian-BokmaalNDC) (+[transcriptions](http://tekstlab.uio.no/scandiasyn/download.html); [website](http://www.tekstlab.uio.no/nota/scandiasyn/treebank.html)) ([Kåsen ea 2022](https://aclanthology.org/2022.lrec-1.516/), [Johannessen ea 2009](https://aclanthology.org/W09-4612/)) | POS ([mod](https://tekstlab.uio.no/LIA/pdf/parseretningslinjer-lia12042019.pdf). [NDT](https://tekstlab.uio.no/LIA/pdf/retningslinjer_NDT_norsk.pdf)), dependencies (mod. NDT), morpho (mod. NDT), lemmas, locations | 4.6k speech segments / 66k toks | Bokmål ortho, [phono](http://www.tekstlab.uio.no/scandiasyn/Transkripsjonsrettleiing%20for%20ScanDiaSyn.pdf) |
+| [LIA Treebank](https://github.com/textlab/spoken_norwegian_resources/tree/master/treebanks/Norwegian-NynorskLIA) ([+transcriptions](https://tekstlab.uio.no/LIA/norsk/index_english.html)) ([Øvrelid ea 2018](https://aclanthology.org/L18-1710/)) | POS ([mod](https://tekstlab.uio.no/LIA/pdf/parseretningslinjer-lia12042019.pdf). [NDT](https://tekstlab.uio.no/LIA/pdf/retningslinjer_NDT_norsk.pdf)), dependencies (mod. NDT), morpho (mod. NDT), lemmas, locations | 7.5k speech segments / 78k tokens | [Nynorsk ortho](https://tekstlab.uio.no/LIA/pdf/rettleiing-translitterator.pdf), [phono](https://tekstlab.uio.no/LIA/pdf/transkripsjonsrettleiing_lia.pdf) |
+| [UD Norwegian Nynorsk LIA](https://github.com/UniversalDependencies/UD_Norwegian-NynorskLIA) ([+transcriptions](https://tekstlab.uio.no/LIA/norsk/index_english.html)) ([Øvrelid ea 2018](https://aclanthology.org/L18-1710/)) | POS (UPOS), dependencies (UD), morpho (UD), lemmas, locations | 5.3k speech segments / 55k tokens |  [Nynorsk ortho](https://tekstlab.uio.no/LIA/pdf/rettleiing-translitterator.pdf), [phono](https://tekstlab.uio.no/LIA/pdf/transkripsjonsrettleiing_lia.pdf) |
+| [NDC Treebank](https://github.com/textlab/spoken_norwegian_resources/tree/master/treebanks/Norwegian-BokmaalNDC) (+[transcriptions](http://tekstlab.uio.no/scandiasyn/download.html); [website](http://www.tekstlab.uio.no/nota/scandiasyn/treebank.html)) ([Kåsen ea 2022](https://aclanthology.org/2022.lrec-1.516/), [Johannessen ea 2009](https://aclanthology.org/W09-4612/)) | POS ([mod](https://tekstlab.uio.no/LIA/pdf/parseretningslinjer-lia12042019.pdf). [NDT](https://tekstlab.uio.no/LIA/pdf/retningslinjer_NDT_norsk.pdf)), dependencies (mod. NDT), morpho (mod. NDT), lemmas, locations | 4.6k speech segments / 66k tokens | Bokmål ortho, [phono](http://www.tekstlab.uio.no/scandiasyn/Transkripsjonsrettleiing%20for%20ScanDiaSyn.pdf) |
 | NorDial (subset) ([Mæhlum ea 2022](https://aclanthology.org/2022.vardial-1.7/) – contact authors) | POS (UPOS) | 35+ tweets | ad-hoc spelling |
-| [Nordic Dialect Corpus](http://tekstlab.uio.no/nota/scandiasyn/) (subset) ([Johannessen ea 2009](https://aclanthology.org/W09-4612/)) | locations | 1.9M toks | Bokmål ortho, [phono](http://www.tekstlab.uio.no/scandiasyn/Transkripsjonsrettleiing%20for%20ScanDiaSyn.pdf) |
-| [The spoken language investigation in Oslo (TAUS)](http://www.tekstlab.uio.no/nota/taus/english.html) | locations (East vs. West Oslo) | 387k toks | [Bokmål ortho, phono](http://www.tekstlab.uio.no/nota/oslo/transkripsjon/NoTa-transkripsjonsveil7.pdf) |
+| [Nordic Dialect Corpus](http://tekstlab.uio.no/nota/scandiasyn/) (subset) ([Johannessen ea 2009](https://aclanthology.org/W09-4612/)) | locations | 1.9M tokens | Bokmål ortho, [phono](http://www.tekstlab.uio.no/scandiasyn/Transkripsjonsrettleiing%20for%20ScanDiaSyn.pdf) |
+| [The spoken language investigation in Oslo (TAUS)](http://www.tekstlab.uio.no/nota/taus/english.html) | locations (East vs. West Oslo) | 387k tokens | [Bokmål ortho, phono](http://www.tekstlab.uio.no/nota/oslo/transkripsjon/NoTa-transkripsjonsveil7.pdf) |
 | [NorDial](https://github.com/jerbarnes/nordial) (subset) ([Barnes ea 2021](https://aclanthology.org/2021.nodalida-main.51/)) | | 348 tweets | ad-hoc spelling |
-| [American Nordic Speech Corpus (CANS)](https://tekstlab.uio.no/norskiamerika/korpus.html) (subset) ([Johannessen ea 2015](https://aclanthology.org/W15-1840/)) | locations (USA/Canada) | 773k toks | Bokmål ortho, [phono](https://tekstlab.uio.no/norskiamerika/Transkripsjons-translittereringsveiledning-norskiamerika.pdf) |
-| [Speech Database for Norwegian (NB Tale)](https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-31/) | locations | 365 × 2 mins (spontaneous speech), 7.6k sents (reading) | audio, Bokmål ortho, mod. X-SAMPA |
-| [Norwegian Parliamentary Speech Corpus (NPSC)](https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-58/) | locations | 140 hrs / 65k sents / 1.2M toks | audio, Bokmål/​Nynorsk ortho |
+| [American Nordic Speech Corpus (CANS)](https://tekstlab.uio.no/norskiamerika/korpus.html) (subset) ([Johannessen ea 2015](https://aclanthology.org/W15-1840/)) | locations (USA/Canada) | 773k tokens | Bokmål ortho, [phono](https://tekstlab.uio.no/norskiamerika/Transkripsjons-translittereringsveiledning-norskiamerika.pdf) |
+| [Speech Database for Norwegian (NB Tale)](https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-31/) | locations | 365 × 2 mins (spontaneous speech), 7.6k sentences (reading) | audio, Bokmål ortho, mod. X-SAMPA |
+| [Norwegian Parliamentary Speech Corpus (NPSC)](https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-58/) | locations | 140 hrs / 65k sentences / 1.2M tokens | audio, Bokmål/​Nynorsk ortho |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -60,7 +70,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
-| [Nordic Dialect Corpus](http://tekstlab.uio.no/nota/scandiasyn/) (subset) ([Johannessen ea 2009](https://aclanthology.org/W09-4612/)) | locations | 15.7k toks | Elfdalian ortho (Råðdjärum's orthography), Swedish ortho |
+| [Nordic Dialect Corpus](http://tekstlab.uio.no/nota/scandiasyn/) (subset) ([Johannessen ea 2009](https://aclanthology.org/W09-4612/)) | locations | 15.7k tokens | Elfdalian ortho (Råðdjärum's orthography), Swedish ortho |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -68,7 +78,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
-| [American Nordic Speech Corpus (CANS)](https://tekstlab.uio.no/norskiamerika/korpus.html) (subset) ([Johannessen ea 2015](https://aclanthology.org/W15-1840/)) | locations (USA) | 46k toks | Swedish ortho, [phono](https://tekstlab.uio.no/norskiamerika/CANS-f%C3%B6r-svensk.pdf) |
+| [American Nordic Speech Corpus (CANS)](https://tekstlab.uio.no/norskiamerika/korpus.html) (subset) ([Johannessen ea 2015](https://aclanthology.org/W15-1840/)) | locations (USA) | 46k tokens | Swedish ortho, [phono](https://tekstlab.uio.no/norskiamerika/CANS-f%C3%B6r-svensk.pdf) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -89,10 +99,10 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
 | [TwitterAAE-UD](https://slanglab.cs.umass.edu/TwitterAAE/) ([Blodgett ea 2016](https://slanglab.cs.umass.edu/TwitterAAE/)) | POS (UPOS); AAVE | 250 tweets | ad-hoc spelling |
-| [Diachronic Electronic Corpus of Tyneside English (DECTE)](https://research.ncl.ac.uk/decte/index.htm) ([Corrigan ea 2012](https://research.ncl.ac.uk/decte/index.htm) | Tyneside (UK) | 72 hrs / 804k toks | audio, English ortho, partially: [phono](https://research.ncl.ac.uk/decte/representation.htm) |
+| [Diachronic Electronic Corpus of Tyneside English (DECTE)](https://research.ncl.ac.uk/decte/index.htm) ([Corrigan ea 2012](https://research.ncl.ac.uk/decte/index.htm) | Tyneside (UK) | 72 hrs / 804k tokens | audio, English ortho, partially: [phono](https://research.ncl.ac.uk/decte/representation.htm) |
 | [Intonational Variation in English (IViE)](http://www.phon.ox.ac.uk/files/apps/IViE/) ([Nolan & Post 2013](https://research.ncl.ac.uk/decte/representation.htm)) | locations (British Isles) | 36 hrs | audio, English ortho |
 | [Crowdsourced high-quality UK and Ireland English Dialect speech data set](https://openslr.org/83) ([Demirsahin ea 2020](https://aclanthology.org/2020.lrec-1.804/)) | locations (British Isles) | locations (British Isles) | 31 hrs | audio, English ortho |
-| [Helsinki Corpus of British English Dialects](https://varieng.helsinki.fi/CoRD/corpora/Dialects/) | locations (UK: East Anglia, South-West England, Lancashire) | 1M toks | audio, English ortho |
+| [Helsinki Corpus of British English Dialects](https://varieng.helsinki.fi/CoRD/corpora/Dialects/) | locations (UK: East Anglia, South-West England, Lancashire) | 1M tokens | audio, English ortho |
 | [Nationwide Speech Project (NSP)](https://u.osu.edu/nspcorpus/) ([Clopper & Pisoni 2006](https://www.sciencedirect.com/science/article/abs/pii/S0167639305002232)) | locations (USA) | 60 × 1 hr | audio, partially: English ortho |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
@@ -101,15 +111,15 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
-| [UD Frisian/Dutch Fame](https://github.com/UniversalDependencies/UD_Frisian_Dutch-Fame) ([Braggar & van der Goot 2021](https://aclanthology.org/2021.adaptnlp-1.6/), [Yılmaz ea 2016](https://aclanthology.org/L16-1739/)) | POS (UPOS), dependencies (UD), code-switching; code-mixed Frisian and Dutch | 400 sents | Frisian​(/Dutch) ortho |
+| [UD Frisian/Dutch Fame](https://github.com/UniversalDependencies/UD_Frisian_Dutch-Fame) ([Braggar & van der Goot 2021](https://aclanthology.org/2021.adaptnlp-1.6/), [Yılmaz ea 2016](https://aclanthology.org/L16-1739/)) | POS (UPOS), dependencies (UD), code-switching; code-mixed Frisian and Dutch | 400 sentences | Frisian​(/Dutch) ortho |
 | [Common Voice](https://commonvoice.mozilla.org/en/datasets) (subset) ([Ardila ea 2020](https://aclanthology.org/2020.lrec-1.520/)) | | 150 hrs | audio, Frisian ortho |
 | [Frisian AudioMining Enterprise (FAME)](https://www.ru.nl/clst/tools-demos/datasets/) ([Yılmaz ea 2016](https://aclanthology.org/L16-1739/)) | partially: location | 18.5 hrs | audio, Frisian ortho |
-| [Recordings of Dutch-Frisian council meetings](https://frisian.eu/dutchfrisiancouncilmeetings/) ([Bentum ea 2022](https://aclanthology.org/2022.lrec-1.107/)) || 26 hrs / 281k toks | audio, Frisian ortho |
+| [Recordings of Dutch-Frisian council meetings](https://frisian.eu/dutchfrisiancouncilmeetings/) ([Bentum ea 2022](https://aclanthology.org/2022.lrec-1.107/)) || 26 hrs / 281k tokens | audio, Frisian ortho |
 | [Corpus Spoken Frisian / Korpus Sprutsen Frysk (KSF)](https://www1.fa.knaw.nl/ksf.html) | | 200 hrs (65 hrs thereof transcribed) | audio, partially: Frisian ortho |
-| [Tatoeba](https://tatoeba.org/en/downloads) (subset) | some translations into other languages | 641 sents | Frisian ortho |
+| [Tatoeba](https://tatoeba.org/en/downloads) ([fry](https://tatoeba.org/en/sentences/show_all_in/fry/none) subset) | some translations into other languages | 641 sentences | Frisian ortho |
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated | 72 MB | Frisian ortho |
 | [CC-100](https://data.statmt.org/cc-100/) (subset) ([Wenzek ea 2020](https://aclanthology.org/2020.lrec-1.494/)) | uncurated | 174 MB | Frisian ortho |
-| [OSCAR](https://oscar-project.org/post/oscar-v22-01/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated | 75.3 MB / 6.4M toks | Frisian ortho |
+| [OSCAR](https://oscar-project.org/post/oscar-v22-01/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated | 75.3 MB / 6.4M tokens | Frisian ortho |
 | [Wikipedia](https://dumps.wikimedia.org/) ([fy](https://fy.wikipedia.org/wiki/) subset)| uncurated | 50k articles | Frisian ortho |
 
 *UD Frisian/Dutch Fame* is an annotated subset of *FAME.*
@@ -120,7 +130,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
-| [Tatoeba](https://tatoeba.org/en/downloads) (subset) | some translations into other languages | 2.9k sents | ? |
+| [Tatoeba](https://tatoeba.org/en/downloads) ([frr](https://tatoeba.org/en/sentences/show_all_in/frr/none) subset) | some translations into other languages | 2.9k sentences | ? |
 | [Wikipedia](https://dumps.wikimedia.org/) ([frr](https://frr.wikipedia.org/wiki/) subset)| uncurated, partially [tagged with dialect information](https://frr.wikipedia.org/wiki/Kategorie:Spriakwiisen) | 17k articles | [different dialect-based (ad-hoc?) orthographies](https://frr.wikipedia.org/wiki/Wikipedia:Spr%C3%A4kekoordinasjoon) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
@@ -130,6 +140,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
 | [Wikipedia](https://dumps.wikimedia.org/) ([stq](https://stq.wikipedia.org/) subset)| uncurated | 4k articles | [revised Kramer orthography for Saterfrisian](https://stq.wikipedia.org/wiki/Wikipedia:H%C3%A4lpe_bie_ju_seelter_Sproake) (unclear if example, recommendation or rule for this wiki) |
+| [Tatoeba](https://tatoeba.org/en/downloads) ([stq](https://tatoeba.org/en/sentences/show_all_in/stq/none) subset) | some translations into other languages | 96 sentences | ? |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -141,13 +152,13 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
-| [UD Low Saxon LSDC](https://github.com/UniversalDependencies/UD_Low_Saxon-LSDC) ([Siewert ea 2021](https://aclanthology.org/2021.konvens-1.25/)) | POS (UPOS), dependencies (UD), morphological features (UD), glosses (Middle Low Saxon), lemmas, locations; annotated subset of *LSDC* | 95 sents | ad-hoc spelling, Nysassiske Sryvwyse |
-| [TaPaCo](https://zenodo.org/record/3707949) (subset) [Scherrer 2020](https://aclanthology.org/2020.lrec-1.848/) | paraphrases; annotated subset of *Tatoeba* | 1107 sents | ? |
-| [Low Saxon Dialect Classification (LSDC)](https://github.com/Helsinki-NLP/LSDC/) ([Siewert ea 2020](https://aclanthology.org/2020.vardial-1.3/)) | location | 88.9k sents | ad-hoc spelling |
+| [UD Low Saxon LSDC](https://github.com/UniversalDependencies/UD_Low_Saxon-LSDC) ([Siewert ea 2021](https://aclanthology.org/2021.konvens-1.25/)) | POS (UPOS), dependencies (UD), morphological features (UD), glosses (Middle Low Saxon), lemmas, locations; annotated subset of *LSDC* | 95 sentences | ad-hoc spelling, Nysassiske Sryvwyse |
+| [TaPaCo](https://zenodo.org/record/3707949) (subset) [Scherrer 2020](https://aclanthology.org/2020.lrec-1.848/) | paraphrases; annotated subset of *Tatoeba* | 1107 sentences | ? |
+| [Low Saxon Dialect Classification (LSDC)](https://github.com/Helsinki-NLP/LSDC/) ([Siewert ea 2020](https://aclanthology.org/2020.vardial-1.3/)) | location | 88.9k sentences | ad-hoc spelling |
 | [Sprachvariation in Norddeutschland (SiN, Hamburg collection)](https://corpora.uni-hamburg.de/hzsk/de/islandora/object/spoken-corpus:sin) (Low German subset) | varieties of Low Saxon, East Frisian Low Saxon and (Northern) German | unknown (300 hrs total) | audio |
-| [Tatoeba](https://tatoeba.org/en/downloads) (subset) | some translations into other languages | 18.1k sents | ? |
+| [Tatoeba](https://tatoeba.org/en/downloads) ([nds](https://tatoeba.org/en/sentences/show_all_in/nds/none) subset) | some translations into other languages | 18.1k sentences | ? |
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated | 24 MB | ? |
-| [OSCAR](https://oscar-project.org/post/oscar-v22-01/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated | 9 MB / 1M toks | ? |
+| [OSCAR](https://oscar-project.org/post/oscar-v22-01/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated | 9 MB / 1M tokens | ? |
 | [Wikipedia](https://dumps.wikimedia.org/) ([nds](https://nds.wikipedia.org/) subset)| uncurated partially [tagged with dialect information](https://nds.wikipedia.org/wiki/Kategorie:Artikels_na_Dialekt) | 84k articles | [Sass'sche Schrievwies](https://nds.wikipedia.org/wiki/Wikipedia:Sass) |
 | [Wikipedia](https://dumps.wikimedia.org/) ([nds-nl](https://nds-nl.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://nds-nl.wikipedia.org/wiki/Kategorie:Nedersaksies_artikel) | 8k articles | [Nysassiske Skryvwyse (preferred) and Algemene Nedersaksische Schriefwieze (older articles)](https://nds-nl.wikipedia.org/wiki/Wikipedia:Spelling) |
 
@@ -165,8 +176,8 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
-| [TaPaCo](https://zenodo.org/record/3707949) (subset) [Scherrer 2020](https://aclanthology.org/2020.lrec-1.848/) | paraphrases; annotated subset of *Tatoeba* | 122 sents | ? |
-| [Tatoeba](https://tatoeba.org/en/downloads) (subset) | some translations into other languages | 5.7k sents | ? |
+| [TaPaCo](https://zenodo.org/record/3707949) (subset) [Scherrer 2020](https://aclanthology.org/2020.lrec-1.848/) | paraphrases; annotated subset of *Tatoeba* | 122 sentences | ? |
+| [Tatoeba](https://tatoeba.org/en/downloads) ([gos](https://tatoeba.org/en/sentences/show_all_in/gos/none) subset) | some translations into other languages | 5.7k sentences | ? |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -176,7 +187,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
-| [Stemmen uit het verleden (annotated subset)](https://dataverse.no/dataset.xhtml?persistentId=doi:10.18710/NSFN2B) ([Lybaert ea 2019](https://www.cambridge.org/core/journals/journal-of-germanic-linguistics/article/corpusbased-analysis-of-v2-variation-in-west-flemish-and-french-flemish-dialects/EAA18DFD4B507EECCAEF90395B60DD95), [Van Keymeulen ea 2019](https://biblio.ugent.be/publication/8629057)) | V2 variation, location | 1.4k sents | phono |
+| [Stemmen uit het verleden (annotated subset)](https://dataverse.no/dataset.xhtml?persistentId=doi:10.18710/NSFN2B) ([Lybaert ea 2019](https://www.cambridge.org/core/journals/journal-of-germanic-linguistics/article/corpusbased-analysis-of-v2-variation-in-west-flemish-and-french-flemish-dialects/EAA18DFD4B507EECCAEF90395B60DD95), [Van Keymeulen ea 2019](https://biblio.ugent.be/publication/8629057)) | V2 variation, location | 1.4k sentences | phono |
 | [Wikipedia](https://dumps.wikimedia.org/) ([vls](https://vls.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://vls.wikipedia.org/wiki/Categorie:Wikipedia:Artikels_noar_dialect) | 8k articles | [Standoardvlams](https://vls.wikipedia.org/wiki/Wikipedia:Gebruuk_van_streektoaln) (orthography developped by vls.wikipedia.org editors) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
@@ -198,9 +209,9 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
 | [LuxId](lrec2014.lrec-conf.org/en/shared-lrs/current-list-shared-lrs) ([Lavergne ea 2014](https://aclanthology.org/L14-1573/)) | code-switching (LTZ, DEU, FRA) | 924 sentences (most with LTZ content) | Luxembourgish​(/German/​French) ortho |
-| [Tatoeba](https://tatoeba.org/en/downloads) (subset) | some translations into other languages | 884 sents | Luxembourgish ortho |
+| [Tatoeba](https://tatoeba.org/en/downloads) ([ltz](https://tatoeba.org/en/sentences/show_all_in/ltz/none) subset) | some translations into other languages | 884 sentences | Luxembourgish ortho |
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated | 81 MB | ? |
-| [OSCAR](https://oscar-project.org/post/oscar-v22-01/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated | 15.8 MB / 1.5M toks | ? |
+| [OSCAR](https://oscar-project.org/post/oscar-v22-01/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated | 15.8 MB / 1.5M tokens | ? |
 | [Wikipedia](https://dumps.wikimedia.org/) ([lb](https://lb.wikipedia.org/) subset)| uncurated | 61k articles | Luxembourgish ortho |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
@@ -218,6 +229,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
 | [Wikipedia](https://dumps.wikimedia.org/) ([ksh](https://ksh.wikipedia.org/) subset)| uncurated, Colognian and other varieties of Ripuarian, partially [tagged with dialect and/or orthography information](https://ksh.wikipedia.org/wiki/Saachjrupp:Wikipedia:Atikkel_ier_Shprooche) | 3k articles | [ad-hoc spelling, some articles according to various Ripuarian orthographies](https://ksh.wikipedia.org/wiki/Wikipedia:Schrievwies) |
+| [Tatoeba](https://tatoeba.org/en/downloads) ([ksh](https://tatoeba.org/en/sentences/show_all_in/ksh/none) subset) | some translations into other languages | 82 sentences | ? |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -242,6 +254,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
 | [Wikipedia](https://dumps.wikimedia.org/) ([pdc](https://pdc.wikipedia.org/) subset)| uncurated | 2k articles | ? |
+| [Tatoeba](https://tatoeba.org/en/downloads) ([pdc](https://tatoeba.org/en/sentences/show_all_in/pdc/none) subset) | some translations into other languages | 57 sentences | ? |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -249,7 +262,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
-| [Penn Parsed Corpus of Historical Yiddish (Santorini 2021)](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish) | POS ([Penn-historical](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish/blob/main/doc/annotation-yiddish/annotation.html), phrase structure (Penn-historical) | 200k toks | [partially YIVO transliteration, partially YIVO-inspired ad-hoc transliteration](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish/blob/main/doc/annotation-yiddish/transliteration.html) |
+| [Penn Parsed Corpus of Historical Yiddish (Santorini 2021)](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish) | POS ([Penn-historical](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish/blob/main/doc/annotation-yiddish/annotation.html), phrase structure (Penn-historical) | 200k tokens | [partially YIVO transliteration, partially YIVO-inspired ad-hoc transliteration](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish/blob/main/doc/annotation-yiddish/transliteration.html) |
 | [CABank Yiddish Corpus](https://ca.talkbank.org/access/Yiddish.html) ([Newman 2015](https://benjamins.com/catalog/silv.18.08kah)) | | New York | 1 hr | audio, transcriptions (partially IPA, partially orthography-based (YIVO-transliteration-based?)) |
 | [Wikipedia](https://dumps.wikimedia.org/) ([yi](https://yi.wikipedia.org/) subset)| uncurated | 15k articles | Yiddish ortho |
 
@@ -272,36 +285,71 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 
 | Corpus | Notes | Size | Representation |
 |--------|-------|------|----------------|
-| [Kontatto](https://kontatti.projects.unibz.it/) ([Dal Negro & Ciccolone 2020](https://www.degruyter.com/document/doi/10.1515/soci-2020-0014/html)) | POS (unknown), lemmas (German) | 147k toks | audio, phono |
-| [xSID](https://bitbucket.org/robvanderg/xsid/src/master/) ([van der Goot ea 2021](https://aclanthology.org/2021.naacl-main.197/)) | slot filling, intent detection, translations into 12 languages | 800 sentences | ad-hoc pronunciation spelling |
-| [DIDI - The DiDi Corpus of South Tyrolean CMC 1.0.0 (Frey ea 2019)](https://clarin.eurac.edu/repository/xmlui/handle/20.500.12124/7) ([])
-
-https://bar.wikipedia.org/wiki/Kategorie:Artikel_nach_Dialekt
-
-https://bar.wikipedia.org/wiki/Wikipedia:Boarische_Umschrift
+| [Kontatto](https://kontatti.projects.unibz.it/) ([Dal Negro & Ciccolone 2020](https://www.degruyter.com/document/doi/10.1515/soci-2020-0014/html)) | POS (unknown), lemmas (German) | 147k tokens | audio, phono |
+| [xSID](https://bitbucket.org/robvanderg/xsid/src/master/) ([van der Goot ea 2021](https://aclanthology.org/2021.naacl-main.197/)) | slot filling, intent detection, translations into 12 languages; South Tyrolean | 800 sentences | ad-hoc pronunciation spelling |
+| [DIDI - The DiDi Corpus of South Tyrolean CMC 1.0.0 (Frey ea 2019)](https://clarin.eurac.edu/repository/xmlui/handle/20.500.12124/7) (subset) | South Tyrolean | unknown (600k tokens total) | ad-hoc pronunciation spelling |
+| [Kontatti](https://kontatti.projects.unibz.it/) ([Ghilardi 2019](https://hrcak.srce.hr/231238)) (subset) | South Tyrolean | unknown (6:48 hrs total) | audio, German ortho |
+| [Tatoeba](https://tatoeba.org/en/downloads) ([bar](https://tatoeba.org/en/sentences/show_all_in/bar/none) subset) | some translations into other languages | 226 sentences | ad-hoc pronunciation spelling |
+| [Wikipedia](https://dumps.wikimedia.org/) ([bar](https://bar.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://bar.wikipedia.org/wiki/Kategorie:Artikel_nach_Dialekt) | 27k articles | [ad-hoc pronunciation spelling with some optional conventions](https://bar.wikipedia.org/wiki/Wikipedia:Wia_schreib_i_a_guads_Boarisch%3F) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
 ### Cimbrian · cim · [cimb1238](https://glottolog.org/resource/languoid/id/cimb1238)
+
+| Corpus | Notes | Size | Representation |
+|--------|-------|------|----------------|
+| [Kontatti](https://kontatti.projects.unibz.it/) ([Ghilardi 2019](https://hrcak.srce.hr/231238)) (subset) |  | unknown (6:48 hrs total) | audio, German ortho |
 
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
 ### Swabian · swg · [swab1242](https://glottolog.org/resource/languoid/id/swab1242) 
 
+| Corpus | Notes | Size | Representation |
+|--------|-------|------|----------------|
+| [Tatoeba](https://tatoeba.org/en/downloads) ([swg](https://tatoeba.org/en/sentences/show_all_in/swg/none) subset) | some translations into other languages | 1.9k sentences | ad-hoc pronunciation spelling |
+| [Wikipedia](https://dumps.wikimedia.org/) (subset of [als](https://als.wikipedia.org/) subset)| uncurated | [927 (of 27k) articles tagged as Swabian](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | [no defined standard, but a set of recommendations based on published works, the Dieth orthography for Swiss German and the Orthal orthography for Alsatian](https://als.wikipedia.org/wiki/Hilfe:Schrybig) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
-### Central Alemannic (Swiss German & Alsatian) · gsw · [swis1247](https://glottolog.org/resource/languoid/id/swis1247)
+### Central Alemannic (incl. Swiss German & Alsatian) · gsw · [swis1247](https://glottolog.org/resource/languoid/id/swis1247)
+
+
+| Corpus | Notes | Size | Representation |
+|--------|-------|------|----------------|
+| [Annotated Corpus for the Alsatian Dialects](https://zenodo.org/record/2536041#.YvIZrvFByKc) (Bernhard ea [2018](https://hal.science/hal-01704806), [2019](https://zenodo.org/record/2536041)) | POS (UPOS, mod. UPOS), lemmas, glosses (French); Alsatian | 798 sentences | ad-hoc pronunciation spelling |
+| [BISAME GSW](https://www.ortolang.fr/market/corpora/bisame_gsw/v1) ([STIH 2020](https://www.ortolang.fr/market/corpora/bisame_gsw/v1), [Millour & Fort 2018](https://hal.science/hal-01995758)) | POS (mod. UPOS); Alsatian | 382 sentences | ad-hoc pronunciation spelling |
+| NOAH's corpus |
+| UD Swiss German UZH |
+| WUS DIALOG GSW |
+| SwissDial |
+| SB-CH (subset) |
+| What's up, Switzerland? |
+| Text+Berg (subset) |
+| ArchiMob |
+| SDS-200 |
+| Swiss Parliaments Corpus |
+| All Swiss German Dialects Test Set |
+| Gemeinderat Zürich Audio Corpus |
+| Swiss Crawl |
+| SB-CH |
+| SwigSpot |
+| Tatoeba |
+| OSCAR | 
+| [Wikipedia](https://dumps.wikimedia.org/) (subset of [als](https://als.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | 27k total (including Swabian), thereof [2.3k (directly or indirectly) tagged as Alsatian, and 1.7k (directly or indirectly) tagged as Swiss German](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | [no defined standard, but a set of recommendations based on published works, the Dieth orthography for Swiss German and the Orthal orthography for Alsatian](https://als.wikipedia.org/wiki/Hilfe:Schrybig) |
 
 https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt
 
 https://als.wikipedia.org/wiki/Hilfe:Schrybig
 
-
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
 ### Walser · wae · [wals1238](https://glottolog.org/resource/languoid/id/wals1238)
 
+| Corpus | Notes | Size | Representation |
+|--------|-------|------|----------------|
+| ArchiWals / CLiMAlp |
+| Walliserdeutsch/RRO | 
+| [Wikipedia](https://dumps.wikimedia.org/) (subset of [als](https://als.wikipedia.org/) subset)| uncurated | [35 (of 27k total) tagged as Wal(li)ser](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | [no defined standard, but a set of recommendations based on published works, the Dieth orthography for Swiss German and the Orthal orthography for Alsatian](https://als.wikipedia.org/wiki/Hilfe:Schrybig) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
