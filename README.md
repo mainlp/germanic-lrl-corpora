@@ -289,7 +289,7 @@ CC BY-SA 3.0 |
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
 | [Kontatto](https://kontatti.projects.unibz.it/) ([Dal Negro & Ciccolone 2020](https://www.degruyter.com/document/doi/10.1515/soci-2020-0014/html)) | POS (unknown), lemmas (German) | 147k tokens | audio, phono | [custom](https://kontatti.projects.unibz.it/what-is-kontatti/conditions-of-use/) |
-| [xSID](https://bitbucket.org/robvanderg/xsid/src/master/) ([van der Goot ea 2021](https://aclanthology.org/2021.naacl-main.197/)) | slot filling, intent detection, translations into 12 languages; South Tyrolean | 800 sentences | ad-hoc pronunciation spelling | [CC BY-SA 4.0](https://bitbucket.org/robvanderg/xsid/src/master/LICENSE) |
+| [xSID](https://bitbucket.org/robvanderg/xsid/src/master/) ([van der Goot ea 2021](https://aclanthology.org/2021.naacl-main.197/)) (subset) | slot filling, intent detection, translations into 12 languages; South Tyrolean | 800 sentences | ad-hoc pronunciation spelling | [CC BY-SA 4.0](https://bitbucket.org/robvanderg/xsid/src/master/LICENSE) |
 | [DIDI - The DiDi Corpus of South Tyrolean CMC 1.0.0 (Frey ea 2019)](https://clarin.eurac.edu/repository/xmlui/handle/20.500.12124/7) (subset) | South Tyrolean | unknown (600k tokens total) | ad-hoc pronunciation spelling | CLARIN ACA-BY-NC-NORED |
 | [Kontatti](https://kontatti.projects.unibz.it/) ([Ghilardi 2019](https://hrcak.srce.hr/231238)) (subset) | South Tyrolean | unknown (6:48 hrs total) | audio, German ortho | [custom](https://kontatti.projects.unibz.it/what-is-kontatti/conditions-of-use/) |
 | [Tatoeba](https://tatoeba.org/en/downloads) ([bar](https://tatoeba.org/en/sentences/show_all_in/bar/none) subset) | some translations into other languages | 226 sentences | ad-hoc pronunciation spelling | CC BY 2.0 FR |
@@ -322,24 +322,24 @@ CC BY-SA 3.0 |
 |--------|-------|------|----------------|---------|
 | [Annotated Corpus for the Alsatian Dialects](https://zenodo.org/record/2536041#.YvIZrvFByKc) (Bernhard ea [2018](https://hal.science/hal-01704806), [2019](https://zenodo.org/record/2536041)) | POS (UPOS, mod. UPOS), lemmas, glosses (French); Alsatian | 798 sentences | ad-hoc pronunciation spelling | CC BY-SA 4.0 |
 | [BISAME GSW](https://www.ortolang.fr/market/corpora/bisame_gsw/v1) ([STIH 2020](https://www.ortolang.fr/market/corpora/bisame_gsw/v1), [Millour & Fort 2018](https://hal.science/hal-01995758)) | POS (mod. UPOS); Alsatian | 382 sentences | ad-hoc pronunciation spelling | CC BY-NC-SA 3.0 FR |
-| NOAH's corpus |
-| UD Swiss German UZH |
-| WUS DIALOG GSW |
-| SwissDial |
-| SB-CH (subset) |
-| What's up, Switzerland? |
-| Text+Berg (subset) |
-| ArchiMob |
-| SDS-200 |
-| Swiss Parliaments Corpus |
-| All Swiss German Dialects Test Set |
-| Gemeinderat Zürich Audio Corpus |
+| [NOAH's corpus](https://github.com/noe-eva/NOAH-Corpus/) ([Hollenstein & Aepli 2015](https://www.zora.uzh.ch/id/eprint/174601/)) | POS ([mod.](https://github.com/noe-eva/NOAH-Corpus/blob/master/guidelines.md) [STTS](https://www.ims.uni-stuttgart.de/forschung/ressourcen/lexika/germantagsets/#id-cfcbf0a7-0), partially also STTS and UPOS) | 115k toks | (mostly?) ad-hoc pronunciation spelling | [annotations: CC BY 4.0](https://github.com/noe-eva/NOAH-Corpus/blob/master/LICENSE) | 
+| [UD Swiss German UZH](https://github.com/UniversalDependencies/UD_Swiss_German-UZH) ([Aepli & Clematide 2018](https://ceur-ws.org/Vol-2226/paper1.pdf)) | POS (UPOS, [mod.](https://github.com/noe-eva/NOAH-Corpus/blob/master/guidelines.md) [STTS](https://www.ims.uni-stuttgart.de/forschung/ressourcen/lexika/germantagsets/#id-cfcbf0a7-0)), dependencies (UD) | 100 sentences | (mostly?) ad-hoc pronunciation spelling | [CC BY-SA 4.0](https://github.com/UniversalDependencies/UD_Swiss_German-UZH/blob/master/LICENSE.txt) |
+| [WUS DIALOG GSW](https://whatsup.linguistik.uzh.ch/) ([Stark ea 2014-20](https://whatsup.linguistik.uzh.ch/), [Ueberwasser & Stark 2017](https://bop.unibe.ch/linguistik-online/article/view/3849/5834)) (subset) | POS ([mod.](https://whatsup.linguistik.uzh.ch/01_corpus/02_preprocessing/06_pos#swissgermandialect) [STTS](https://www.ims.uni-stuttgart.de/forschung/ressourcen/lexika/germantagsets/#id-cfcbf0a7-0)), locations | 34.7k tokens | ad-hoc pronunciation spelling, [German ortho](https://whatsup.linguistik.uzh.ch/01_corpus/02_preprocessing/07_normalization) | CC BY-NC-ND |
+| [SwissDial](https://whatsup.linguistik.uzh.ch/01_corpus/03_demographics) ([Dogan-Schönberger ea 2021](https://arxiv.org/pdf/2103.11401.pdf)) | topics (14 classes), translations (across dialects and into German), locations (Aargau, Bern, Basel, Graubünden, Luzern, St. Gallen, Wallis, Zürich) | 2.5-4.6 hrs × 8 dialects | audio, pronunciation spelling, German ortho | CC BY-NC 4.0 |
+| [SpinningBytes Swiss German Corpus (SB-CH)](https://github.com/spinningbytes/SB-CH) (annotated subset) ([Grubenmann ea 2018](https://aclanthology.org/L18-1372/)) | sentiment | 2.8k sentences | pronunciation spelling | [CC BY 4.0](https://spinningbytes.com/more/resources/) |
+| [What's up, Switzerland?](https://whatsup.linguistik.uzh.ch/) ([Stark ea 2014-20](https://whatsup.linguistik.uzh.ch/), [Ueberwasser & Stark 2017](https://bop.unibe.ch/linguistik-online/article/view/3849/5834)) (subset) | locations | 507k messages / 3.6M tokens | pronunciation spelling | CC BY-NC-ND |
+| [Text+Berg](https://textberg.ch/site/en/corpora/) (subset) | | 156 sentences / 3.1k tokens | | |
+| [ArchiMob](https://spur.uzh.ch/en/departments/research/textgroup/ArchiMob.html) ([Scherrer ea 2019](https://bop.unibe.ch/linguistik-online/article/view/5947)) | | 70 hrs | audio, [transcription based on the Dieth orthography for Swiss German](https://drive.switch.ch/index.php/s/epEvTh5aY3nVakb), [German ortho](https://drive.switch.ch/index.php/s/7vej7OBN4O5nMt5) | CC BY-NC-SA 4.0 |
+| [SDS-200](https://swissnlp.org/datasets/) ([Plüss ea 2022](https://aclanthology.org/2022.lrec-1.347/)) | | 200 hrs | audio, German ortho | META-SHARE NonCommercial NoRedistribution |
+| [Swiss Parliaments Corpus](https://www.cs.technik.fhnw.ch/i4ds-datasets) ([Plüss ea 2021a](https://ceur-ws.org/Vol-2957/paper3.pdf)) | | 293 hrs | audio, German ortho ||
+| [All Swiss German Dialects Test Set](https://www.cs.technik.fhnw.ch/i4ds-datasets) ([Plüss ea 2021b](https://ceur-ws.org/Vol-2957/sg_paper1.pdf)) | locations (cantons) | 13 hrs / 5.8k utterances | audio, German ortho | MIT |
+| [Gemeinderat Zürich Audio Corpus](https://www.cs.technik.fhnw.ch/i4ds-datasets) ([Plüss ea 2021b](https://ceur-ws.org/Vol-2957/sg_paper1.pdf)) | | 1208 hrs | audio | MIT |
 | Swiss Crawl |
-| SB-CH |
-| SwigSpot |
-| Tatoeba |  CC BY 2.0 FR |
-| OSCAR | 
-| [Wikipedia](https://dumps.wikimedia.org/) (subset of [als](https://als.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | 27k total (including Swabian), thereof [2.3k (directly or indirectly) tagged as Alsatian, and 1.7k (directly or indirectly) tagged as Swiss German](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | [no defined standard, but a set of recommendations based on published works, the Dieth orthography for Swiss German and the Orthal orthography for Alsatian](https://als.wikipedia.org/wiki/Hilfe:Schrybig) | [text: GFDL, CC BY SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [SpinningBytes Swiss German Corpus (SB-CH)](https://github.com/spinningbytes/SB-CH) ([Grubenmann ea 2018](https://aclanthology.org/L18-1372/)) |
+| [SwigSpot](https://icosys.ch/swisscrawl) ([Linder ea 2020](https://aclanthology.org/2020.lrec-1.329/)) | uncurated | 500k+ sentences | ? | CC BY-NC 4.0 |
+| [Tatoeba](https://tatoeba.org/en/downloads) ([gsw](https://tatoeba.org/en/sentences/show_all_in/gsw/none) subset) | some translations into other languages | 474 sentences | CC BY 2.0 FR |
+| [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2201/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated | 37.4k tokens | ? |
+| [Wikipedia](https://dumps.wikimedia.org/) (subset of [als](https://als.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | 27k total (including Swabian), thereof [2.3k (directly or indirectly) tagged as Alsatian, and 1.7k (directly or indirectly) tagged as Swiss German](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | [no defined standard, but a set of recommendations based on published works, the Dieth orthography for Swiss German and the Orthal orthography for Alsatian](https://als.wikipedia.org/wiki/Hilfe:Schrybig) | [text: GFDL, CC BY SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) | 
 
 https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt
 
@@ -351,8 +351,8 @@ https://als.wikipedia.org/wiki/Hilfe:Schrybig
 
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
-| ArchiWals / CLiMAlp |
-| Walliserdeutsch/RRO | 
+| [ArchiWals / CLiMAlp](https://climalp.org) ([Angster ea 2017](https://hdl.handle.net/2318/1670241), [Gaeta 2020](https://www.academia.edu/44467103/The_Observers_Paradox_meets_Corpus_Linguistics_Written_and_oral_sources_for_the_Walser_linguistic_islands_in_Italy)) | locations (Gressoney, Issime, Formazza, Rimella, Alagna) | 80k+ tokens | pronunciation spelling ||
+| [Walliserdeutsch/RRO](https://zenodo.org/record/4580286) ([Garner 2014](https://zenodo.org/record/4580286), [Garner ea 2014](https://www.isca-speech.org/archive/interspeech_2014/garner14_interspeech.html)) | | 8.3 hrs | audio, non-standardized transcription | custom |
 | [Wikipedia](https://dumps.wikimedia.org/) (subset of [als](https://als.wikipedia.org/) subset)| uncurated | [35 (of 27k total) tagged as Wal(li)ser](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | [no defined standard, but a set of recommendations based on published works, the Dieth orthography for Swiss German and the Orthal orthography for Alsatian](https://als.wikipedia.org/wiki/Hilfe:Schrybig) | [text: GFDL, CC BY SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
