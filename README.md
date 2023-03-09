@@ -14,7 +14,7 @@ Language varieties:
         - [Low German](#low-german) ([Low Saxon](#low-saxonlow-german--nds--lowg1239) · [East Frisian Low Saxon](#east-frisian-low-saxon--frs--east2288) · [Gronings](#gronings--gos--gron1242))
     - [Macro-Dutch](#macro-dutch) ([Dutch](#dutch--nld--dutc1256) · [West Flemish](#western-flemish--vls--vlaa1240) · [Zeelandic](#zeelandiczeeuws--zea--zeeu1238))
     - High German
-        - [Middle German](#middle-german) ([Moselle Franconian incl. Luxembourgish](#moselle-franconian--luxe1241) · [Colognian](#colognian--ksh--kols1241) · [Limburgish](#limburgishlimburgan--lim--lim1263) · [Palatine German](#palatine-german--pfl--pala1330) · [Pennsylvania Dutch](#pennsylvania-dutch--pdc--penn1240) · [Yiddish](#yiddish--yid--west2361east2295))
+        - [Middle German](#middle-german) ([Moselle Franconian incl. Luxembourgish](#moselle-franconian--luxe1241) · [Colognian](#colognian--ksh--kols1241) · [Limburgish](#limburgishlimburgan--lim--lim1263) · [Palatine German](#palatinate-german--pfl--pala1330) · [Pennsylvania Dutch](#pennsylvania-dutch--pdc--penn1240) · [Yiddish](#yiddish--yid--west2361east2295))
         - [Upper German](#upper-german) ([(non-std.) German](#german--deu--stan1295) · [Bavarian](#bavarian--bar--bava1246) · [Cimbrian](#cimbrian--cim--cimb1238) · [Swabian](#swabian--swg--swab1242) · [Central Alemannic (Swiss German & Alsatian)](#central-alemannic-incl-swiss-german--alsatian--gsw--swis1247) · [Walser](#walser--wae--wals1238))
 
 Inclusion criteria:
@@ -27,6 +27,8 @@ Inclusion criteria:
 
 We focus on manual or manually corrected annotations rather than fully automatically annotated data.
 
+Did we forget a corpus for a Germanic low-resource language or dialect that fits these inclusion criteria? Please reach out to us via a GitHub issue or pull request or an email to `verena DOT blaschke ÄT cis.lmu.de`!
+
 ## North Germanic
 
 ### Faroese · fao · [fao1244](https://glottolog.org/resource/languoid/id/faro1244)
@@ -35,7 +37,7 @@ We focus on manual or manually corrected annotations rather than fully automatic
 |--------|-------|------|----------------|---------|
 | [UD Faroese OFT](https://github.com/UniversalDependencies/UD_Faroese-OFT) ([Tyers ea 2018](https://aclanthology.org/W18-6017/)) | POS (UPOS, Giellatekno-FAO), dependencies (UD), morpho (UD), lemmas | 1.2k sentences | Faroese ortho | [GNU GPL 2.0, GNU LGPL 2.1, Mozilla MPL 1.1](https://github.com/UniversalDependencies/UD_Faroese-OFT/blob/master/LICENSE.txt) |
 | [FarPaHC](https://repository.clarin.is/repository/xmlui/handle/20.500.12537/92) ([Ingason ea 2012](https://repository.clarin.is/repository/xmlui/handle/20.500.12537/92), [Rögnvalsson ea 2012](https://aclanthology.org/L12-1228/)) | POS (mod. [Penn-historical](https://www.ling.upenn.edu/hist-corpora/annotation/index.html), phrase structure (mod. Penn-historical) | 53k tokens | Faroese ortho | CC BY 4.0 |
-| [UD Faroese FarPaHC](https://github.com/UniversalDependencies/UD_Faroese-FarPaHC) ([Ingason ea 2012](https://repository.clarin.is/repository/xmlui/handle/20.500.12537/92), [Rögnvalsson ea 2012](https://aclanthology.org/L12-1228/)) | POS (UPOS), dependencies (UD), morpho (UD) | 40k tokens | Faroese ortho | [CC BY SA 4.0](https://github.com/UniversalDependencies/UD_Faroese-FarPaHC/blob/master/LICENSE.txt) |
+| [UD Faroese FarPaHC](https://github.com/UniversalDependencies/UD_Faroese-FarPaHC) ([Ingason ea 2012](https://repository.clarin.is/repository/xmlui/handle/20.500.12537/92), [Rögnvalsson ea 2012](https://aclanthology.org/L12-1228/)) | POS (UPOS), dependencies (UD), morpho (UD) | 40k tokens | Faroese ortho | [CC BY-SA 4.0](https://github.com/UniversalDependencies/UD_Faroese-FarPaHC/blob/master/LICENSE.txt) |
 | [Føroyskur talumálsbanki](https://clarino.uib.no/corpuscle-classic/corpus-list) ([Jacobsen 2022](https://septentrio.uit.no/index.php/nordlyd/article/view/6440)) | | 599.9k tokens | Faroese ortho | CLARIN RES-PLAN-BY-PRIV-NORED |
 | [BLARK 1.0](https://maltokni.fo/en/resources) (background corpus) ([Simonsen ea 2022](https://aclanthology.org/2022.lrec-1.495/)) | | 25M tokens | Faroese ortho | CC BY 4.0 |
 | [Faroese text collection (FTS)](https://spraakbanken.gu.se/en/resources/fts) | in BLARK 1.0 background corpus | 1.1M tokens | Faroese ortho | CC BY 4.0 |
@@ -43,7 +45,7 @@ We focus on manual or manually corrected annotations rather than fully automatic
 | [Faroese Danish Corpus Hamburg (FADAC Hamburg)](https://corpora.uni-hamburg.de/hzsk/de/islandora/object/spoken-corpus:fadac-0.2.dan) (subset) ([Debess 2019](https://macau.uni-kiel.de/receive/publ_mods_00002318)) | locations (Tórshavn, Vágar, Suðuroy, Eysturoy/​Norðuroyggjar) | 31 hrs | audio, Faroese ortho | [HZSK-RES](https://corpora.uni-hamburg.de/hzsk/de/islandora/object/spoken-corpus:fadac-0.2.dan#corpus-metadata) |
 | [Tatoeba](https://tatoeba.org/en/downloads) ([fao](https://tatoeba.org/en/sentences/show_all_in/fao/none) subset) | some translations into other languages | 417 sentences | Faroese ortho | CC BY 2.0 FR |
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated | 102 MB | Faroese ortho | CC BY-SA 3.0 |
-| [Wikipedia](https://dumps.wikimedia.org/) ([fo](https://fo.wikipedia.org/) subset) | uncurated | 14k articles | Faroese ortho | [text: GFDL, CC BY SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([fo](https://fo.wikipedia.org/) subset) | uncurated | 14k articles | Faroese ortho | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -92,7 +94,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 |--------|-------|------|----------------|---------|
 | [Scottish Corpus of Texts & Speech (SCOTS)](https://scottishcorpus.ac.uk/) (subset) ([Anderson ea 2007](https://link.springer.com/chapter/10.1057/9780230223936_2)) | | unknown (4.6M tokens total) | mix of ad-hoc spelling and English ortho | [custom](https://scottishcorpus.ac.uk/terms-and-conditions/) |
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated | 35 MB | ? | CC BY-SA 3.0 |
-| [Wikipedia](https://dumps.wikimedia.org/) ([sco](https://sco.wikipedia.org/) subset) | uncurated, see also [here](https://www.theguardian.com/uk-news/2020/aug/26/shock-an-aw-us-teenager-wrote-huge-slice-of-scots-wikipedia) and [here](https://slate.com/technology/2020/09/scots-wikipedia-language-american-teenager.html) | 39k articles | [Scots ortho](https://sco.wikipedia.org/wiki/Wikipedia:Spellin_an_grammar) | [text: GFDL, CC BY SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([sco](https://sco.wikipedia.org/) subset) | uncurated, see also [here](https://www.theguardian.com/uk-news/2020/aug/26/shock-an-aw-us-teenager-wrote-huge-slice-of-scots-wikipedia) and [here](https://slate.com/technology/2020/09/scots-wikipedia-language-american-teenager.html) | 39k articles | [Scots spelling recommendations](https://sco.wikipedia.org/wiki/Wikipedia:Spellin_an_grammar) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -124,7 +126,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated | 72 MB | Frisian ortho | CC BY-SA 3.0 |
 | [CC-100](https://data.statmt.org/cc-100/) (subset) ([Wenzek ea 2020](https://aclanthology.org/2020.lrec-1.494/)) | uncurated | 174 MB | Frisian ortho | |
 | [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated | 94 MB | Frisian ortho | [Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
-| [Wikipedia](https://dumps.wikimedia.org/) ([fy](https://fy.wikipedia.org/wiki/) subset)| uncurated | 50k articles | Frisian ortho | [text: GFDL, CC BY SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([fy](https://fy.wikipedia.org/wiki/) subset)| uncurated | 50k articles | Frisian ortho | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -133,7 +135,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
 | [Tatoeba](https://tatoeba.org/en/downloads) ([frr](https://tatoeba.org/en/sentences/show_all_in/frr/none) subset) | some translations into other languages | 2.9k sentences | ? | CC BY 2.0 FR |
-| [Wikipedia](https://dumps.wikimedia.org/) ([frr](https://frr.wikipedia.org/wiki/) subset)| uncurated, partially [tagged with dialect information](https://frr.wikipedia.org/wiki/Kategorie:Spriakwiisen) | 17k articles | [different dialect-based (ad-hoc?) orthographies](https://frr.wikipedia.org/wiki/Wikipedia:Spr%C3%A4kekoordinasjoon) | [text: GFDL, CC BY SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([frr](https://frr.wikipedia.org/wiki/) subset)| uncurated, partially [tagged with dialect information](https://frr.wikipedia.org/wiki/Kategorie:Spriakwiisen) | 17k articles | [different dialect-based (ad-hoc?) orthographies](https://frr.wikipedia.org/wiki/Wikipedia:Spr%C3%A4kekoordinasjoon) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -142,7 +144,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
 | [Tatoeba](https://tatoeba.org/en/downloads) ([stq](https://tatoeba.org/en/sentences/show_all_in/stq/none) subset) | some translations into other languages | 96 sentences | ? | CC BY 2.0 FR |
-| [Wikipedia](https://dumps.wikimedia.org/) ([stq](https://stq.wikipedia.org/) subset)| uncurated | 4k articles | [revised Kramer orthography for Saterfrisian](https://stq.wikipedia.org/wiki/Wikipedia:H%C3%A4lpe_bie_ju_seelter_Sproake) (unclear if example, recommendation or rule for this wiki) | [text: GFDL, CC BY SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([stq](https://stq.wikipedia.org/) subset)| uncurated | 4k articles | [revised Kramer orthography for Saterfrisian](https://stq.wikipedia.org/wiki/Wikipedia:H%C3%A4lpe_bie_ju_seelter_Sproake) (unclear if example, recommendation or rule for this wiki) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -161,8 +163,8 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [Tatoeba](https://tatoeba.org/en/downloads) ([nds](https://tatoeba.org/en/sentences/show_all_in/nds/none) subset) | some translations into other languages | 18.1k sentences | ? | CC BY 2.0 FR |
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated | 24 MB | ? | CC BY-SA 3.0 |
 | [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated | 14 MB | ? |[Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
-| [Wikipedia](https://dumps.wikimedia.org/) ([nds](https://nds.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://nds.wikipedia.org/wiki/Kategorie:Artikels_na_Dialekt) | 84k articles | [Sass'sche Schrievwies](https://nds.wikipedia.org/wiki/Wikipedia:Sass) | [text: GFDL, CC BY SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
-| [Wikipedia](https://dumps.wikimedia.org/) ([nds-nl](https://nds-nl.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://nds-nl.wikipedia.org/wiki/Kategorie:Nedersaksies_artikel) | 8k articles | [Nysassiske Skryvwyse (preferred) and Algemene Nedersaksische Schriefwieze (older articles)](https://nds-nl.wikipedia.org/wiki/Wikipedia:Spelling) | [text: GFDL, CC BY SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([nds](https://nds.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://nds.wikipedia.org/wiki/Kategorie:Artikels_na_Dialekt) | 84k articles | [Sass'sche Schrievwies](https://nds.wikipedia.org/wiki/Wikipedia:Sass) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([nds-nl](https://nds-nl.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://nds-nl.wikipedia.org/wiki/Kategorie:Nedersaksies_artikel) | 8k articles | [Nysassiske Skryvwyse (preferred) and Algemene Nedersaksische Schriefwieze (older articles)](https://nds-nl.wikipedia.org/wiki/Wikipedia:Spelling) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -198,7 +200,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
 | [Stemmen uit het verleden (annotated subset)](https://dataverse.no/dataset.xhtml?persistentId=doi:10.18710/NSFN2B) ([Lybaert ea 2019](https://www.cambridge.org/core/journals/journal-of-germanic-linguistics/article/corpusbased-analysis-of-v2-variation-in-west-flemish-and-french-flemish-dialects/EAA18DFD4B507EECCAEF90395B60DD95), [Van Keymeulen ea 2019](https://biblio.ugent.be/publication/8629057)) | V2 variation, locations (25 places) | 1.4k sentences | phono | CC BY-NC 4.0 |
-| [Wikipedia](https://dumps.wikimedia.org/) ([vls](https://vls.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://vls.wikipedia.org/wiki/Categorie:Wikipedia:Artikels_noar_dialect) | 8k articles | [Standoardvlams](https://vls.wikipedia.org/wiki/Wikipedia:Gebruuk_van_streektoaln) (orthography developped by vls.wikipedia.org editors) | [text: GFDL, CC BY SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([vls](https://vls.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://vls.wikipedia.org/wiki/Categorie:Wikipedia:Artikels_noar_dialect) | 8k articles | [Standoardvlams](https://vls.wikipedia.org/wiki/Wikipedia:Gebruuk_van_streektoaln) (orthography developped by vls.wikipedia.org editors) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -206,7 +208,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
-| [Wikipedia](https://dumps.wikimedia.org/) ([zea](https://zea.wikipedia.org/) subset)| uncurated | 6k articles | ? | [text: GFDL, CC BY SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([zea](https://zea.wikipedia.org/) subset)| uncurated | 6k articles | ? | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -223,7 +225,7 @@ CC BY-SA 3.0 |
 | [Tatoeba](https://tatoeba.org/en/downloads) ([ltz](https://tatoeba.org/en/sentences/show_all_in/ltz/none) subset) | some translations into other languages | 884 sentences | Luxembourgish ortho | CC BY 2.0 FR |
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated | 81 MB | ? | CC BY-SA 3.0 |
 | [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated | 27 MB | ? |[Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
-| [Wikipedia](https://dumps.wikimedia.org/) ([lb](https://lb.wikipedia.org/) subset)| uncurated | 61k articles | Luxembourgish ortho | [text: GFDL, CC BY SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([lb](https://lb.wikipedia.org/) subset)| uncurated | 61k articles | Luxembourgish ortho | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -240,7 +242,7 @@ CC BY-SA 3.0 |
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
 | [Tatoeba](https://tatoeba.org/en/downloads) ([ksh](https://tatoeba.org/en/sentences/show_all_in/ksh/none) subset) | some translations into other languages | 82 sentences | ? | CC BY 2.0 FR |
-| [Wikipedia](https://dumps.wikimedia.org/) ([ksh](https://ksh.wikipedia.org/) subset)| uncurated, Colognian and other varieties of Ripuarian, partially [tagged with dialect and/or orthography information](https://ksh.wikipedia.org/wiki/Saachjrupp:Wikipedia:Atikkel_ier_Shprooche) | 3k articles | [ad-hoc spelling, some articles according to various Ripuarian orthographies](https://ksh.wikipedia.org/wiki/Wikipedia:Schrievwies) | [text: GFDL, CC BY SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([ksh](https://ksh.wikipedia.org/) subset)| uncurated, Colognian and other varieties of Ripuarian, partially [tagged with dialect and/or orthography information](https://ksh.wikipedia.org/wiki/Saachjrupp:Wikipedia:Atikkel_ier_Shprooche) | 3k articles | [ad-hoc spelling, some articles according to various Ripuarian orthographies](https://ksh.wikipedia.org/wiki/Wikipedia:Schrievwies) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -248,7 +250,7 @@ CC BY-SA 3.0 |
 
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
-| [Wikipedia](https://dumps.wikimedia.org/) ([li](https://li.wikipedia.org/) subset)| uncurated, partially [tagged with dialect and/or orthography information](https://li.wikipedia.org/wiki/Categorie:Wikipedia:Artikele_nao_dialek) | 14k articles | [Veldeke-sjpelling, Algemein Gesjreve Limburgs](https://li.wikipedia.org/wiki/Wikipedia:Wie_sjrief_ich_Limburgs) | [text: GFDL, CC BY SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([li](https://li.wikipedia.org/) subset)| uncurated, partially [tagged with dialect and/or orthography information](https://li.wikipedia.org/wiki/Categorie:Wikipedia:Artikele_nao_dialek) | 14k articles | [Veldeke-sjpelling, Algemein Gesjreve Limburgs](https://li.wikipedia.org/wiki/Wikipedia:Wie_sjrief_ich_Limburgs) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -256,7 +258,7 @@ CC BY-SA 3.0 |
 
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
-| [Wikipedia](https://dumps.wikimedia.org/) ([pfl](https://pfl.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://pfl.wikipedia.org/wiki/Sachgrubb:Adiggel_noch_em_Dialegd) | 3k articles | [ad-hoc spelling](https://pfl.wikipedia.org/wiki/Wikipedia_Dischbediere:Schdammdisch) | [text: GFDL, CC BY SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([pfl](https://pfl.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://pfl.wikipedia.org/wiki/Sachgrubb:Adiggel_noch_em_Dialegd); contains articles in Rhenish Franconian (incl. Palatine German and Lorraine Franconian) and Hessian | 3k articles | [ad-hoc spelling](https://pfl.wikipedia.org/wiki/Wikipedia_Dischbediere:Schdammdisch) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -265,7 +267,7 @@ CC BY-SA 3.0 |
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
 | [Tatoeba](https://tatoeba.org/en/downloads) ([pdc](https://tatoeba.org/en/sentences/show_all_in/pdc/none) subset) | some translations into other languages | 57 sentences | ? | CC BY 2.0 FR |
-| [Wikipedia](https://dumps.wikimedia.org/) ([pdc](https://pdc.wikipedia.org/) subset)| uncurated | 2k articles | ? | [text: GFDL, CC BY SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([pdc](https://pdc.wikipedia.org/) subset)| uncurated | 2k articles | ? | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -276,7 +278,7 @@ CC BY-SA 3.0 |
 | [Penn Parsed Corpus of Historical Yiddish (Santorini 2021)](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish) | POS ([Penn-historical](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish/blob/main/doc/annotation-yiddish/annotation.html), phrase structure (Penn-historical) | 200k tokens | [partially YIVO transliteration, partially YIVO-inspired ad-hoc transliteration](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish/blob/main/doc/annotation-yiddish/transliteration.html) | [CC BY-NC-SA 4.0](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish/blob/main/LICENSE.rst) |
 | [CABank Yiddish Corpus](https://ca.talkbank.org/access/Yiddish.html) ([Newman 2015](https://benjamins.com/catalog/silv.18.08kah)) | New York | 1 hr | audio, transcriptions (partially IPA, partially orthography-based (YIVO-transliteration-based?)) | [CC BY-NC-SA 3.0](https://talkbank.org/share/rules.html) |
 | [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated | 208 MB | ? |[Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
-| [Wikipedia](https://dumps.wikimedia.org/) ([yi](https://yi.wikipedia.org/) subset)| uncurated | 15k articles | Yiddish ortho | [text: GFDL, CC BY SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([yi](https://yi.wikipedia.org/) subset)| uncurated | 15k articles | Yiddish ortho | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -302,7 +304,7 @@ CC BY-SA 3.0 |
 | [DIDI - The DiDi Corpus of South Tyrolean CMC 1.0.0 (Frey ea 2019)](https://clarin.eurac.edu/repository/xmlui/handle/20.500.12124/7) (subset) | South Tyrolean | unknown (600k tokens total) | ad-hoc pronunciation spelling | CLARIN ACA-BY-NC-NORED |
 | [Kontatti](https://kontatti.projects.unibz.it/) ([Ghilardi 2019](https://hrcak.srce.hr/231238)) (subset) | South Tyrolean | unknown (6:48 hrs total) | audio, German ortho | [custom](https://kontatti.projects.unibz.it/what-is-kontatti/conditions-of-use/) |
 | [Tatoeba](https://tatoeba.org/en/downloads) ([bar](https://tatoeba.org/en/sentences/show_all_in/bar/none) subset) | some translations into other languages | 226 sentences | ad-hoc pronunciation spelling | CC BY 2.0 FR |
-| [Wikipedia](https://dumps.wikimedia.org/) ([bar](https://bar.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://bar.wikipedia.org/wiki/Kategorie:Artikel_nach_Dialekt) | 27k articles | [ad-hoc pronunciation spelling with some optional conventions](https://bar.wikipedia.org/wiki/Wikipedia:Wia_schreib_i_a_guads_Boarisch%3F) | [text: GFDL, CC BY SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([bar](https://bar.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://bar.wikipedia.org/wiki/Kategorie:Artikel_nach_Dialekt) | 27k articles | [ad-hoc pronunciation spelling with some optional conventions](https://bar.wikipedia.org/wiki/Wikipedia:Wia_schreib_i_a_guads_Boarisch%3F) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -320,7 +322,7 @@ CC BY-SA 3.0 |
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
 | [Tatoeba](https://tatoeba.org/en/downloads) ([swg](https://tatoeba.org/en/sentences/show_all_in/swg/none) subset) | some translations into other languages | 1.9k sentences | ad-hoc pronunciation spelling | CC BY 2.0 FR |
-| [Wikipedia](https://dumps.wikimedia.org/) (subset of [als](https://als.wikipedia.org/) subset)| uncurated | [927 (of 27k) articles tagged as Swabian](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | [no defined standard, but a set of recommendations based on published works, the Dieth orthography for Swiss German and the Orthal orthography for Alsatian](https://als.wikipedia.org/wiki/Hilfe:Schrybig) | [text: GFDL, CC BY SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Wikipedia](https://dumps.wikimedia.org/) (subset of [als](https://als.wikipedia.org/) subset)| uncurated | [927 (of 27k) articles tagged as Swabian](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | [no defined standard, but a set of recommendations based on published works, the (Swiss German) Dieth orthography and the (Alsatian) Orthal orthography](https://als.wikipedia.org/wiki/Hilfe:Schrybig) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -334,7 +336,7 @@ CC BY-SA 3.0 |
 | [NOAH's corpus](https://github.com/noe-eva/NOAH-Corpus/) ([Hollenstein & Aepli 2015](https://www.zora.uzh.ch/id/eprint/174601/)) | POS ([mod.](https://github.com/noe-eva/NOAH-Corpus/blob/master/guidelines.md) [STTS](https://www.ims.uni-stuttgart.de/forschung/ressourcen/lexika/germantagsets/#id-cfcbf0a7-0), partially also STTS and UPOS); overlap with UD Swiss German UZH and Wikipedia | 115k toks | (mostly?) ad-hoc pronunciation spelling | [annotations: CC BY 4.0](https://github.com/noe-eva/NOAH-Corpus/blob/master/LICENSE) | 
 | [UD Swiss German UZH](https://github.com/UniversalDependencies/UD_Swiss_German-UZH) ([Aepli & Clematide 2018](https://ceur-ws.org/Vol-2226/paper1.pdf)) | POS (UPOS, [mod.](https://github.com/noe-eva/NOAH-Corpus/blob/master/guidelines.md) [STTS](https://www.ims.uni-stuttgart.de/forschung/ressourcen/lexika/germantagsets/#id-cfcbf0a7-0)), dependencies (UD); overlap with NOAH's corpus and Wikipedia | 100 sentences | (mostly?) ad-hoc pronunciation spelling | [CC BY-SA 4.0](https://github.com/UniversalDependencies/UD_Swiss_German-UZH/blob/master/LICENSE.txt) |
 | [WUS DIALOG GSW](https://whatsup.linguistik.uzh.ch/) ([Stark ea 2014-20](https://whatsup.linguistik.uzh.ch/), [Ueberwasser & Stark 2017](https://bop.unibe.ch/linguistik-online/article/view/3849/5834)) (subset) | POS ([mod.](https://whatsup.linguistik.uzh.ch/01_corpus/02_preprocessing/06_pos#swissgermandialect) [STTS](https://www.ims.uni-stuttgart.de/forschung/ressourcen/lexika/germantagsets/#id-cfcbf0a7-0)), locations | 34.7k tokens | ad-hoc pronunciation spelling, [German ortho](https://whatsup.linguistik.uzh.ch/01_corpus/02_preprocessing/07_normalization) | CC BY-NC-ND |
-| [SwissDial](https://whatsup.linguistik.uzh.ch/01_corpus/03_demographics) ([Dogan-Schönberger ea 2021](https://arxiv.org/pdf/2103.11401.pdf)) | topics (14 classes), translations (across dialects and into German), locations (Aargau, Bern, Basel, Graubünden, Luzern, St. Gallen, Wallis, Zürich) | 2.5-4.6 hrs × 8 dialects | audio, pronunciation spelling, German ortho | CC BY-NC 4.0 |
+| [SwissDial](https://whatsup.linguistik.uzh.ch/01_corpus/03_demographics) ([Dogan-Schönberger ea 2021](https://arxiv.org/pdf/2103.11401.pdf)) | topics (14 classes), translations (across dialects and into German), locations (Aargau, Bern, Basel, Graubünden, Luzern, St. Gallen, Wallis, Zürich); the Wallis data are presumably in Walser (wae) | 2.5-4.6 hrs × 7-8 dialects | audio, pronunciation spelling, German ortho | CC BY-NC 4.0 |
 | [SpinningBytes Swiss German Corpus (SB-CH)](https://github.com/spinningbytes/SB-CH) (annotated subset) ([Grubenmann ea 2018](https://aclanthology.org/L18-1372/)) | sentiment; potential overlap with NOAH's corpus | 2.8k sentences | pronunciation spelling | [CC BY 4.0](https://spinningbytes.com/more/resources/) |
 | [What's up, Switzerland?](https://whatsup.linguistik.uzh.ch/) (subset) ([Stark ea 2014-20](https://whatsup.linguistik.uzh.ch/), [Ueberwasser & Stark 2017](https://bop.unibe.ch/linguistik-online/article/view/3849/5834)) | locations | 507k messages / 3.6M tokens | pronunciation spelling | CC BY-NC-ND |
 | [Schweizerdeutsches Mundartenkorpus (CHMK)](https://chmk.ch/de/info_all) ([Weibel & Peter 2020](https://ceur-ws.org/Vol-2624/paper4.pdf)) | release for academic use planned | 25M tokens | | |
@@ -349,7 +351,7 @@ CC BY-SA 3.0 |
 | [SwigSpot](https://github.com/derlin/SwigSpot_Schwyzertuutsch-Spotting) ([Linder 2018](https://github.com/derlin/SwigSpot_Schwyzertuutsch-Spotting/blob/master/report-online.pdf)) | uncurated | 8k sentences | ? | [Apache 2.0](https://github.com/derlin/SwigSpot_Schwyzertuutsch-Spotting/blob/master/LICENSE) | 
 | [Tatoeba](https://tatoeba.org/en/downloads) ([gsw](https://tatoeba.org/en/sentences/show_all_in/gsw/none) subset) | some translations into other languages | 474 sentences | ? | CC BY 2.0 FR |
 | [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated | 384 KB | ? |[Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
-| [Wikipedia](https://dumps.wikimedia.org/) (subset of [als](https://als.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | 27k total (including Swabian), thereof [2.3k (directly or indirectly) tagged as Alsatian, and 1.7k (directly or indirectly) tagged as Swiss German](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | [no defined standard, but a set of recommendations based on published works, the Dieth orthography for Swiss German and the Orthal orthography for Alsatian](https://als.wikipedia.org/wiki/Hilfe:Schrybig) | [text: GFDL, CC BY SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) | 
+| [Wikipedia](https://dumps.wikimedia.org/) (subset of [als](https://als.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | 27k total (including Swabian and Walser), thereof [2.3k (directly or indirectly) tagged as Alsatian, and 1.7k (directly or indirectly) tagged as Swiss German](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | [no defined standard, but a set of recommendations based on published works, the (Swiss German) Dieth orthography and the (Alsatian) Orthal orthography](https://als.wikipedia.org/wiki/Hilfe:Schrybig) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) | 
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -359,6 +361,7 @@ CC BY-SA 3.0 |
 |--------|-------|------|----------------|---------|
 | [ArchiWals / CLiMAlp](https://climalp.org) ([Angster ea 2017](https://hdl.handle.net/2318/1670241), [Gaeta 2020](https://www.academia.edu/download/64894560/2020_Lecce_Paper.pdf)) | locations (Gressoney, Issime, Formazza, Rimella, Alagna) | 80k+ tokens | pronunciation spelling ||
 | [Walliserdeutsch/RRO](https://zenodo.org/record/4580286) ([Garner 2014](https://zenodo.org/record/4580286), [Garner ea 2014](https://www.isca-speech.org/archive/interspeech_2014/garner14_interspeech.html)) | | 8.3 hrs | audio, non-standardized transcription | custom |
-| [Wikipedia](https://dumps.wikimedia.org/) (subset of [als](https://als.wikipedia.org/) subset)| uncurated | [35 (of 27k total) tagged as Wal(li)ser](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | [no defined standard, but a set of recommendations based on published works, the Dieth orthography for Swiss German and the Orthal orthography for Alsatian](https://als.wikipedia.org/wiki/Hilfe:Schrybig) | [text: GFDL, CC BY SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [SwissDial](https://whatsup.linguistik.uzh.ch/01_corpus/03_demographics) (subset) ([Dogan-Schönberger ea 2021](https://arxiv.org/pdf/2103.11401.pdf)) | topics (14 classes), translations (into German and 7 Swiss German dialects) | 3.3 hrs | audio, pronunciation spelling, German ortho | CC BY-NC 4.0 |
+| [Wikipedia](https://dumps.wikimedia.org/) (subset of [als](https://als.wikipedia.org/) subset)| uncurated | [35 (of 27k total) tagged as Wal(li)ser](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | [no defined standard, but a set of recommendations based on published works, the (Swiss German) Dieth orthography and the (Alsatian) Orthal orthography](https://als.wikipedia.org/wiki/Hilfe:Schrybig) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
