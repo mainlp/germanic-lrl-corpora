@@ -7,7 +7,7 @@ citation TBD
 ```
 
 Language varieties:
-- [North Germanic](#north-germanic) ([Faroese](#faroese--fao--fao1244) · [(non-std.) Norwegian](#norwegian--nor--norw1258) · [Elfdalian](#elfdalianövdalian--ovd--elfd1234) · [(non-std.) Swedish](#swedish--swe--swe1254))
+- [North Germanic](#north-germanic) ([Faroese](#faroese--fao--fao1244) · [(non-std.) Norwegian](#norwegian--nor--norw1258) · [Jutish](#jutish--juti1236) · [East Danish](#east-danish--scan1238) · [Elfdalian](#elfdalianövdalian--ovd--elfd1234) · [(non-std.) Swedish](#swedish--swe--swe1254))
 - West Germanic
     - North Sea Germanic
         - [Anglo-Frisian](#anglo-frisian) ([Scots](#scots--sco--scot1243) · [(non-std.) English](#english--eng--stan1293) · [West Frisian](#western-frisian--fry--west2354) · [North Frisian](#northern-frisian--frr--north2626) · [Saterland Frisian](#saterland-frisiansaterfrisian--stq--sate1242))
@@ -65,6 +65,22 @@ Did we forget a corpus for a Germanic low-resource language or dialect that fits
 | [American Nordic Speech Corpus (CANS)](https://tekstlab.uio.no/norskiamerika/korpus.html) (subset) ([Johannessen ea 2015](https://aclanthology.org/W15-1840/)) | locations (57 places in USA/Canada) | 773k tokens | Bokmål ortho, [phono](https://tekstlab.uio.no/norskiamerika/Transkripsjons-translittereringsveiledning-norskiamerika.pdf) | CC BY-NC-SA 4.0 |
 | [Speech Database for Norwegian (NB Tale)](https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-31/) | locations (24 areas) | 365 × 2 mins (spontaneous speech), 7.6k sentences (reading) | audio, Bokmål ortho, mod. X-SAMPA | CC0 |
 | [Norwegian Parliamentary Speech Corpus (NPSC)](https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-58/) | locations (5 dialect regions) | 140 hrs / 65k sentences / 1.2M tokens | audio, Bokmål/​Nynorsk ortho | CC0 |
+
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
+
+### Jutish · [juti1236](https://glottolog.org/resource/languoid/id/juti1236)
+
+| Corpus | Notes | Size | Representation | License |
+|--------|-------|------|----------------|---------|
+| [Danish Gigaword Corpus](https://gigaword.dk/) (*synner* subset) ([Derczynski ea 2021](https://aclanthology.org/2021.nodalida-main.46/)) | South Jutish | ca. 20k tokens | | CC BY 4.0 |
+
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
+
+### East Danish · [scan1238](https://glottolog.org/resource/languoid/id/scan1238)
+
+| Corpus | Notes | Size | Representation | License |
+|--------|-------|------|----------------|---------|
+| [Danish Gigaword Corpus](https://gigaword.dk/) (*botxt* subset) ([Derczynski ea 2021](https://aclanthology.org/2021.nodalida-main.46/)) | Bornholmsk | ca. 400k tokens | | CC BY 4.0 |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
