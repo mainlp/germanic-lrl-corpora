@@ -72,7 +72,7 @@ Did we forget a corpus for a Germanic low-resource language or dialect that fits
 
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
-| [Danish Gigaword Corpus](https://gigaword.dk/) (*synner* subset) ([Derczynski ea 2021](https://aclanthology.org/2021.nodalida-main.46/)) | South Jutish | ca. 20k tokens | | CC BY 4.0 |
+| [Danish Gigaword Corpus](https://gigaword.dk/) (*synne* subset) ([Derczynski ea 2021](https://aclanthology.org/2021.nodalida-main.46/)) | South Jutish | ca. 20k tokens | | CC BY 4.0 |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
