@@ -234,7 +234,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
-| Corpus of Read and Spontaneous Upper Saxon German Speech ([Herms ea 2016](https://aclanthology.org/L16-1736/)) (contact authors) | 8 locations | 500 min / 70 k tokens | German ortho |  |
+| SXUCorpus ([Herms ea 2016](https://aclanthology.org/L16-1736/)) (contact authors) | 8 locations | 500 min / 70 k tokens | German ortho |  |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
