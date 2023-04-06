@@ -14,7 +14,7 @@ Language varieties:
         - [Low German](#low-german) ([Low Saxon](#low-saxonlow-german--nds--lowg1239) · [East Frisian Low Saxon](#east-frisian-low-saxon--frs--east2288) · [Gronings](#gronings--gos--gron1242))
     - [Macro-Dutch](#macro-dutch) ([Dutch](#dutch--nld--dutc1256) · [West Flemish](#western-flemish--vls--vlaa1240) · [Zeelandic](#zeelandiczeeuws--zea--zeeu1238))
     - High German
-        - [Middle German](#middle-german) ([Moselle Franconian incl. Luxembourgish](#moselle-franconian--luxe1241) · [Colognian](#colognian--ksh--kols1241) · [Limburgish](#limburgishlimburgan--lim--lim1263) · [Palatine German](#palatinate-german--pfl--pala1330) · [Pennsylvania Dutch](#pennsylvania-dutch--pdc--penn1240) · [Yiddish](#yiddish--yid--west2361east2295))
+        - [Middle German](#middle-german) ([Upper Saxon](#upper-saxon--sxu--uppe1400) · [Moselle Franconian incl. Luxembourgish](#moselle-franconian--luxe1241) · [Colognian](#colognian--ksh--kols1241) · [Limburgish](#limburgishlimburgan--lim--lim1263) · [Palatine German](#palatinate-german--pfl--pala1330) · [Pennsylvania Dutch](#pennsylvania-dutch--pdc--penn1240) · [Yiddish](#yiddish--yid--west2361east2295))
         - [Upper German](#upper-german) ([(non-std.) German](#german--deu--stan1295) · [Bavarian](#bavarian--bar--bava1246) · [Cimbrian](#cimbrian--cim--cimb1238) · [Swabian](#swabian--swg--swab1242) · [Central Alemannic (Swiss German & Alsatian)](#central-alemannic-incl-swiss-german--alsatian--gsw--swis1247) · [Walser](#walser--wae--wals1238))
 
 Inclusion criteria:
@@ -229,6 +229,14 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
 ## Middle German
+
+### Upper Saxon · sxu · [uppe1400](https://glottolog.org/resource/languoid/id/uppe1400)
+
+| Corpus | Notes | Size | Representation | License |
+|--------|-------|------|----------------|---------|
+| Corpus of Read and Spontaneous Upper Saxon German Speech ([Herms ea 2016](https://aclanthology.org/L16-1736/)) (contact authors) | 8 locations | 500 min / 70 k tokens | German ortho |  |
+
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
 ### Moselle Franconian · [luxe1241](https://glottolog.org/resource/languoid/id/luxe1241)
 
