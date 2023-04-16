@@ -98,6 +98,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
+| [Parallel dialectal-standard Swedish data](https://zenodo.org/record/4060296) ([Hämäläinen ea 2020](https://dl.acm.org/doi/10.1145/3423337.3429435), [Ivars & Södergård 2007](https://jysk.au.dk/fileadmin/www.jysk.au.dk/publikationer/centrets_publikationer/dialektologi.pdf#page=202)) | Finland Swedish (with locations) | 86.5k tokens | transcription, Swedish ortho | CC BY-NC-SA 4.0 |
 | [American Nordic Speech Corpus (CANS)](https://tekstlab.uio.no/norskiamerika/korpus.html) (subset) ([Johannessen ea 2015](https://aclanthology.org/W15-1840/)) | locations (7 places in the US) | 46k tokens | Swedish ortho, [phono](https://tekstlab.uio.no/norskiamerika/CANS-f%C3%B6r-svensk.pdf) | CC BY-NC-SA 4.0 |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
