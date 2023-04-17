@@ -1,9 +1,14 @@
-# Corpora for Germanic low-resource languages and dialects
+# A Survey of Corpora for Germanic low-resource languages and dialects
 
 You can read more about this corpus collection here: *(link TBD)*.
 If you find this overview useful for your research, please cite:
 ```
-citation TBD
+@inproceedings{blaschke-etal-2023-survey,
+    title = "A Survey of Corpora for {G}ermanic Low-Resource Languages and Dialects",
+    author = "Blaschke, Verena and Sch{\"u}tze, Hinrich and Plank, Barbara",
+    booktitle = "Proceedings of the 24th Nordic Conference on Computational Linguistics (NoDaLiDa)",
+    year = "2023",
+}
 ```
 
 Language varieties:
@@ -11,11 +16,11 @@ Language varieties:
 - West Germanic
     - North Sea Germanic
         - [Anglo-Frisian](#anglo-frisian) ([Scots](#scots--sco--scot1243) · [(non-std.) English](#english--eng--stan1293) · [West Frisian](#western-frisian--fry--west2354) · [North Frisian](#northern-frisian--frr--north2626) · [Saterland Frisian](#saterland-frisiansaterfrisian--stq--sate1242))
-        - [Low German](#low-german) ([Low Saxon](#low-saxonlow-german--nds--lowg1239) · [East Frisian Low Saxon](#east-frisian-low-saxon--frs--east2288) · [Gronings](#gronings--gos--gron1242) · Westphalian)
+        - [Low German](#low-german) ([Low Saxon](#low-saxonlow-german--nds--lowg1239) · [East Frisian Low Saxon](#east-frisian-low-saxon--frs--east2288) · [Gronings](#gronings--gos--gron1242) · [Westphalian](#westphalicwestphalishwestphalian--wep--west2356))
     - [Macro-Dutch](#macro-dutch) ([Dutch](#dutch--nld--dutc1256) · [West Flemish](#western-flemish--vls--vlaa1240) · [Zeelandic](#zeelandiczeeuws--zea--zeeu1238))
     - High German
-        - [Middle German](#middle-german) ([Upper Saxon](#upper-saxon--sxu--uppe1400) · [Moselle Franconian incl. Luxembourgish](#moselle-franconian--luxe1241) · [Colognian](#colognian--ksh--kols1241) · [Limburgish](#limburgishlimburgan--lim--lim1263) · [Rhine Franconian incl. Palatine German] · [Pennsylvania Dutch](#pennsylvania-dutch--pdc--penn1240) · [Yiddish](#yiddish--yid--west2361east2295))
-        - [Upper German](#upper-german) ([(non-std.) German](#german--deu--stan1295) · Upper Franconian · [Bavarian](#bavarian--bar--bava1246) · [Cimbrian](#cimbrian--cim--cimb1238) · [Swabian](#swabian--swg--swab1242) · [Central Alemannic (Swiss German & Alsatian)](#central-alemannic-incl-swiss-german--alsatian--gsw--swis1247) · [Walser](#walser--wae--wals1238))
+        - [Middle German](#middle-german) ([Upper Saxon](#upper-saxon--sxu--uppe1400) · [Moselle Franconian incl. Luxembourgish](#moselle-franconian--luxe1241) · [Colognian](#colognian--ksh--kols1241) · [Limburgish](#limburgishlimburgan--lim--lim1263) · [Rhine Franconian incl. Palatine German](#rhinerhenish-franconian--rhin1244) · [Pennsylvania Dutch](#pennsylvania-dutch--pdc--penn1240) · [Yiddish](#yiddish--yid--west2361east2295))
+        - [Upper German](#upper-german) ([(non-std.) German](#german--deu--stan1295) · [Upper Franconian](#upperhigh-franconian--uppe1464) · [Bavarian](#bavarian--bar--bava1246) · [Cimbrian](#cimbrian--cim--cimb1238) · [Swabian](#swabian--swg--swab1242) · [Central Alemannic (Swiss German & Alsatian)](#central-alemannic-incl-swiss-german--alsatian--gsw--swis1247) · [Walser](#walser--wae--wals1238))
 
 Inclusion criteria:
 - Accessible to researchers
@@ -26,6 +31,8 @@ Inclusion criteria:
 - If only a written version is available, it should be (manually) annotated and/or showcase variation through phone[t/m]ic transcriptions or orthographies used specifically for that language variety
 
 We focus on manual or manually corrected annotations rather than fully automatically annotated data.
+
+The license names link to where the license is mentioned on the corpus website, unless the license is mentioned on the site linked in the first column, in the article accompanying the dataset, or in the downloaded corpus files.
 
 Did we forget a corpus for a Germanic low-resource language or dialect that fits these inclusion criteria? Please reach out to us via a GitHub issue or pull request or an email to `verena DOT blaschke ÄT cis.lmu.de`!
 
@@ -273,7 +280,7 @@ CC BY-SA 3.0 |
 | [KDE4 via OPUS](https://opus.nlpl.eu/KDE4-v2.php) ([Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | 28.8k tokens | Luxembourgish ortho | ? |
 | [Mozilla-I10n](https://github.com/mozilla-l10n/mt-training-data) | translations into other languages | 6.9k tokens | Luxembourgish ortho | Mozilla Public License 2.0 |
 | [QED via OPUS](https://opus.nlpl.eu/QED.php) ([Abdelali ea 2014](http://www.lrec-conf.org/proceedings/lrec2014/pdf/877_Paper.pdf), [Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | 19.2k tokens | Luxembourgish ortho | ? |
-| [TED2020 via OPUS](https://opus.nlpl.eu/TED2020.php) ([Reimers & Gurevych](https://aclanthology.org/2020.emnlp-main.365/), [Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | 1.7k tokens | Luxembourgish ortho | [CC BY-NC-ND 4.0 International](https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy) |
+| [TED2020 via OPUS](https://opus.nlpl.eu/TED2020.php) ([Reimers & Gurevych](https://aclanthology.org/2020.emnlp-main.365/), [Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | 1.7k tokens | Luxembourgish ortho | [CC BY-NC-ND 4.0](https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy) |
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated | 81 MB | ? | CC BY-SA 3.0 |
 | [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated | 2.5M tokens / 18.4 MB | ? |[Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
 | [Wikipedia](https://dumps.wikimedia.org/) ([lb](https://lb.wikipedia.org/) subset)| uncurated | 61k articles | Luxembourgish ortho | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
@@ -307,14 +314,14 @@ CC BY-SA 3.0 |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
-### Rhine Franconian / Rhenish Franconian · [rhin1244](https://glottolog.org/resource/languoid/id/rhin1244)
+### Rhine/Rhenish Franconian · [rhin1244](https://glottolog.org/resource/languoid/id/rhin1244)
 
 Includes Palatin(at)e German · pfl · [pala1330](https://glottolog.org/resource/languoid/id/pala1330).
 
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
 | [Zwirner-Korpus](https://dgd.ids-mannheim.de/) (subset of downloadable subcorpus) ([Zwirner & Bethge 1958](https://katalog.slub-dresden.de/id/0-1116234068), [IDS: Datenbank für gesprochenes Deutsch (DGD)](https://dgd.ids-mannheim.de/)) | Hessian | 8 min / 1.4k tokens | audio, German ortho | [custom terms](https://dgd.ids-mannheim.de/dgd/pragdb.dgd_extern.sys_use) |
-| [Wikipedia](https://dumps.wikimedia.org/) ([pfl](https://pfl.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://pfl.wikipedia.org/wiki/Sachgrubb:Adiggel_noch_em_Dialegd); contains articles in Palatine German, Lorraine Franconian, Hessian | 3k articles | [ad-hoc spelling](https://pfl.wikipedia.org/wiki/Wikipedia_Dischbediere:Schdammdisch) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([pfl](https://pfl.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://pfl.wikipedia.org/wiki/Sachgrubb:Adiggel_noch_em_Dialegd); contains articles in Palatine German, Lorraine Franconian, Hessian | 3k articles | [(implied) ad-hoc spelling](https://pfl.wikipedia.org/wiki/Wikipedia_Dischbediere:Schdammdisch) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -347,6 +354,8 @@ Includes Palatin(at)e German · pfl · [pala1330](https://glottolog.org/resource
 | [Sprachvariation in Norddeutschland (SiN, Hamburg collection)](https://corpora.uni-hamburg.de/hzsk/de/islandora/object/spoken-corpus:sin) ([Schröder 2011](https://corpora.uni-hamburg.de/hzsk/de/islandora/object/spoken-corpus:sin), [Elmentaler ea 2015](https://www.degruyter.com/document/doi/10.1515/9783110363449-018/html)) (German subset) | varieties of Low Saxon, East Frisian Low Saxon and (Northern) German | unknown (300 hrs total) | audio | [HZSK-RES](https://corpora.uni-hamburg.de/hzsk/de/islandora/object/spoken-corpus:sin#corpus-metadata) |
 | [Regional Variants of German 1 (RVG1)](https://www.bas.uni-muenchen.de/forschung/Bas/BasRVG1eng.html) (+[link2](https://clarin.phonetik.uni-muenchen.de/BASRepository/index.php?target=Public/Corpora/RVG1_CLARIN/RVG1_CLARIN.3.php)) ([Burger & Schiel 1998](https://www.phonetik.uni-muenchen.de/forschung/publikationen/Burger-98-RVG1.pdf)) | unclear whether all of the recordings are in regionally accented (Standard) German or some are in Low Saxon/Bavarian/Colognian/etc. instead | 500 × 1 min spontaneous speech | audio, phono (SAMPA), German ortho | CLARIN ACA |
 | [Texas German Sample Corpus (TGSC) (Blevins 2022)](https://dataverse.tdl.org/dataset.xhtml?persistentId=doi:10.18738/T8/IOX9ZA) | | 13.5 hrs / 75k tokens | audio, German ortho | CC0 1.0 |
+| [Wenkersätze](https://github.com/engsterhold/wenker-storage) (Wenker 1889–1923: Sprachatlas des Deutschen Reichs. Handdrawn by Emil
+Maurmann, Georg Wenker and Ferdinand Wrede. Published online as [Digitaler Wenker-Atlas](https://regionalsprache.de/home.aspx), [Schmidt ea 2020-](https://regionalsprache.de/)) | 40 German sentences, translated into various lects spoken in the German Reich at the turn of the century | 40 sentences × 2210 samples | various phonetic transcription styles and ad-hoc spellings | [CC BY-SA 4.0](https://apps.dsa.info/wenker/) | 
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
