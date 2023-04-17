@@ -136,6 +136,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [Crowdsourced high-quality UK and Ireland English Dialect speech data set](https://openslr.org/83) ([Demirsahin ea 2020](https://aclanthology.org/2020.lrec-1.804/)) | locations (British Isles: Ireland, Midlands, Northern England, Scotland, Southern England, Wales) | 31 hrs | audio, English ortho | [CC BY-SA 4.0](https://www.openslr.org/resources/83/LICENSE) |
 | [Helsinki Corpus of British English Dialects](https://varieng.helsinki.fi/CoRD/corpora/Dialects/) | locations (UK: Cambridgeshire, Devon, Essex/Lancashire, Isle of Ely, Somerset, Suffolk) | 1M tokens | audio, English ortho | |
 | [Nationwide Speech Project (NSP)](https://u.osu.edu/nspcorpus/) ([Clopper & Pisoni 2006](https://www.sciencedirect.com/science/article/abs/pii/S0167639305002232)) | locations (USA: West, Midland, North, South, New England, Mid-Atlantic) | 60 × 1 hr | audio, partially: English ortho |
+| [Corpus of Regional African American Language (CORAAL) (Kendall & Farrington 2021)](https://oraal.uoregon.edu/coraal) | 6 locations, AAVE | 135.6 hrs / 1.5M tokens | audio, English ortho | CC BY-NC-SA 4.0 |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
