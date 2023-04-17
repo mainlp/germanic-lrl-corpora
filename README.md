@@ -11,14 +11,14 @@ Language varieties:
 - West Germanic
     - North Sea Germanic
         - [Anglo-Frisian](#anglo-frisian) ([Scots](#scots--sco--scot1243) · [(non-std.) English](#english--eng--stan1293) · [West Frisian](#western-frisian--fry--west2354) · [North Frisian](#northern-frisian--frr--north2626) · [Saterland Frisian](#saterland-frisiansaterfrisian--stq--sate1242))
-        - [Low German](#low-german) ([Low Saxon](#low-saxonlow-german--nds--lowg1239) · [East Frisian Low Saxon](#east-frisian-low-saxon--frs--east2288) · [Gronings](#gronings--gos--gron1242))
+        - [Low German](#low-german) ([Low Saxon](#low-saxonlow-german--nds--lowg1239) · [East Frisian Low Saxon](#east-frisian-low-saxon--frs--east2288) · [Gronings](#gronings--gos--gron1242) · Westphalian)
     - [Macro-Dutch](#macro-dutch) ([Dutch](#dutch--nld--dutc1256) · [West Flemish](#western-flemish--vls--vlaa1240) · [Zeelandic](#zeelandiczeeuws--zea--zeeu1238))
     - High German
-        - [Middle German](#middle-german) ([Upper Saxon](#upper-saxon--sxu--uppe1400) · [Moselle Franconian incl. Luxembourgish](#moselle-franconian--luxe1241) · [Colognian](#colognian--ksh--kols1241) · [Limburgish](#limburgishlimburgan--lim--lim1263) · [Palatine German](#palatinate-german--pfl--pala1330) · [Pennsylvania Dutch](#pennsylvania-dutch--pdc--penn1240) · [Yiddish](#yiddish--yid--west2361east2295))
-        - [Upper German](#upper-german) ([(non-std.) German](#german--deu--stan1295) · [Bavarian](#bavarian--bar--bava1246) · [Cimbrian](#cimbrian--cim--cimb1238) · [Swabian](#swabian--swg--swab1242) · [Central Alemannic (Swiss German & Alsatian)](#central-alemannic-incl-swiss-german--alsatian--gsw--swis1247) · [Walser](#walser--wae--wals1238))
+        - [Middle German](#middle-german) ([Upper Saxon](#upper-saxon--sxu--uppe1400) · [Moselle Franconian incl. Luxembourgish](#moselle-franconian--luxe1241) · [Colognian](#colognian--ksh--kols1241) · [Limburgish](#limburgishlimburgan--lim--lim1263) · [Rhine Franconian incl. Palatine German] · [Pennsylvania Dutch](#pennsylvania-dutch--pdc--penn1240) · [Yiddish](#yiddish--yid--west2361east2295))
+        - [Upper German](#upper-german) ([(non-std.) German](#german--deu--stan1295) · Upper Franconian · [Bavarian](#bavarian--bar--bava1246) · [Cimbrian](#cimbrian--cim--cimb1238) · [Swabian](#swabian--swg--swab1242) · [Central Alemannic (Swiss German & Alsatian)](#central-alemannic-incl-swiss-german--alsatian--gsw--swis1247) · [Walser](#walser--wae--wals1238))
 
 Inclusion criteria:
-- Accessiblity to researchers
+- Accessible to researchers
 - Can be downloaded (easily)
 - No extensive pre-processing required (appropriate file formats; no abundance of OCR errors)
 - Full sentences/utterances rather than word lists
@@ -41,7 +41,7 @@ Did we forget a corpus for a Germanic low-resource language or dialect that fits
 | [Føroyskur talumálsbanki](https://clarino.uib.no/corpuscle-classic/corpus-list) ([Jacobsen 2022](https://septentrio.uit.no/index.php/nordlyd/article/view/6440)) | | 599.9k tokens | Faroese ortho | CLARIN RES-PLAN-BY-PRIV-NORED |
 | [BLARK 1.0](https://maltokni.fo/en/resources) (background corpus) ([Simonsen ea 2022](https://aclanthology.org/2022.lrec-1.495/)) | | 25M tokens | Faroese ortho | CC BY 4.0 |
 | [Faroese text collection (FTS)](https://spraakbanken.gu.se/en/resources/fts) | in BLARK 1.0 background corpus | 1.1M tokens | Faroese ortho | CC BY 4.0 |
-| [Korp](http://gtweb.uit.no/f_korp/?mode=fao#?lang=en) (Giellatekno) | in BLARK 1.0 background corpus, contains Wikipedia articles | ? | Faroese ortho CC BY 4.0 |
+| [Korp](http://gtweb.uit.no/f_korp/?mode=fao#?lang=en) (Giellatekno) | in BLARK 1.0 background corpus (download via BLARK), contains Wikipedia articles | ? | Faroese ortho CC BY 4.0 |
 | [BLARK 1.0](https://maltokni.fo/en/resources) (audio) ([Simonsen ea 2022](https://aclanthology.org/2022.lrec-1.495/)) | locations (Suðuroy, Sandoy, Suðurstreymoy, Norðurstreymoy/​Eysturoy, Vágar, Norðuroyggjar) | 100 hrs | audio, Faroese ortho, some phono | CC BY 4.0 |
 | [Faroese Danish Corpus Hamburg (FADAC Hamburg)](https://corpora.uni-hamburg.de/hzsk/de/islandora/object/spoken-corpus:fadac-0.2.dan) (subset) ([Debess 2019](https://macau.uni-kiel.de/receive/publ_mods_00002318)) | locations (Tórshavn, Vágar, Suðuroy, Eysturoy/​Norðuroyggjar) | 31 hrs | audio, Faroese ortho | [HZSK-RES](https://corpora.uni-hamburg.de/hzsk/de/islandora/object/spoken-corpus:fadac-0.2.dan#corpus-metadata) |
 | [Tatoeba](https://tatoeba.org/en/downloads) ([fao](https://tatoeba.org/en/sentences/show_all_in/fao/none) subset) | translations into other languages | 417 sentences | Faroese ortho | CC BY 2.0 FR |
@@ -147,7 +147,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [Ubuntu via OPUS](https://opus.nlpl.eu/Ubuntu.php) ([Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | 22.4k tokens | Frisian ortho | |
 | [KDE4 via OPUS](https://opus.nlpl.eu/KDE4-v2.php) ([Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | ca. 300k tokens | Frisian ortho | |
 | [GNOME via OPUS](https://opus.nlpl.eu/GNOME.php) ([Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | 55.7k tokens | Frisian ortho | |
-| [Mozilla-I10n via OPUS](https://opus.nlpl.eu/Mozilla-I10n.php) ([Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | ca. 400k tokens | Frisian ortho | Mozilla Public License 2.0 |
+| [Mozilla-I10n](https://github.com/mozilla-l10n/mt-training-data) | translations into other languages | ca. 400k tokens | Frisian ortho | Mozilla Public License 2.0 |
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated | 72 MB | Frisian ortho | CC BY-SA 3.0 |
 | [CC-100](https://data.statmt.org/cc-100/) (subset) ([Wenzek ea 2020](https://aclanthology.org/2020.lrec-1.494/)) | uncurated | 174 MB | Frisian ortho | |
 | [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated | 9.9M tokens / 70.4 MB | Frisian ortho | [Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
@@ -185,6 +185,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [TaPaCo](https://zenodo.org/record/3707949) (subset) ([Scherrer 2020](https://aclanthology.org/2020.lrec-1.848/)) | paraphrases; annotated subset of *Tatoeba* | 1107 sentences | ? | CC BY 2.0 |
 | [Low Saxon Dialect Classification (LSDC)](https://github.com/Helsinki-NLP/LSDC/) ([Siewert ea 2020](https://aclanthology.org/2020.vardial-1.3/)) | locations (15 dialect areas); overlaps with *UD Low Saxon LSDC*  | 88.9k sentences | ad-hoc spelling | [CC BY-NC-SA 4.0](https://github.com/Helsinki-NLP/LSDC/blob/main/LICENSE) |
 | [Sprachvariation in Norddeutschland (SiN, Hamburg collection)](https://corpora.uni-hamburg.de/hzsk/de/islandora/object/spoken-corpus:sin) ([Schröder 2011](https://corpora.uni-hamburg.de/hzsk/de/islandora/object/spoken-corpus:sin), [Elmentaler ea 2015](https://www.degruyter.com/document/doi/10.1515/9783110363449-018/html)) (Low German subset) | varieties of Low Saxon (Nordhannoversch, Emsländisch Oldenburgisch), East Frisian Low Saxon and (Northern) German | unknown (300 hrs total) | audio | [HZSK-RES](https://corpora.uni-hamburg.de/hzsk/de/islandora/object/spoken-corpus:sin#corpus-metadata) |
+| [Zwirner-Korpus](https://dgd.ids-mannheim.de/) (subset of downloadable subcorpus) ([Zwirner & Bethge 1958](https://katalog.slub-dresden.de/id/0-1116234068), [IDS: Datenbank für gesprochenes Deutsch (DGD)](https://dgd.ids-mannheim.de/)) | locations | 80 min / 10.7k tokens | audio, German ortho | [custom terms](https://dgd.ids-mannheim.de/dgd/pragdb.dgd_extern.sys_use) |
 | [Tatoeba](https://tatoeba.org/en/downloads) ([nds](https://tatoeba.org/en/sentences/show_all_in/nds/none) subset) | translations into other languages | 18.1k sentences | ? | CC BY 2.0 FR |
 | [Ubuntu via OPUS](https://opus.nlpl.eu/Ubuntu.php) ([Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | 35.3k tokens |  | ? |
 | [KDE4 via OPUS](https://opus.nlpl.eu/KDE4-v2.php) ([Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | 1.1M tokens |  | ? |
@@ -210,6 +211,14 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 |--------|-------|------|----------------|---------|
 | [TaPaCo](https://zenodo.org/record/3707949) (subset) [Scherrer 2020](https://aclanthology.org/2020.lrec-1.848/) | paraphrases; annotated subset of *Tatoeba* | 122 sentences | ? |
 | [Tatoeba](https://tatoeba.org/en/downloads) ([gos](https://tatoeba.org/en/sentences/show_all_in/gos/none) subset) | translations into other languages | 5.7k sentences | ? | CC BY 2.0 FR |
+
+[↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
+
+### Westphalic/Westphalish/Westphalian · wep · [west2356](https://glottolog.org/resource/languoid/id/west2356)
+
+| Corpus | Notes | Size | Representation | License |
+|--------|-------|------|----------------|---------|
+| [Zwirner-Korpus](https://dgd.ids-mannheim.de/) (subset of downloadable subcorpus) ([Zwirner & Bethge 1958](https://katalog.slub-dresden.de/id/0-1116234068), [IDS: Datenbank für gesprochenes Deutsch (DGD)](https://dgd.ids-mannheim.de/)) | | 15 min / 2.4k tokens | audio, German ortho | [custom terms](https://dgd.ids-mannheim.de/dgd/pragdb.dgd_extern.sys_use) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -247,6 +256,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
 | SXUCorpus ([Herms ea 2016](https://aclanthology.org/L16-1736/)) (contact authors) | 8 locations | 500 min / 70 k tokens | German ortho |  |
+| [Zwirner-Korpus](https://dgd.ids-mannheim.de/) (subset of downloadable subcorpus) ([Zwirner & Bethge 1958](https://katalog.slub-dresden.de/id/0-1116234068), [IDS: Datenbank für gesprochenes Deutsch (DGD)](https://dgd.ids-mannheim.de/)) | | 12 min / 1.7k tokens | audio, German ortho | [custom terms](https://dgd.ids-mannheim.de/dgd/pragdb.dgd_extern.sys_use) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -261,7 +271,7 @@ CC BY-SA 3.0 |
 | [Tatoeba](https://tatoeba.org/en/downloads) ([ltz](https://tatoeba.org/en/sentences/show_all_in/ltz/none) subset) | translations into other languages | 884 sentences | Luxembourgish ortho | CC BY 2.0 FR |
 | [Ubuntu via OPUS](https://opus.nlpl.eu/Ubuntu.php) ([Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | 17k tokens | Luxembourgish ortho | ? |
 | [KDE4 via OPUS](https://opus.nlpl.eu/KDE4-v2.php) ([Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | 28.8k tokens | Luxembourgish ortho | ? |
-| [Mozilla-I10n via OPUS](https://opus.nlpl.eu/Mozilla-I10n.php) ([Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | 6.9k tokens | Luxembourgish ortho | Mozilla Public License 2.0 |
+| [Mozilla-I10n](https://github.com/mozilla-l10n/mt-training-data) | translations into other languages | 6.9k tokens | Luxembourgish ortho | Mozilla Public License 2.0 |
 | [QED via OPUS](https://opus.nlpl.eu/QED.php) ([Abdelali ea 2014](http://www.lrec-conf.org/proceedings/lrec2014/pdf/877_Paper.pdf), [Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | 19.2k tokens | Luxembourgish ortho | ? |
 | [TED2020 via OPUS](https://opus.nlpl.eu/TED2020.php) ([Reimers & Gurevych](https://aclanthology.org/2020.emnlp-main.365/), [Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | 1.7k tokens | Luxembourgish ortho | [CC BY-NC-ND 4.0 International](https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy) |
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated | 81 MB | ? | CC BY-SA 3.0 |
@@ -297,11 +307,14 @@ CC BY-SA 3.0 |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
-### Palatin(at)e German · pfl · [pala1330](https://glottolog.org/resource/languoid/id/pala1330)
+### Rhine Franconian / Rhenish Franconian · [rhin1244](https://glottolog.org/resource/languoid/id/rhin1244)
+
+Includes Palatin(at)e German · pfl · [pala1330](https://glottolog.org/resource/languoid/id/pala1330).
 
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
-| [Wikipedia](https://dumps.wikimedia.org/) ([pfl](https://pfl.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://pfl.wikipedia.org/wiki/Sachgrubb:Adiggel_noch_em_Dialegd); contains articles in Rhenish Franconian (incl. Palatine German and Lorraine Franconian) and Hessian | 3k articles | [ad-hoc spelling](https://pfl.wikipedia.org/wiki/Wikipedia_Dischbediere:Schdammdisch) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Zwirner-Korpus](https://dgd.ids-mannheim.de/) (subset of downloadable subcorpus) ([Zwirner & Bethge 1958](https://katalog.slub-dresden.de/id/0-1116234068), [IDS: Datenbank für gesprochenes Deutsch (DGD)](https://dgd.ids-mannheim.de/)) | Hessian | 8 min / 1.4k tokens | audio, German ortho | [custom terms](https://dgd.ids-mannheim.de/dgd/pragdb.dgd_extern.sys_use) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([pfl](https://pfl.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://pfl.wikipedia.org/wiki/Sachgrubb:Adiggel_noch_em_Dialegd); contains articles in Palatine German, Lorraine Franconian, Hessian | 3k articles | [ad-hoc spelling](https://pfl.wikipedia.org/wiki/Wikipedia_Dischbediere:Schdammdisch) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -337,6 +350,13 @@ CC BY-SA 3.0 |
 
 [↑ top](#corpora-for-germanic-low-resource-languages-and-dialects)
 
+### Upper/High Franconian · [uppe1464](https://glottolog.org/resource/languoid/id/uppe1464)
+
+Including East Franconian · vmf · [main1267](https://glottolog.org/resource/languoid/id/main1267).
+
+| Corpus | Notes | Size | Representation | License |
+|--------|-------|------|----------------|---------|
+| [Zwirner-Korpus](https://dgd.ids-mannheim.de/) (subset of downloadable subcorpus) ([Zwirner & Bethge 1958](https://katalog.slub-dresden.de/id/0-1116234068), [IDS: Datenbank für gesprochenes Deutsch (DGD)](https://dgd.ids-mannheim.de/)) | South Franconian and East Franconian | South: 10 min / 1.6k tokens; East: between 13 and 26 min / between 1.9k and 2.3k tokens | audio, German ortho | [custom terms](https://dgd.ids-mannheim.de/dgd/pragdb.dgd_extern.sys_use) |
 
 ### Bavarian · bar · [bava1246](https://glottolog.org/resource/languoid/id/bava1246)
 
@@ -346,6 +366,7 @@ CC BY-SA 3.0 |
 | [xSID/SID4LR](https://bitbucket.org/robvanderg/sid4lr/src/master/) ([van der Goot ea 2021](https://aclanthology.org/2021.naacl-main.197/); Aepli ea 2023) (subset) | slot filling, intent detection, translations into 14 languages; South Tyrolean | 800 sentences | ad-hoc pronunciation spelling | [CC BY-SA 4.0](https://bitbucket.org/robvanderg/xsid/src/master/LICENSE) |
 | [DIDI - The DiDi Corpus of South Tyrolean CMC 1.0.0 (Frey ea 2019)](https://clarin.eurac.edu/repository/xmlui/handle/20.500.12124/7) (subset) | South Tyrolean | unknown (600k tokens total) | ad-hoc pronunciation spelling | CLARIN ACA-BY-NC-NORED |
 | [Kontatti](https://kontatti.projects.unibz.it/) ([Ghilardi 2019](https://hrcak.srce.hr/231238)) (subset) | South Tyrolean | unknown (6:48 hrs total) | audio, German ortho | [custom](https://kontatti.projects.unibz.it/what-is-kontatti/conditions-of-use/) |
+| [Zwirner-Korpus](https://dgd.ids-mannheim.de/) (subset of downloadable subcorpus) ([Zwirner & Bethge 1958](https://katalog.slub-dresden.de/id/0-1116234068), [IDS: Datenbank für gesprochenes Deutsch (DGD)](https://dgd.ids-mannheim.de/)) | | between 21 and 34 min / between 2.7k and 3.2k tokens | audio, German ortho | [custom terms](https://dgd.ids-mannheim.de/dgd/pragdb.dgd_extern.sys_use) |
 | [Tatoeba](https://tatoeba.org/en/downloads) ([bar](https://tatoeba.org/en/sentences/show_all_in/bar/none) subset) | translations into other languages | 226 sentences | ad-hoc pronunciation spelling | CC BY 2.0 FR |
 | [Wikipedia](https://dumps.wikimedia.org/) ([bar](https://bar.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://bar.wikipedia.org/wiki/Kategorie:Artikel_nach_Dialekt) | 27k articles | [ad-hoc pronunciation spelling with some optional conventions](https://bar.wikipedia.org/wiki/Wikipedia:Wia_schreib_i_a_guads_Boarisch%3F) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
@@ -381,6 +402,7 @@ CC BY-SA 3.0 |
 | [WUS DIALOG GSW](https://whatsup.linguistik.uzh.ch/) ([Stark ea 2014-20](https://whatsup.linguistik.uzh.ch/), [Ueberwasser & Stark 2017](https://bop.unibe.ch/linguistik-online/article/view/3849/5834)) (subset) | POS ([mod.](https://whatsup.linguistik.uzh.ch/01_corpus/02_preprocessing/06_pos#swissgermandialect) [STTS](https://www.ims.uni-stuttgart.de/forschung/ressourcen/lexika/germantagsets/#id-cfcbf0a7-0)), locations | 34.7k tokens | ad-hoc pronunciation spelling, [German ortho](https://whatsup.linguistik.uzh.ch/01_corpus/02_preprocessing/07_normalization) | CC BY-NC-ND |
 | [SID4LR](https://bitbucket.org/robvanderg/sid4lr/src/master/) (Aepli ea 2023) (subset) | slot filling, intent detection, translations into 14 languages | 800 sentences | | |
 | [SwissDial](https://whatsup.linguistik.uzh.ch/01_corpus/03_demographics) ([Dogan-Schönberger ea 2021](https://arxiv.org/pdf/2103.11401.pdf)) | topics (14 classes), translations (across dialects and into German), locations (Aargau, Bern, Basel, Graubünden, Luzern, St. Gallen, Wallis, Zürich); the Wallis data are presumably in Walser (wae) | 2.5-4.6 hrs × 7-8 dialects | audio, pronunciation spelling, German ortho | CC BY-NC 4.0 |
+| [Zwirner-Korpus](https://dgd.ids-mannheim.de/) (subset of downloadable subcorpus) ([Zwirner & Bethge 1958](https://katalog.slub-dresden.de/id/0-1116234068), [IDS: Datenbank für gesprochenes Deutsch (DGD)](https://dgd.ids-mannheim.de/)) | | 10 min / 612 tokens | audio, German ortho | [custom terms](https://dgd.ids-mannheim.de/dgd/pragdb.dgd_extern.sys_use) |
 | [SpinningBytes Swiss German Corpus (SB-CH)](https://github.com/spinningbytes/SB-CH) (annotated subset) ([Grubenmann ea 2018](https://aclanthology.org/L18-1372/)) | sentiment; potential overlap with NOAH's corpus | 2.8k sentences | pronunciation spelling | [CC BY 4.0](https://spinningbytes.com/more/resources/) |
 | [What's up, Switzerland?](https://whatsup.linguistik.uzh.ch/) (subset) ([Stark ea 2014-20](https://whatsup.linguistik.uzh.ch/), [Ueberwasser & Stark 2017](https://bop.unibe.ch/linguistik-online/article/view/3849/5834)) | locations | 507k messages / 3.6M tokens | pronunciation spelling | CC BY-NC-ND |
 | Swatchgroup Geschäftsbericht (subset) via [PaCoCo](https://pub.cl.uzh.ch/wiki/public/pacoco/start) ([Graën ea 2019](https://doi.org/10.5167/uzh-175081)) | | 79.6k tokens | pronunciation spelling | [CC BY-SA](https://pub.cl.uzh.ch/corpora/PaCoCo/Swatchgroup/index.json) |
