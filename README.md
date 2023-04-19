@@ -16,7 +16,7 @@ Language varieties:
 - West Germanic
     - North Sea Germanic
         - [Anglo-Frisian](#anglo-frisian) ([Scots](#scots--sco--scot1243) · [(non-std.) English](#english--eng--stan1293) · [West Frisian](#western-frisian--fry--west2354) · [North Frisian](#northern-frisian--frr--north2626) · [Saterland Frisian](#saterland-frisiansaterfrisian--stq--sate1242))
-        - [Low German](#low-german) ([Low Saxon](#low-saxonlow-german--nds--lowg1239) · [East Frisian Low Saxon](#east-frisian-low-saxon--frs--east2288) · [Gronings](#gronings--gos--gron1242) · [Twents](#twents--twd--twen1241) · [Achterhoeks](#achterhoeks--act--acht1238) · Westphalian](#westphalicwestphalishwestphalian--wep--west2356))
+        - [Low German](#low-german) ([Low Saxon](#low-saxonlow-german--nds--lowg1239) · [East Frisian Low Saxon](#east-frisian-low-saxon--frs--east2288) · [Gronings](#gronings--gos--gron1242) · [Twents](#twents--twd--twen1241) · [Achterhoeks](#achterhoeks--act--acht1238) · [Westphalian](#westphalicwestphalishwestphalian--wep--west2356))
     - [Macro-Dutch](#macro-dutch) ([Dutch](#dutch--nld--dutc1256) · [West Flemish](#western-flemish--vls--vlaa1240) · [Zeelandic](#zeelandiczeeuws--zea--zeeu1238))
     - High German
         - [Middle German](#middle-german) ([Upper Saxon](#upper-saxon--sxu--uppe1400) · [Moselle Franconian incl. Luxembourgish](#moselle-franconian--luxe1241) · [Colognian](#colognian--ksh--kols1241) · [Limburgish](#limburgishlimburgan--lim--lim1263) · [Rhine Franconian incl. Palatine German](#rhinerhenish-franconian--rhin1244) · [Pennsylvania Dutch](#pennsylvania-dutch--pdc--penn1240) · [Yiddish](#yiddish--yid--west2361east2295))
