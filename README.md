@@ -1,6 +1,6 @@
 # A Survey of Corpora for Germanic Low-Resource Languages and Dialects
 
-You can read more about this corpus collection here: *(link TBD)*.
+You can read more about this corpus collection [here](https://openreview.net/pdf?id=g6o6HmsqVJ).
 If you find this overview useful for your research, please cite:
 ```
 @inproceedings{blaschke-etal-2023-survey,
