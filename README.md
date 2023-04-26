@@ -292,6 +292,10 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
+| [Banking Client Support (BCS) Dataset](https://github.com/Trustworthy-Software/BCS-dataset) ([Lothritz ea 2021](https://orbilu.uni.lu/handle/10993/47529)) | intent detection, slot filling, parallel with DEU, FRA, ENG | 1k sentences | Luxembourgish ortho | ? |
+| [Luxembourgish translation of Winograd Natural Language Inference (L-WNLI)](https://github.com/Trustworthy-Software/LuxemBERT) ([Lothritz ea 2022](https://aclanthology.org/2022.lrec-1.543/)) | NLI, [parallel with other languages](https://cs.nyu.edu/~davise/papers/WinogradSchemas/WS.html) ([Levesque ea 2012](https://dl.acm.org/doi/10.5555/3031843.3031909)) | 767 samples | Luxembourgish ortho | ? |
+| Luxembourgish POS and NER ([Lothritz ea 2022](https://aclanthology.org/2022.lrec-1.543/)) ([contact authors](https://github.com/Trustworthy-Software/LuxemBERT)) | POS tags (15 tags), NER (PER, ORG, LOC, GPE, MISC) | 5.5k sentences | Luxembourgish ortho | ? |
+| Luxembourgish news classification ([Lothritz ea 2022](https://aclanthology.org/2022.lrec-1.543/)) ([contact authors](https://github.com/Trustworthy-Software/LuxemBERT)) | 8 classes | 10k articles | Luxembourgish ortho | ? |
 | [LuxId](http://lrec2014.lrec-conf.org/en/shared-lrs/current-list-shared-lrs) ([Lavergne ea 2014](https://aclanthology.org/L14-1573/)) | code-switching (LTZ, DEU, FRA) | 924 sentences (most with LTZ content) | Luxembourgish​(/German/​French) ortho |      
 CC BY-SA 3.0 |
 | [Tatoeba](https://tatoeba.org/en/downloads) ([ltz](https://tatoeba.org/en/sentences/show_all_in/ltz/none) subset) | translations into other languages | 884 sentences | Luxembourgish ortho | CC BY 2.0 FR |
