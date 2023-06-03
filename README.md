@@ -1,13 +1,18 @@
 # A Survey of Corpora for Germanic Low-Resource Languages and Dialects
 
-You can read more about this corpus collection [here](https://openreview.net/pdf?id=g6o6HmsqVJ).
+You can read more about this corpus collection [here](https://aclanthology.org/2023.nodalida-1.41/).
 If you find this overview useful for your research, please cite:
 ```
 @inproceedings{blaschke-etal-2023-survey,
-    title = "A Survey of Corpora for {G}ermanic Low-Resource Languages and Dialects",
-    author = "Blaschke, Verena and Sch{\"u}tze, Hinrich and Plank, Barbara",
-    booktitle = "Proceedings of the 24th Nordic Conference on Computational Linguistics (NoDaLiDa)",
-    year = "2023",
+  title = {A survey of corpora for {G}ermanic low-resource languages and dialects},
+  author = {Blaschke, Verena and Sch{\"u}tze, Hinrich and Plank, Barbara},
+  year = {2023},
+  month = may,
+  booktitle = {Proceedings of the 24th Nordic Conference on Computational Linguistics (NoDaLiDa)},
+  address = {T{\'o}rshavn, Faroe Islands},
+  publisher = {University of Tartu Library},
+  url = {https://aclanthology.org/2023.nodalida-1.41},
+  pages = {392--414},
 }
 ```
 
@@ -397,7 +402,7 @@ Including East Franconian · vmf · [main1267](https://glottolog.org/resource/la
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
 | [Kontatto](https://kontatti.projects.unibz.it/) ([Dal Negro & Ciccolone 2020](https://www.degruyter.com/document/doi/10.1515/soci-2020-0014/html)) | POS (unknown), lemmas (German) | 147k tokens | audio, phono | [custom](https://kontatti.projects.unibz.it/what-is-kontatti/conditions-of-use/) |
-| [xSID/SID4LR](https://bitbucket.org/robvanderg/sid4lr/src/master/) ([van der Goot ea 2021](https://aclanthology.org/2021.naacl-main.197/); Aepli ea 2023) (de-st subset) | slot filling, intent detection, translations into 14 languages; South Tyrolean | 800 sentences | ad-hoc pronunciation spelling | [CC BY-SA 4.0](https://bitbucket.org/robvanderg/xsid/src/master/LICENSE) |
+| [xSID/SID4LR](https://bitbucket.org/robvanderg/sid4lr/src/master/) ([van der Goot ea 2021](https://aclanthology.org/2021.naacl-main.197/); [Aepli ea 2023](https://aclanthology.org/2023.vardial-1.25/)) (de-st subset) | slot filling, intent detection, translations into 14 languages; South Tyrolean | 800 sentences | ad-hoc pronunciation spelling | [CC BY-SA 4.0](https://bitbucket.org/robvanderg/xsid/src/master/LICENSE) |
 | [DIDI - The DiDi Corpus of South Tyrolean CMC 1.0.0 (Frey ea 2019)](https://clarin.eurac.edu/repository/xmlui/handle/20.500.12124/7) (subset) | South Tyrolean | unknown (600k tokens total) | ad-hoc pronunciation spelling | CLARIN ACA-BY-NC-NORED |
 | [Kontatti](https://kontatti.projects.unibz.it/) ([Ghilardi 2019](https://hrcak.srce.hr/231238)) (subset) | South Tyrolean | unknown (6:48 hrs total) | audio, German ortho | [custom](https://kontatti.projects.unibz.it/what-is-kontatti/conditions-of-use/) |
 | [Zwirner-Korpus](https://dgd.ids-mannheim.de/) (subset of downloadable subcorpus) ([Zwirner & Bethge 1958](https://katalog.slub-dresden.de/id/0-1116234068), [IDS: Datenbank für gesprochenes Deutsch (DGD)](https://dgd.ids-mannheim.de/)) | | between 21 and 34 min / between 2.7k and 3.2k tokens | audio, German ortho | [custom terms](https://dgd.ids-mannheim.de/dgd/pragdb.dgd_extern.sys_use) |
@@ -434,7 +439,7 @@ Including East Franconian · vmf · [main1267](https://glottolog.org/resource/la
 | [NOAH's corpus](https://github.com/noe-eva/NOAH-Corpus/) ([Hollenstein & Aepli 2015](https://www.zora.uzh.ch/id/eprint/174601/)) | POS ([mod.](https://github.com/noe-eva/NOAH-Corpus/blob/master/guidelines.md) [STTS](https://www.ims.uni-stuttgart.de/forschung/ressourcen/lexika/germantagsets/#id-cfcbf0a7-0), partially also STTS and UPOS); overlap with UD Swiss German UZH and Wikipedia | 115k toks | (mostly?) ad-hoc pronunciation spelling | [annotations: CC BY 4.0](https://github.com/noe-eva/NOAH-Corpus/blob/master/LICENSE) | 
 | [UD Swiss German UZH](https://github.com/UniversalDependencies/UD_Swiss_German-UZH) ([Aepli & Clematide 2018](https://ceur-ws.org/Vol-2226/paper1.pdf)) | POS (UPOS, [mod.](https://github.com/noe-eva/NOAH-Corpus/blob/master/guidelines.md) [STTS](https://www.ims.uni-stuttgart.de/forschung/ressourcen/lexika/germantagsets/#id-cfcbf0a7-0)), dependencies (UD); overlap with NOAH's corpus and Wikipedia | 100 sentences | (mostly?) ad-hoc pronunciation spelling | [CC BY-SA 4.0](https://github.com/UniversalDependencies/UD_Swiss_German-UZH/blob/master/LICENSE.txt) |
 | [WUS DIALOG GSW](https://whatsup.linguistik.uzh.ch/) ([Stark ea 2014-20](https://whatsup.linguistik.uzh.ch/), [Ueberwasser & Stark 2017](https://bop.unibe.ch/linguistik-online/article/view/3849/5834)) (subset) | POS ([mod.](https://whatsup.linguistik.uzh.ch/01_corpus/02_preprocessing/06_pos#swissgermandialect) [STTS](https://www.ims.uni-stuttgart.de/forschung/ressourcen/lexika/germantagsets/#id-cfcbf0a7-0)), locations | 34.7k tokens | ad-hoc pronunciation spelling, [German ortho](https://whatsup.linguistik.uzh.ch/01_corpus/02_preprocessing/07_normalization) | CC BY-NC-ND |
-| [SID4LR](https://bitbucket.org/robvanderg/sid4lr/src/master/) (Aepli ea 2023) (gsw subset) | slot filling, intent detection, translations into 14 languages | 800 sentences | | |
+| [SID4LR](https://bitbucket.org/robvanderg/sid4lr/src/master/) ([Aepli ea 2023](https://aclanthology.org/2023.vardial-1.25/)) (gsw subset) | slot filling, intent detection, translations into 14 languages. Bernese | 800 sentences | | |
 | [SwissDial](https://mtc.ethz.ch/publications/open-source/swiss-dial.html) ([Dogan-Schönberger ea 2021](https://arxiv.org/pdf/2103.11401.pdf)) | topics (14 classes), translations (across dialects and into German), locations (Aargau, Bern, Basel, Graubünden, Luzern, St. Gallen, Wallis, Zürich); the Wallis data are presumably in Walser (wae) | 2.5-4.6 hrs × 7-8 dialects | audio, pronunciation spelling, German ortho | CC BY-NC 4.0 |
 | [Zwirner-Korpus](https://dgd.ids-mannheim.de/) (subset of downloadable subcorpus) ([Zwirner & Bethge 1958](https://katalog.slub-dresden.de/id/0-1116234068), [IDS: Datenbank für gesprochenes Deutsch (DGD)](https://dgd.ids-mannheim.de/)) | | 10 min / 612 tokens | audio, German ortho | [custom terms](https://dgd.ids-mannheim.de/dgd/pragdb.dgd_extern.sys_use) |
 | [SpinningBytes Swiss German Corpus (SB-CH)](https://github.com/spinningbytes/SB-CH) (annotated subset) ([Grubenmann ea 2018](https://aclanthology.org/L18-1372/)) | sentiment; potential overlap with NOAH's corpus | 2.8k sentences | pronunciation spelling | [CC BY 4.0](https://spinningbytes.com/more/resources/) |
@@ -443,6 +448,7 @@ Including East Franconian · vmf · [main1267](https://glottolog.org/resource/la
 | [Schweizerdeutsches Mundartkorpus (CHMK)](https://chmk.ch/de/info_all) ([Weibel & Peter 2020](https://ceur-ws.org/Vol-2624/paper4.pdf)) | release for academic use planned | 25M tokens | | |
 | [Text+Berg](https://textberg.ch/site/en/corpora/) via [PaCoCo](https://pub.cl.uzh.ch/wiki/public/pacoco/start) (subset) ([Bubenhofer ea 2015](https://textberg.ch/site/en/corpora/), [Graën ea 2019](https://doi.org/10.5167/uzh-175081)) | | 156 sentences / 3.1k tokens | | [CC BY-SA](https://pub.cl.uzh.ch/corpora/PaCoCo/Text_Berg/SAC/index.json) |
 | [ArchiMob](https://spur.uzh.ch/en/departments/research/textgroup/ArchiMob.html) ([Scherrer ea 2019](https://bop.unibe.ch/linguistik-online/article/view/5947)) | | 70 hrs | audio, [transcription based on the Dieth orthography for Swiss German](https://drive.switch.ch/index.php/s/epEvTh5aY3nVakb), [German ortho](https://drive.switch.ch/index.php/s/7vej7OBN4O5nMt5) | CC BY-NC-SA 4.0 |
+| [STT4SG-350](https://swissnlp.org/datasets/) ([Plüss ea 2023](https://arxiv.org/pdf/2305.18855.pdf)) | locations (7 regions) | 343 hrs | audio, German ortho | META-SHARE NonCommercial NoRedistribution |
 | [SDS-200](https://swissnlp.org/datasets/) ([Plüss ea 2022](https://aclanthology.org/2022.lrec-1.347/)) | | 200 hrs | audio, German ortho | META-SHARE NonCommercial NoRedistribution |
 | [Swiss Parliaments Corpus](https://www.cs.technik.fhnw.ch/i4ds-datasets) ([Plüss ea 2021a](https://ceur-ws.org/Vol-2957/paper3.pdf)) | | 293 hrs | audio, German ortho ||
 | [All Swiss German Dialects Test Set](https://www.cs.technik.fhnw.ch/i4ds-datasets) ([Plüss ea 2021b](https://ceur-ws.org/Vol-2957/sg_paper1.pdf)) | locations (cantons, incl. Wallis) | 13 hrs / 5.8k utterances | audio, German ortho | MIT |
