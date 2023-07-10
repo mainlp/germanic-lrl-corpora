@@ -148,6 +148,8 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [Nationwide Speech Project (NSP)](https://u.osu.edu/nspcorpus/) ([Clopper & Pisoni 2006](https://www.sciencedirect.com/science/article/abs/pii/S0167639305002232)) | locations (USA: West, Midland, North, South, New England, Mid-Atlantic) | 60 × 1 hr | audio, partially: English ortho |
 | [Corpus of Regional African American Language (CORAAL) (Kendall & Farrington 2021)](https://oraal.uoregon.edu/coraal) | 6 locations, AAVE | 135.6 hrs / 1.5M tokens | audio, English ortho | CC BY-NC-SA 4.0 |
 
+See also: [SPADE: SPeech Across Dialects of English (Stuart-Smith ea 2017–2020)](https://spade.glasgow.ac.uk/)
+
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
 
 ### West(ern) Frisian · fry · [west2354](https://glottolog.org/resource/languoid/id/west2354)
@@ -454,7 +456,7 @@ Including East Franconian · vmf · [main1267](https://glottolog.org/resource/la
 | [Schweizerdeutsches Mundartkorpus (CHMK)](https://chmk.ch/de/info_all) ([Weibel & Peter 2020](https://ceur-ws.org/Vol-2624/paper4.pdf)) | release for academic use planned | 25M tokens | | |
 | [Text+Berg](https://textberg.ch/site/en/corpora/) via [PaCoCo](https://pub.cl.uzh.ch/wiki/public/pacoco/start) (subset) ([Bubenhofer ea 2015](https://textberg.ch/site/en/corpora/), [Graën ea 2019](https://doi.org/10.5167/uzh-175081)) | | 156 sentences / 3.1k tokens | | [CC BY-SA](https://pub.cl.uzh.ch/corpora/PaCoCo/Text_Berg/SAC/index.json) |
 | [ArchiMob](https://spur.uzh.ch/en/departments/research/textgroup/ArchiMob.html) ([Scherrer ea 2019](https://bop.unibe.ch/linguistik-online/article/view/5947)) | | 70 hrs | audio, [transcription based on the Dieth orthography for Swiss German](https://drive.switch.ch/index.php/s/epEvTh5aY3nVakb), [German ortho](https://drive.switch.ch/index.php/s/7vej7OBN4O5nMt5) | CC BY-NC-SA 4.0 |
-| [STT4SG-350](https://swissnlp.org/datasets/) ([Plüss ea 2023](https://arxiv.org/pdf/2305.18855.pdf)) | locations (7 regions) | 343 hrs | audio, German ortho | META-SHARE NonCommercial NoRedistribution |
+| [STT4SG-350](https://swissnlp.org/datasets/) ([Plüss ea 2023](https://aclanthology.org/2023.acl-short.150/)) | locations (7 regions) | 343 hrs | audio, German ortho | META-SHARE NonCommercial NoRedistribution |
 | [SDS-200](https://swissnlp.org/datasets/) ([Plüss ea 2022](https://aclanthology.org/2022.lrec-1.347/)) | | 200 hrs | audio, German ortho | META-SHARE NonCommercial NoRedistribution |
 | [Swiss Parliaments Corpus](https://www.cs.technik.fhnw.ch/i4ds-datasets) ([Plüss ea 2021a](https://ceur-ws.org/Vol-2957/paper3.pdf)) | | 293 hrs | audio, German ortho ||
 | [All Swiss German Dialects Test Set](https://www.cs.technik.fhnw.ch/i4ds-datasets) ([Plüss ea 2021b](https://ceur-ws.org/Vol-2957/sg_paper1.pdf)) | locations (cantons, incl. Wallis) | 13 hrs / 5.8k utterances | audio, German ortho | MIT |
