@@ -24,7 +24,7 @@ Language varieties:
         - [Low German](#low-german) ([Low Saxon](#low-saxonlow-german--nds--lowg1239) · [East Frisian Low Saxon](#east-frisian-low-saxon--frs--east2288) · [Gronings](#gronings--gos--gron1242) · [Twents](#twents--twd--twen1241) · [Achterhoeks](#achterhoeks--act--acht1238) · [Westphalian](#westphalicwestphalishwestphalian--wep--west2356))
     - [Macro-Dutch](#macro-dutch) ([Dutch](#dutch--nld--dutc1256) · [West Flemish](#western-flemish--vls--vlaa1240) · [Zeelandic](#zeelandiczeeuws--zea--zeeu1238))
     - High German
-        - [Middle German](#middle-german) ([Upper Saxon](#upper-saxon--sxu--uppe1400) · [Moselle Franconian incl. Luxembourgish](#moselle-franconian--luxe1241) · [Colognian](#colognian--ksh--kols1241) · [Limburgish](#limburgishlimburgan--lim--lim1263) · [Rhine Franconian incl. Palatine German](#rhinerhenish-franconian--rhin1244) · [Pennsylvania Dutch](#pennsylvania-dutch--pdc--penn1240) · [Yiddish](#yiddish--yid--west2361east2295))
+        - [Central German](#central-german) ([Upper Saxon](#upper-saxon--sxu--uppe1400) · [Moselle Franconian incl. Luxembourgish](#moselle-franconian--luxe1241) · [Colognian](#colognian--ksh--kols1241) · [Limburgish](#limburgishlimburgan--lim--lim1263) · [Rhine Franconian incl. Palatine German](#rhinerhenish-franconian--rhin1244) · [Pennsylvania Dutch](#pennsylvania-dutch--pdc--penn1240) · [Yiddish](#yiddish--yid--west2361east2295))
         - [Upper German](#upper-german) ([(non-std.) German](#german--deu--stan1295) · [Upper Franconian](#upperhigh-franconian--uppe1464) · [Bavarian](#bavarian--bar--bava1246) · [Cimbrian](#cimbrian--cim--cimb1238) · [Swabian](#swabian--swg--swab1242) · [Central Alemannic (Swiss German & Alsatian)](#central-alemannic-incl-swiss-german--alsatian--gsw--swis1247) · [Walser](#walser--wae--wals1238))
 
 Inclusion criteria:
@@ -35,9 +35,9 @@ Inclusion criteria:
 - Data are contemporaneous or from the past century
 - If only a written version is available, it should be (manually) annotated and/or showcase variation through phone[t/m]ic transcriptions or orthographies used specifically for that language variety
 
-We focus on manual or manually corrected annotations rather than fully automatically annotated data.
+We focus on manual or manually corrected annotations rather than fully automatically annotated data. For corpora with an “uncurated” note, we strongly recommend manually checking the data quality, as it might be low or mixed. We've excluded corpora where we were to determine large-scale data quality issues. Note that the webcrawl-based corpora likely overlap with the contents of some of the other corpora, and for languages with especially few resources, the overlap with Wikipedia tends to be extremely high.
 
-The license names link to where the license is mentioned on the corpus website, unless the license is mentioned on the site linked in the first column, in the article accompanying the dataset, or in the downloaded corpus files.
+The license names link to where the license is mentioned on the corpus website, unless the license is mentioned on the site linked in the first column, in the article accompanying the dataset, or in the downloaded corpus files. Always refer to the original corpus websites/papers to double-check the license information; we cannot guarantee that the information here is up to date.
 
 Did we forget a corpus for a Germanic low-resource language or dialect that fits these inclusion criteria? Please reach out to us via a GitHub issue or pull request or an email to `verena DOT blaschke ÄT cis.lmu.de`!
 
@@ -65,6 +65,8 @@ Did we forget a corpus for a Germanic low-resource language or dialect that fits
 | [QED via OPUS](https://opus.nlpl.eu/QED.php) ([Abdelali ea 2014](http://www.lrec-conf.org/proceedings/lrec2014/pdf/877_Paper.pdf), [Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | 6.4k tokens | Faroese ortho | ? |
 | [FC3](https://huggingface.co/datasets/vesteinn/FC3) ([Snæbjarnarson ea 2023](https://aclanthology.org/2023.nodalida-1.74/)) | Faroese subset of CommonCrawl (uncurated) | 98k paragraphs / 9M tokens | Faroese ortho | unspecified CC license |
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated | 102 MB | Faroese ortho | CC BY-SA 3.0 |
+| [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 1.8M sentences | | ODC-BY |
+| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, [corpus overlap documented](https://github.com/cisnlp/Glot500#glot500-c) | 2.3M sentences | | Apache 2.0 + licenses of source datasets |
 | [Wikipedia](https://dumps.wikimedia.org/) ([fo](https://fo.wikipedia.org/) subset) | uncurated | 14k articles | Faroese ortho | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
@@ -132,7 +134,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [POS-tagged Scots corpus](https://github.com/Hfkml/pos-tagged-scots-corpus) ([Lameris & Stymne 2021](https://aclanthology.org/2021.vardial-1.5/)) | POS (UPOS); overlaps with the *SCOTS* corpus | 1k tokens || partially ad hoc (SCOTS), partially with a standardized orthography (Mak Forrit) | ? |
 | [Scottish Corpus of Texts & Speech (SCOTS)](https://scottishcorpus.ac.uk/) (subset) ([Anderson ea 2007](https://link.springer.com/chapter/10.1057/9780230223936_2)) | partially annotated in the *POS-tagged Scots corpus* | unknown (4.6M tokens total) | mix of ad-hoc spelling and English ortho | [custom](https://scottishcorpus.ac.uk/terms-and-conditions/) |
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated | 35 MB | ? | CC BY-SA 3.0 |
-| [Wikipedia](https://dumps.wikimedia.org/) ([sco](https://sco.wikipedia.org/) subset) | uncurated, see also [here](https://www.theguardian.com/uk-news/2020/aug/26/shock-an-aw-us-teenager-wrote-huge-slice-of-scots-wikipedia) and [here](https://slate.com/technology/2020/09/scots-wikipedia-language-american-teenager.html) | 39k articles | [Scots spelling recommendations](https://sco.wikipedia.org/wiki/Wikipedia:Spellin_an_grammar) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([sco](https://sco.wikipedia.org/) subset) | uncurated, see reports [here](https://www.theguardian.com/uk-news/2020/aug/26/shock-an-aw-us-teenager-wrote-huge-slice-of-scots-wikipedia) and [here](https://slate.com/technology/2020/09/scots-wikipedia-language-american-teenager.html) ⚠ | 39k articles | [Scots spelling recommendations](https://sco.wikipedia.org/wiki/Wikipedia:Spellin_an_grammar) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -148,7 +150,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [Nationwide Speech Project (NSP)](https://u.osu.edu/nspcorpus/) ([Clopper & Pisoni 2006](https://www.sciencedirect.com/science/article/abs/pii/S0167639305002232)) | locations (USA: West, Midland, North, South, New England, Mid-Atlantic) | 60 × 1 hr | audio, partially: English ortho |
 | [Corpus of Regional African American Language (CORAAL) (Kendall & Farrington 2021)](https://oraal.uoregon.edu/coraal) | 6 locations, AAVE | 135.6 hrs / 1.5M tokens | audio, English ortho | CC BY-NC-SA 4.0 |
 
-See also: [SPADE: SPeech Across Dialects of English (Stuart-Smith ea 2017–2020)](https://spade.glasgow.ac.uk/)
+**See also**: [SPADE: SPeech Across Dialects of English (Stuart-Smith ea 2017–2020)](https://spade.glasgow.ac.uk/)
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -158,7 +160,7 @@ See also: [SPADE: SPeech Across Dialects of English (Stuart-Smith ea 2017–2020
 |--------|-------|------|----------------|---------|
 | [UD Frisian/Dutch Fame](https://github.com/UniversalDependencies/UD_Frisian_Dutch-Fame) ([Braggar & van der Goot 2021](https://aclanthology.org/2021.adaptnlp-1.6/), [Yılmaz ea 2016](https://aclanthology.org/L16-1739/)) | POS (UPOS), dependencies (UD), code-switching; code-mixed Frisian and Dutch. Annotated subset of *FAME.* | 400 sentences | Frisian​(/Dutch) ortho | [CC BY-SA 4.0](https://github.com/UniversalDependencies/UD_Frisian_Dutch-Fame/blob/master/LICENSE.txt) |
 | [UD Frisian Frysk](https://github.com/UniversalDependencies/UD_Frisian-Frysk) ([Heeringa ea 2021](https://arxiv.org/abs/2107.07974)) | under development!; POS (UPOS), dependencies (UD), morpho (UD), lemmas | 2.9k sentences | Frisian ortho | [CC BY-SA 3.0](https://github.com/UniversalDependencies/UD_Frisian-Frysk/blob/master/LICENSE.txt) |
-| [Common Voice](https://commonvoice.mozilla.org/en/datasets) (subset) ([Ardila ea 2020](https://aclanthology.org/2020.lrec-1.520/)) | | 150 hrs | audio, Frisian ortho | CC0 |
+| [Common Voice](https://commonvoice.mozilla.org/en/datasets) (subset) ([Ardila ea 2020](https://aclanthology.org/2020.lrec-1.520/)) | | 211 hrs | audio, Frisian ortho | CC0 |
 | [Frisian AudioMining Enterprise (FAME)](https://www.ru.nl/clst/tools-demos/datasets/) ([Yılmaz ea 2016](https://aclanthology.org/L16-1739/)) | partially: locations | 18.5 hrs | audio, Frisian ortho | |
 | [Recordings of Dutch-Frisian council meetings](https://frisian.eu/dutchfrisiancouncilmeetings/) ([Bentum ea 2022](https://aclanthology.org/2022.lrec-1.107/)) || 26 hrs / 281k tokens | audio, Frisian ortho | |
 | [Corpus Spoken Frisian / Korpus Sprutsen Frysk (KSF)](https://www1.fa.knaw.nl/ksf.html) | | 200 hrs (65 hrs thereof transcribed) | audio, partially: Frisian ortho | |
@@ -169,8 +171,11 @@ See also: [SPADE: SPeech Across Dialects of English (Stuart-Smith ea 2017–2020
 | [GNOME via OPUS](https://opus.nlpl.eu/GNOME.php) ([Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | 55.7k tokens | Frisian ortho | |
 | [Mozilla-I10n](https://github.com/mozilla-l10n/mt-training-data) | translations into other languages | ca. 400k tokens | Frisian ortho | Mozilla Public License 2.0 |
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated | 72 MB | Frisian ortho | CC BY-SA 3.0 |
-| [CC-100](https://data.statmt.org/cc-100/) (subset) ([Wenzek ea 2020](https://aclanthology.org/2020.lrec-1.494/)) | uncurated | 174 MB | Frisian ortho | |
-| [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated | 9.9M tokens / 70.4 MB | Frisian ortho | [Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
+| [CC-100](https://data.statmt.org/cc-100/) (subset) ([Wenzek ea 2020](https://aclanthology.org/2020.lrec-1.494/)) | uncurated, subset of *CommonCrawl* | 174 MB | Frisian ortho | |
+| [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated, subset of *CommonCrawl* | 9.9M tokens / 70.4 MB | Frisian ortho | [Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
+| [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) (subset) ([Nguyen ea 2023](https://arxiv.org/abs/2309.09400)) | uncurated, subset of *mc4* and *OSCAR* | 223k sentences | | see mc4 & OSCAR | 
+| [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 3.7M sentences | | ODC-BY |
+| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, [corpus overlap documented](https://github.com/cisnlp/Glot500#glot500-c) | 927k sentences | | Apache 2.0 + licenses of source datasets |
 | [Wikipedia](https://dumps.wikimedia.org/) ([fy](https://fy.wikipedia.org/wiki/) subset)| uncurated | 50k articles | Frisian ortho | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
@@ -180,6 +185,7 @@ See also: [SPADE: SPeech Across Dialects of English (Stuart-Smith ea 2017–2020
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
 | [Tatoeba](https://tatoeba.org/en/downloads) ([frr](https://tatoeba.org/en/sentences/show_all_in/frr/none) subset) | translations into other languages | 2.9k sentences | ? | CC BY 2.0 FR |
+| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, [corpus overlap documented](https://github.com/cisnlp/Glot500#glot500-c) | 55.3k sentences | | Apache 2.0 + licenses of source datasets |
 | [Wikipedia](https://dumps.wikimedia.org/) ([frr](https://frr.wikipedia.org/wiki/) subset)| uncurated, partially [tagged with dialect information](https://frr.wikipedia.org/wiki/Kategorie:Spriakwiisen) | 17k articles | [different dialect-based (ad-hoc?) orthographies](https://frr.wikipedia.org/wiki/Wikipedia:Spr%C3%A4kekoordinasjoon) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
@@ -189,6 +195,7 @@ See also: [SPADE: SPeech Across Dialects of English (Stuart-Smith ea 2017–2020
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
 | [Tatoeba](https://tatoeba.org/en/downloads) ([stq](https://tatoeba.org/en/sentences/show_all_in/stq/none) subset) | translations into other languages | 96 sentences | ? | CC BY 2.0 FR |
+| [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 27.7k sentences | | ODC-BY |
 | [Wikipedia](https://dumps.wikimedia.org/) ([stq](https://stq.wikipedia.org/) subset)| uncurated | 4k articles | [revised Kramer orthography for Saterfrisian](https://stq.wikipedia.org/wiki/Wikipedia:H%C3%A4lpe_bie_ju_seelter_Sproake) (unclear if example, recommendation or rule for this wiki) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
@@ -211,7 +218,9 @@ See also: [SPADE: SPeech Across Dialects of English (Stuart-Smith ea 2017–2020
 | [KDE4 via OPUS](https://opus.nlpl.eu/KDE4-v2.php) ([Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | 1.1M tokens |  | ? |
 | [GNOME via OPUS](https://opus.nlpl.eu/GNOME.php) ([Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | ca. 700k tokens |  | ? |
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated | 24 MB | ? | CC BY-SA 3.0 |
-| [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated | 1.6M tokens / 10.7 MB | ? |[Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
+| [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated, subset of *CommonCrawl* | 1.6M tokens / 10.7 MB | ? |[Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
+| [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) (subset) ([Nguyen ea 2023](https://arxiv.org/abs/2309.09400)) | uncurated, subset of *mc4* and *OSCAR* | 15.1k sentences | | see mc4 & OSCAR | 
+| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, [corpus overlap documented](https://github.com/cisnlp/Glot500#glot500-c) | 934k sentences | | Apache 2.0 + licenses of source datasets |
 | [Wikipedia](https://dumps.wikimedia.org/) ([nds](https://nds.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://nds.wikipedia.org/wiki/Kategorie:Artikels_na_Dialekt) | 84k articles | [Sass'sche Schrievwies](https://nds.wikipedia.org/wiki/Wikipedia:Sass) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 | [Wikipedia](https://dumps.wikimedia.org/) ([nds-nl](https://nds-nl.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://nds-nl.wikipedia.org/wiki/Kategorie:Nedersaksies_artikel) | 8k articles | [Nysassiske Skryvwyse (preferred) and Algemene Nedersaksische Schriefwieze (older articles)](https://nds-nl.wikipedia.org/wiki/Wikipedia:Spelling) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
@@ -275,6 +284,7 @@ See also: [SPADE: SPeech Across Dialects of English (Stuart-Smith ea 2017–2020
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
 | [Stemmen uit het verleden (annotated subset)](https://dataverse.no/dataset.xhtml?persistentId=doi:10.18710/NSFN2B) ([Lybaert ea 2019](https://www.cambridge.org/core/journals/journal-of-germanic-linguistics/article/corpusbased-analysis-of-v2-variation-in-west-flemish-and-french-flemish-dialects/EAA18DFD4B507EECCAEF90395B60DD95), [Van Keymeulen ea 2019](https://biblio.ugent.be/publication/8629057)) | V2 variation, locations (25 places) | 1.4k sentences | phono | CC BY-NC 4.0 |
+| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, [corpus overlap documented](https://github.com/cisnlp/Glot500#glot500-c) | 102k sentences | | Apache 2.0 + licenses of source datasets |
 | [Wikipedia](https://dumps.wikimedia.org/) ([vls](https://vls.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://vls.wikipedia.org/wiki/Categorie:Wikipedia:Artikels_noar_dialect) | 8k articles | [Standoardvlams](https://vls.wikipedia.org/wiki/Wikipedia:Gebruuk_van_streektoaln) (orthography developped by vls.wikipedia.org editors) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
@@ -287,7 +297,7 @@ See also: [SPADE: SPeech Across Dialects of English (Stuart-Smith ea 2017–2020
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
 
-## Middle German
+## Central German
 
 ### Upper Saxon · sxu · [uppe1400](https://glottolog.org/resource/languoid/id/uppe1400)
 
@@ -318,7 +328,9 @@ See also: [SPADE: SPeech Across Dialects of English (Stuart-Smith ea 2017–2020
 | [QED via OPUS](https://opus.nlpl.eu/QED.php) ([Abdelali ea 2014](http://www.lrec-conf.org/proceedings/lrec2014/pdf/877_Paper.pdf), [Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | 19.2k tokens | Luxembourgish ortho | ? |
 | [TED2020 via OPUS](https://opus.nlpl.eu/TED2020.php) ([Reimers & Gurevych](https://aclanthology.org/2020.emnlp-main.365/), [Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | 1.7k tokens | Luxembourgish ortho | [CC BY-NC-ND 4.0](https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy) |
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated | 81 MB | ? | CC BY-SA 3.0 |
-| [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated | 2.5M tokens / 18.4 MB | ? |[Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
+| [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated, subset of *CommonCrawl* | 2.5M tokens / 18.4 MB | ? |[Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
+| [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) (subset) ([Nguyen ea 2023](https://arxiv.org/abs/2309.09400)) | uncurated, subset of *mc4* and *OSCAR* | 166k sentences | | see mc4 & OSCAR | 
+| [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 3.4M sentences | | ODC-BY |
 | [Wikipedia](https://dumps.wikimedia.org/) ([lb](https://lb.wikipedia.org/) subset)| uncurated | 61k articles | Luxembourgish ortho | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
@@ -347,6 +359,8 @@ See also: [SPADE: SPeech Across Dialects of English (Stuart-Smith ea 2017–2020
 | [FLORES-200](https://github.com/facebookresearch/flores/tree/main/flores200) (subset) ([Goyal ea 2022](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00474/110993/The-Flores-101-Evaluation-Benchmark-for-Low), [NLLB Team 2022](https://arxiv.org/abs/2207.04672)) | parallel with ~200 languages; Maastrichtian Limburgs | 2k sentences |  | [CC BY-SA 4.0](https://huggingface.co/datasets/facebook/flores) |
 | [Ubuntu via OPUS](https://opus.nlpl.eu/Ubuntu.php) ([Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | 18.4k tokens |  | ? |
 | [GNOME via OPUS](https://opus.nlpl.eu/GNOME.php) ([Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | ca. 400k tokens |  | ? |
+| [CC-100](https://data.statmt.org/cc-100/) (subset) ([Wenzek ea 2020](https://aclanthology.org/2020.lrec-1.494/)) | uncurated, subset of *CommonCrawl* | 8.3 MB |  | |
+| [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) (subset) ([Nguyen ea 2023](https://arxiv.org/abs/2309.09400)) | uncurated, subset of *mc4* and *OSCAR* | 206 sentences | | see mc4 & OSCAR | 
 | [Wikipedia](https://dumps.wikimedia.org/) ([li](https://li.wikipedia.org/) subset)| uncurated, partially [tagged with dialect and/or orthography information](https://li.wikipedia.org/wiki/Categorie:Wikipedia:Artikele_nao_dialek) | 14k articles | [Veldeke-sjpelling, Algemein Gesjreve Limburgs](https://li.wikipedia.org/wiki/Wikipedia:Wie_sjrief_ich_Limburgs) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
@@ -378,7 +392,11 @@ Includes Palatin(at)e German · pfl · [pala1330](https://glottolog.org/resource
 | [Penn Parsed Corpus of Historical Yiddish (Santorini 2021)](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish) | POS ([Penn-historical](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish/blob/main/doc/annotation-yiddish/annotation.html), phrase structure (Penn-historical) | 200k tokens | [partially YIVO transliteration, partially YIVO-inspired ad-hoc transliteration](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish/blob/main/doc/annotation-yiddish/transliteration.html) | [CC BY-NC-SA 4.0](https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish/blob/main/LICENSE.rst) |
 | [CABank Yiddish Corpus](https://ca.talkbank.org/access/Yiddish.html) ([Newman 2015](https://benjamins.com/catalog/silv.18.08kah)) | New York | 1 hr | audio, transcriptions (partially IPA, partially orthography-based (YIVO-transliteration-based?)) | [CC BY-NC-SA 3.0](https://talkbank.org/share/rules.html) |
 | [FLORES-200](https://github.com/facebookresearch/flores/tree/main/flores200) (subset) ([Goyal ea 2022](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00474/110993/The-Flores-101-Evaluation-Benchmark-for-Low), [NLLB Team 2022](https://arxiv.org/abs/2207.04672)) | parallel with ~200 languages; Eastern Yiddish (Hasidic) | 2k sentences |  | [CC BY-SA 4.0](https://huggingface.co/datasets/facebook/flores) |
-| [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated | 14.3M tokens / 171.7 MB | ? |[Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
+| [CC-100](https://data.statmt.org/cc-100/) (subset) ([Wenzek ea 2020](https://aclanthology.org/2020.lrec-1.494/)) | uncurated, subset of *CommonCrawl* | 51 MB | | |
+| [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated, subset of *CommonCrawl* | 14.3M tokens / 171.7 MB | ? |[Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
+| [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) (subset) ([Nguyen ea 2023](https://arxiv.org/abs/2309.09400)) | uncurated, subset of *mc4* and *OSCAR* | 141k sentences | | see mc4 & OSCAR | 
+| [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 1.9M sentences | | ODC-BY |
+| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, [corpus overlap documented](https://github.com/cisnlp/Glot500#glot500-c) | 220k sentences | | Apache 2.0 + licenses of source datasets |
 | [Wikipedia](https://dumps.wikimedia.org/) ([yi](https://yi.wikipedia.org/) subset)| uncurated | 15k articles | | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
@@ -466,7 +484,10 @@ Including East Franconian · vmf · [main1267](https://glottolog.org/resource/la
 | [SpinningBytes Swiss German Corpus (SB-CH)](https://github.com/spinningbytes/SB-CH) ([Grubenmann ea 2018](https://aclanthology.org/L18-1372/)) | uncurated; contains NOAH's corpus | 116k sentences | | [CC BY 4.0](https://spinningbytes.com/more/resources/) |
 | [SwigSpot](https://github.com/derlin/SwigSpot_Schwyzertuutsch-Spotting) ([Linder 2018](https://github.com/derlin/SwigSpot_Schwyzertuutsch-Spotting/blob/master/report-online.pdf)) | uncurated | 8k sentences | ? | [Apache 2.0](https://github.com/derlin/SwigSpot_Schwyzertuutsch-Spotting/blob/master/LICENSE) | 
 | [Tatoeba](https://tatoeba.org/en/downloads) ([gsw](https://tatoeba.org/en/sentences/show_all_in/gsw/none) subset) | translations into other languages | 474 sentences | ? | CC BY 2.0 FR |
-| [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated | 34k tokens / 233 KB | ? |[Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
+| [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated, subset of *CommonCrawl* | 34k tokens / 233 KB | ? |[Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
+| [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) (subset) ([Nguyen ea 2023](https://arxiv.org/abs/2309.09400)) | uncurated, subset of *mc4* and *OSCAR* | 6.9k sentences | | see mc4 & OSCAR | 
+| [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 1M sentences | | ODC-BY |
+| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, [corpus overlap documented](https://github.com/cisnlp/Glot500#glot500-c) | 441k sentences | | Apache 2.0 + licenses of source datasets |
 | [Wikipedia](https://dumps.wikimedia.org/) (subset of [als](https://als.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | 27k total (including Swabian and Walser), thereof [2.3k (directly or indirectly) tagged as Alsatian, and 1.7k (directly or indirectly) tagged as Swiss German](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | [no defined standard, but a set of recommendations based on published works, the (Swiss German) Dieth orthography and the (Alsatian) Orthal orthography](https://als.wikipedia.org/wiki/Hilfe:Schrybig) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) | 
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
