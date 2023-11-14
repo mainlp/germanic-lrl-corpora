@@ -66,7 +66,7 @@ Did we forget a corpus for a Germanic low-resource language or dialect that fits
 | [FC3](https://huggingface.co/datasets/vesteinn/FC3) ([Snæbjarnarson ea 2023](https://aclanthology.org/2023.nodalida-1.74/)) | Faroese subset of CommonCrawl (uncurated) | 98k paragraphs / 9M tokens | Faroese ortho | unspecified CC license |
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated | 102 MB | Faroese ortho | CC BY-SA 3.0 |
 | [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 1.8M sentences | | ODC-BY |
-| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, [corpus overlap documented](https://github.com/cisnlp/Glot500#glot500-c) | 2.3M sentences | | Apache 2.0 + licenses of source datasets |
+| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, corpus overlap documented in data | 2.3M sentences | | Apache 2.0 + licenses of source datasets |
 | [Wikipedia](https://dumps.wikimedia.org/) ([fo](https://fo.wikipedia.org/) subset) | uncurated | 14k articles | Faroese ortho | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
@@ -134,6 +134,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [POS-tagged Scots corpus](https://github.com/Hfkml/pos-tagged-scots-corpus) ([Lameris & Stymne 2021](https://aclanthology.org/2021.vardial-1.5/)) | POS (UPOS); overlaps with the *SCOTS* corpus | 1k tokens || partially ad hoc (SCOTS), partially with a standardized orthography (Mak Forrit) | ? |
 | [Scottish Corpus of Texts & Speech (SCOTS)](https://scottishcorpus.ac.uk/) (subset) ([Anderson ea 2007](https://link.springer.com/chapter/10.1057/9780230223936_2)) | partially annotated in the *POS-tagged Scots corpus* | unknown (4.6M tokens total) | mix of ad-hoc spelling and English ortho | [custom](https://scottishcorpus.ac.uk/terms-and-conditions/) |
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated | 35 MB | ? | CC BY-SA 3.0 |
+| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, corpus overlap documented in data | 410k sentences | | Apache 2.0 + licenses of source datasets |
 | [Wikipedia](https://dumps.wikimedia.org/) ([sco](https://sco.wikipedia.org/) subset) | uncurated, see reports [here](https://www.theguardian.com/uk-news/2020/aug/26/shock-an-aw-us-teenager-wrote-huge-slice-of-scots-wikipedia) and [here](https://slate.com/technology/2020/09/scots-wikipedia-language-american-teenager.html) ⚠ | 39k articles | [Scots spelling recommendations](https://sco.wikipedia.org/wiki/Wikipedia:Spellin_an_grammar) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
@@ -175,7 +176,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated, subset of *CommonCrawl* | 9.9M tokens / 70.4 MB | Frisian ortho | [Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
 | [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) (subset) ([Nguyen ea 2023](https://arxiv.org/abs/2309.09400)) | uncurated, subset of *mc4* and *OSCAR* | 223k sentences | | see mc4 & OSCAR | 
 | [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 3.7M sentences | | ODC-BY |
-| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, [corpus overlap documented](https://github.com/cisnlp/Glot500#glot500-c) | 927k sentences | | Apache 2.0 + licenses of source datasets |
+| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, corpus overlap documented in data | 927k sentences | | Apache 2.0 + licenses of source datasets |
 | [Wikipedia](https://dumps.wikimedia.org/) ([fy](https://fy.wikipedia.org/wiki/) subset)| uncurated | 50k articles | Frisian ortho | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
@@ -185,7 +186,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
 | [Tatoeba](https://tatoeba.org/en/downloads) ([frr](https://tatoeba.org/en/sentences/show_all_in/frr/none) subset) | translations into other languages | 2.9k sentences | ? | CC BY 2.0 FR |
-| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, [corpus overlap documented](https://github.com/cisnlp/Glot500#glot500-c) | 55.3k sentences | | Apache 2.0 + licenses of source datasets |
+| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, corpus overlap documented in data | 55.3k sentences | | Apache 2.0 + licenses of source datasets |
 | [Wikipedia](https://dumps.wikimedia.org/) ([frr](https://frr.wikipedia.org/wiki/) subset)| uncurated, partially [tagged with dialect information](https://frr.wikipedia.org/wiki/Kategorie:Spriakwiisen) | 17k articles | [different dialect-based (ad-hoc?) orthographies](https://frr.wikipedia.org/wiki/Wikipedia:Spr%C3%A4kekoordinasjoon) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
@@ -220,7 +221,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated | 24 MB | ? | CC BY-SA 3.0 |
 | [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated, subset of *CommonCrawl* | 1.6M tokens / 10.7 MB | ? |[Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
 | [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) (subset) ([Nguyen ea 2023](https://arxiv.org/abs/2309.09400)) | uncurated, subset of *mc4* and *OSCAR* | 15.1k sentences | | see mc4 & OSCAR | 
-| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, [corpus overlap documented](https://github.com/cisnlp/Glot500#glot500-c) | 934k sentences | | Apache 2.0 + licenses of source datasets |
+| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, corpus overlap documented in data | 934k sentences | | Apache 2.0 + licenses of source datasets |
 | [Wikipedia](https://dumps.wikimedia.org/) ([nds](https://nds.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://nds.wikipedia.org/wiki/Kategorie:Artikels_na_Dialekt) | 84k articles | [Sass'sche Schrievwies](https://nds.wikipedia.org/wiki/Wikipedia:Sass) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 | [Wikipedia](https://dumps.wikimedia.org/) ([nds-nl](https://nds-nl.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://nds-nl.wikipedia.org/wiki/Kategorie:Nedersaksies_artikel) | 8k articles | [Nysassiske Skryvwyse (preferred) and Algemene Nedersaksische Schriefwieze (older articles)](https://nds-nl.wikipedia.org/wiki/Wikipedia:Spelling) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
@@ -284,7 +285,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
 | [Stemmen uit het verleden (annotated subset)](https://dataverse.no/dataset.xhtml?persistentId=doi:10.18710/NSFN2B) ([Lybaert ea 2019](https://www.cambridge.org/core/journals/journal-of-germanic-linguistics/article/corpusbased-analysis-of-v2-variation-in-west-flemish-and-french-flemish-dialects/EAA18DFD4B507EECCAEF90395B60DD95), [Van Keymeulen ea 2019](https://biblio.ugent.be/publication/8629057)) | V2 variation, locations (25 places) | 1.4k sentences | phono | CC BY-NC 4.0 |
-| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, [corpus overlap documented](https://github.com/cisnlp/Glot500#glot500-c) | 102k sentences | | Apache 2.0 + licenses of source datasets |
+| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, corpus overlap documented in data | 102k sentences | | Apache 2.0 + licenses of source datasets |
 | [Wikipedia](https://dumps.wikimedia.org/) ([vls](https://vls.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://vls.wikipedia.org/wiki/Categorie:Wikipedia:Artikels_noar_dialect) | 8k articles | [Standoardvlams](https://vls.wikipedia.org/wiki/Wikipedia:Gebruuk_van_streektoaln) (orthography developped by vls.wikipedia.org editors) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
@@ -293,6 +294,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
+| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, corpus overlap documented in data | 34.4k sentences | | Apache 2.0 + licenses of source datasets |
 | [Wikipedia](https://dumps.wikimedia.org/) ([zea](https://zea.wikipedia.org/) subset)| uncurated | 6k articles | ? | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
@@ -348,6 +350,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
 | [Tatoeba](https://tatoeba.org/en/downloads) ([ksh](https://tatoeba.org/en/sentences/show_all_in/ksh/none) subset) | translations into other languages | 82 sentences | ? | CC BY 2.0 FR |
+| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, corpus overlap documented in data | 33.5k sentences | | Apache 2.0 + licenses of source datasets |
 | [Wikipedia](https://dumps.wikimedia.org/) ([ksh](https://ksh.wikipedia.org/) subset)| uncurated, Colognian and other varieties of Ripuarian, partially [tagged with dialect and/or orthography information](https://ksh.wikipedia.org/wiki/Saachjrupp:Wikipedia:Atikkel_ier_Shprooche) | 3k articles | [ad-hoc spelling, some articles according to various Ripuarian orthographies](https://ksh.wikipedia.org/wiki/Wikipedia:Schrievwies) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
@@ -361,6 +364,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [GNOME via OPUS](https://opus.nlpl.eu/GNOME.php) ([Tiedemann 2012](https://aclanthology.org/L12-1246/)) | translations into other languages | ca. 400k tokens |  | ? |
 | [CC-100](https://data.statmt.org/cc-100/) (subset) ([Wenzek ea 2020](https://aclanthology.org/2020.lrec-1.494/)) | uncurated, subset of *CommonCrawl* | 8.3 MB |  | |
 | [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) (subset) ([Nguyen ea 2023](https://arxiv.org/abs/2309.09400)) | uncurated, subset of *mc4* and *OSCAR* | 206 sentences | | see mc4 & OSCAR | 
+| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, corpus overlap documented in data | 652k sentences | | Apache 2.0 + licenses of source datasets |
 | [Wikipedia](https://dumps.wikimedia.org/) ([li](https://li.wikipedia.org/) subset)| uncurated, partially [tagged with dialect and/or orthography information](https://li.wikipedia.org/wiki/Categorie:Wikipedia:Artikele_nao_dialek) | 14k articles | [Veldeke-sjpelling, Algemein Gesjreve Limburgs](https://li.wikipedia.org/wiki/Wikipedia:Wie_sjrief_ich_Limburgs) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
@@ -396,7 +400,7 @@ Includes Palatin(at)e German · pfl · [pala1330](https://glottolog.org/resource
 | [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated, subset of *CommonCrawl* | 14.3M tokens / 171.7 MB | ? |[Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
 | [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) (subset) ([Nguyen ea 2023](https://arxiv.org/abs/2309.09400)) | uncurated, subset of *mc4* and *OSCAR* | 141k sentences | | see mc4 & OSCAR | 
 | [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 1.9M sentences | | ODC-BY |
-| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, [corpus overlap documented](https://github.com/cisnlp/Glot500#glot500-c) | 220k sentences | | Apache 2.0 + licenses of source datasets |
+| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, corpus overlap documented in data | 220k sentences | | Apache 2.0 + licenses of source datasets |
 | [Wikipedia](https://dumps.wikimedia.org/) ([yi](https://yi.wikipedia.org/) subset)| uncurated | 15k articles | | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
@@ -487,7 +491,7 @@ Including East Franconian · vmf · [main1267](https://glottolog.org/resource/la
 | [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated, subset of *CommonCrawl* | 34k tokens / 233 KB | ? |[Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
 | [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) (subset) ([Nguyen ea 2023](https://arxiv.org/abs/2309.09400)) | uncurated, subset of *mc4* and *OSCAR* | 6.9k sentences | | see mc4 & OSCAR | 
 | [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 1M sentences | | ODC-BY |
-| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, [corpus overlap documented](https://github.com/cisnlp/Glot500#glot500-c) | 441k sentences | | Apache 2.0 + licenses of source datasets |
+| [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, corpus overlap documented in data | 441k sentences | | Apache 2.0 + licenses of source datasets |
 | [Wikipedia](https://dumps.wikimedia.org/) (subset of [als](https://als.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | 27k total (including Swabian and Walser), thereof [2.3k (directly or indirectly) tagged as Alsatian, and 1.7k (directly or indirectly) tagged as Swiss German](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | [no defined standard, but a set of recommendations based on published works, the (Swiss German) Dieth orthography and the (Alsatian) Orthal orthography](https://als.wikipedia.org/wiki/Hilfe:Schrybig) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) | 
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
