@@ -162,7 +162,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [UD Frisian/Dutch Fame](https://github.com/UniversalDependencies/UD_Frisian_Dutch-Fame) ([Braggar & van der Goot 2021](https://aclanthology.org/2021.adaptnlp-1.6/), [Yılmaz ea 2016](https://aclanthology.org/L16-1739/)) | POS (UPOS), dependencies (UD), code-switching; code-mixed Frisian and Dutch. Annotated subset of *FAME.* | 400 sentences | Frisian​(/Dutch) ortho | [CC BY-SA 4.0](https://github.com/UniversalDependencies/UD_Frisian_Dutch-Fame/blob/master/LICENSE.txt) |
 | [UD Frisian Frysk](https://github.com/UniversalDependencies/UD_Frisian-Frysk) ([Heeringa ea 2021](https://arxiv.org/abs/2107.07974)) | under development!; POS (UPOS), dependencies (UD), morpho (UD), lemmas | 2.9k sentences | Frisian ortho | [CC BY-SA 3.0](https://github.com/UniversalDependencies/UD_Frisian-Frysk/blob/master/LICENSE.txt) |
 | [Common Voice](https://commonvoice.mozilla.org/en/datasets) (subset) ([Ardila ea 2020](https://aclanthology.org/2020.lrec-1.520/)) | | 211 hrs | audio, Frisian ortho | CC0 |
-| [Frisian AudioMining Enterprise (FAME)](https://www.ru.nl/clst/tools-demos/datasets/) ([Yılmaz ea 2016](https://aclanthology.org/L16-1739/)) | partially: locations | 18.5 hrs | audio, Frisian ortho | |
+| [Frisian AudioMining Enterprise (FAME!)](https://fame.ruhosting.nl/wordpress/?page_id=48) ([Yılmaz ea 2016](https://aclanthology.org/L16-1739/)) | partially: locations | 18.5 hrs | audio, Frisian ortho | |
 | [Recordings of Dutch-Frisian council meetings](https://frisian.eu/dutchfrisiancouncilmeetings/) ([Bentum ea 2022](https://aclanthology.org/2022.lrec-1.107/)) || 26 hrs / 281k tokens | audio, Frisian ortho | |
 | [Corpus Spoken Frisian / Korpus Sprutsen Frysk (KSF)](https://www1.fa.knaw.nl/ksf.html) | | 200 hrs (65 hrs thereof transcribed) | audio, partially: Frisian ortho | |
 | [Boarnsterhim Corpus (BHC)](https://taalmaterialen.ivdnt.org/download/tstc-boarnsterhimcorpus1-0/) (subset) ([Sloos ea 2018](https://aclanthology.org/L18-1232/)) | under revision! | unknown (250 hrs total, with Dutch) | audio | |
@@ -240,7 +240,9 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
-| [TaPaCo](https://zenodo.org/record/3707949) (subset) [Scherrer 2020](https://aclanthology.org/2020.lrec-1.848/) | paraphrases; annotated subset of *Tatoeba* | 122 sentences | ? |
+| [TaPaCo](https://zenodo.org/record/3707949) (subset) ([Scherrer 2020](https://aclanthology.org/2020.lrec-1.848/)) | paraphrases; annotated subset of *Tatoeba* | 122 sentences | ? | CC BY 2.0 |
+| [Automatic speech recognition dataset for Gronings](https://zenodo.org/records/7946870) ([Bartelds ea 2023](https://aclanthology.org/2023.acl-long.42/)) | | 4 hours | audio, written | CC BY 4.0 |
+| [Dataset: Gronings](https://zenodo.org/records/4634878) (Bartelds & San 2021, [San ea 2021](https://ieeexplore.ieee.org/document/9688301)) | | 23 mins | audio, written | CC BY 4.0 |
 | [Tatoeba](https://tatoeba.org/en/downloads) ([gos](https://tatoeba.org/en/sentences/show_all_in/gos/none) subset) | translations into other languages | 5.7k sentences | ? | CC BY 2.0 FR |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
