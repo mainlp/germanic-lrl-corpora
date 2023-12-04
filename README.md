@@ -17,6 +17,7 @@ If you find this overview useful for your research, please cite:
 ```
 
 Language varieties:
+- [General](#general)
 - [North Germanic](#north-germanic) ([Faroese](#faroese--fao--fao1244) · [(non-std.) Norwegian](#norwegian--nor--norw1258) · [Jutish](#jutish--juti1236) · [East Danish](#east-danish--scan1238) · [Elfdalian](#elfdalianövdalian--ovd--elfd1234) · [(non-std.) Swedish](#swedish--swe--swe1254))
 - West Germanic
     - North Sea Germanic
@@ -31,7 +32,7 @@ Inclusion criteria:
 - Accessible to researchers
 - Can be downloaded (easily)
 - No extensive pre-processing required (appropriate file formats; no abundance of OCR errors)
-- Full sentences/utterances rather than word lists
+- ~Full sentences/utterances rather than word lists~ We have relaxed this criterion and are now also including word-based resources useful for variationist research.
 - Data are contemporaneous or from the past century
 - If only a written version is available, it should be (manually) annotated and/or showcase variation through phone[t/m]ic transcriptions or orthographies used specifically for that language variety
 
@@ -40,6 +41,12 @@ We focus on manual or manually corrected annotations rather than fully automatic
 The license names link to where the license is mentioned on the corpus website, unless the license is mentioned on the site linked in the first column, in the article accompanying the dataset, or in the downloaded corpus files. Always refer to the original corpus websites/papers to double-check the license information; we cannot guarantee that the information here is up to date.
 
 Did we forget a corpus for a Germanic low-resource language or dialect that fits these inclusion criteria? Please reach out to us via a GitHub issue or pull request or an email to `verena DOT blaschke ÄT cis.lmu.de`!
+
+## General
+
+| Corpus | Notes | Size | Representation | License |
+|--------|-------|------|----------------|---------|
+| [Sound Comparisons: Germanic (Paschen ea 2019)](https://soundcomparisons.com/Germanic) | word-based, 120 locations/doculects from all Germanic sub-branches | 106 words × 120 locations | audio, phono (IPA), English ortho, ortho of relevant std languages | CC BY-NC-ND 4.0 |
 
 ## North Germanic
 
@@ -155,6 +162,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [Helsinki Corpus of British English Dialects](https://varieng.helsinki.fi/CoRD/corpora/Dialects/) | locations (UK: Cambridgeshire, Devon, Essex/Lancashire, Isle of Ely, Somerset, Suffolk) | 1M tokens | audio, English ortho | |
 | [Nationwide Speech Project (NSP)](https://u.osu.edu/nspcorpus/) ([Clopper & Pisoni 2006](https://www.sciencedirect.com/science/article/abs/pii/S0167639305002232)) | locations (USA: West, Midland, North, South, New England, Mid-Atlantic) | 60 × 1 hr | audio, partially: English ortho |
 | [Corpus of Regional African American Language (CORAAL) (Kendall & Farrington 2021)](https://oraal.uoregon.edu/coraal) | 6 locations, AAVE | 135.6 hrs / 1.5M tokens | audio, English ortho | CC BY-NC-SA 4.0 |
+| [Sound Comparisons: Englishes (Maguire ea 2019)](Sound Comparisons: Englishes) | word-based, 51 locations | 110 words × 51 locations | audio, phono (IPA), English ortho | CC BY-NC-ND 4.0 |
 
 **See also**: [SPADE: SPeech Across Dialects of English (Stuart-Smith ea 2017–2020)](https://spade.glasgow.ac.uk/)
 
