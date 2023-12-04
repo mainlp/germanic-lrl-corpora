@@ -69,7 +69,7 @@ Did we forget a corpus for a Germanic low-resource language or dialect that fits
 | [FAO Newscrawl 2011](https://corpora.uni-leipzig.de/en?corpusId=fao_newscrawl_2011) (Leipzig Corpora Collection) | uncurated? | 8.8k sentences |  | ? |
 | [FC3](https://huggingface.co/datasets/vesteinn/FC3) ([Snæbjarnarson ea 2023](https://aclanthology.org/2023.nodalida-1.74/)) | Faroese subset of CommonCrawl (uncurated) | 98k paragraphs / 9M tokens | Faroese ortho | unspecified CC license |
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated | 102 MB | Faroese ortho | CC BY-SA 3.0 |
-| [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 1.8M sentences | | ODC-BY |
+| [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 1.8M sentences | | CC-BY-4.0 |
 | [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, corpus overlap documented in data | 2.3M sentences | | Apache 2.0 + licenses of source datasets |
 | [Wikipedia](https://dumps.wikimedia.org/) ([fo](https://fo.wikipedia.org/) subset) | uncurated | 14k articles | Faroese ortho | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
@@ -182,7 +182,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [CC-100](https://data.statmt.org/cc-100/) (subset) ([Wenzek ea 2020](https://aclanthology.org/2020.lrec-1.494/)) | uncurated, subset of *CommonCrawl* | 174 MB | Frisian ortho | |
 | [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated, subset of *CommonCrawl* | 9.9M tokens / 70.4 MB | Frisian ortho | [Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
 | [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) (subset) ([Nguyen ea 2023](https://arxiv.org/abs/2309.09400)) | uncurated, subset of *mc4* and *OSCAR* | 223k sentences | | see mc4 & OSCAR | 
-| [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 3.7M sentences | | ODC-BY |
+| [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 3.7M sentences | | CC-BY-4.0 |
 | [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, corpus overlap documented in data | 927k sentences | | Apache 2.0 + licenses of source datasets |
 | [Wikipedia](https://dumps.wikimedia.org/) ([fy](https://fy.wikipedia.org/wiki/) subset)| uncurated | 50k articles | Frisian ortho | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
@@ -203,7 +203,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
 | [Tatoeba](https://tatoeba.org/en/downloads) ([stq](https://tatoeba.org/en/sentences/show_all_in/stq/none) subset) | translations into other languages | 96 sentences | ? | CC BY 2.0 FR |
-| [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 27.7k sentences | | ODC-BY |
+| [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 27.7k sentences | | CC-BY-4.0 |
 | [Wikipedia](https://dumps.wikimedia.org/) ([stq](https://stq.wikipedia.org/) subset)| uncurated | 4k articles | [revised Kramer orthography for Saterfrisian](https://stq.wikipedia.org/wiki/Wikipedia:H%C3%A4lpe_bie_ju_seelter_Sproake) (unclear if example, recommendation or rule for this wiki) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
@@ -345,7 +345,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [Web to Corpus (W2C)](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9) (subset) ([Majliš 2011](https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0022-6133-9), [Majliš & Žabokrtský 2012](https://aclanthology.org/L12-1110/)) | uncurated | 81 MB | ? | CC BY-SA 3.0 |
 | [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated, subset of *CommonCrawl* | 2.5M tokens / 18.4 MB | ? |[Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
 | [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) (subset) ([Nguyen ea 2023](https://arxiv.org/abs/2309.09400)) | uncurated, subset of *mc4* and *OSCAR* | 166k sentences | | see mc4 & OSCAR | 
-| [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 3.4M sentences | | ODC-BY |
+| [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 3.4M sentences | | CC-BY-4.0 |
 | [Wikipedia](https://dumps.wikimedia.org/) ([lb](https://lb.wikipedia.org/) subset)| uncurated | 61k articles | Luxembourgish ortho | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
@@ -418,7 +418,7 @@ Includes Palatin(at)e German · pfl · [pala1330](https://glottolog.org/resource
 | [CC-100](https://data.statmt.org/cc-100/) (subset) ([Wenzek ea 2020](https://aclanthology.org/2020.lrec-1.494/)) | uncurated, subset of *CommonCrawl* | 51 MB | | |
 | [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated, subset of *CommonCrawl* | 14.3M tokens / 171.7 MB | ? |[Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
 | [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) (subset) ([Nguyen ea 2023](https://arxiv.org/abs/2309.09400)) | uncurated, subset of *mc4* and *OSCAR* | 141k sentences | | see mc4 & OSCAR | 
-| [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 1.9M sentences | | ODC-BY |
+| [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 1.9M sentences | | CC-BY-4.0 |
 | [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, corpus overlap documented in data | 220k sentences | | Apache 2.0 + licenses of source datasets |
 | [Wikipedia](https://dumps.wikimedia.org/) ([yi](https://yi.wikipedia.org/) subset)| uncurated | 15k articles | | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
@@ -510,7 +510,7 @@ Including East Franconian · vmf · [main1267](https://glottolog.org/resource/la
 | [Tatoeba](https://tatoeba.org/en/downloads) ([gsw](https://tatoeba.org/en/sentences/show_all_in/gsw/none) subset) | translations into other languages | 474 sentences | ? | CC BY 2.0 FR |
 | [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated, subset of *CommonCrawl* | 34k tokens / 233 KB | ? |[Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
 | [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) (subset) ([Nguyen ea 2023](https://arxiv.org/abs/2309.09400)) | uncurated, subset of *mc4* and *OSCAR* | 6.9k sentences | | see mc4 & OSCAR | 
-| [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 1M sentences | | ODC-BY |
+| [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl*. the [dataset audit](https://huggingface.co/datasets/allenai/MADLAD-400#detailed-notes-from-the-audit) notes issues with the Swiss German subcorpus ⚠ | 1M sentences | | CC-BY-4.0 |
 | [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, corpus overlap documented in data | 441k sentences | | Apache 2.0 + licenses of source datasets |
 | [Wikipedia](https://dumps.wikimedia.org/) (subset of [als](https://als.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | 27k total (including Swabian and Walser), thereof [2.3k (directly or indirectly) tagged as Alsatian, and 1.7k (directly or indirectly) tagged as Swiss German](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | [no defined standard, but a set of recommendations based on published works, the (Swiss German) Dieth orthography and the (Alsatian) Orthal orthography](https://als.wikipedia.org/wiki/Hilfe:Schrybig) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) | 
 
