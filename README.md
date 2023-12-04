@@ -36,11 +36,11 @@ Inclusion criteria:
 - Data are contemporaneous or from the past century
 - If only a written version is available, it should be (manually) annotated and/or showcase variation through phone[t/m]ic transcriptions or orthographies used specifically for that language variety
 
-We focus on manual or manually corrected annotations rather than fully automatically annotated data. For corpora with an “uncurated” note, we strongly recommend manually checking the data quality, as it might be low or mixed. We've excluded corpora where we were to determine large-scale data quality issues. Note that the webcrawl-based corpora likely overlap with the contents of some of the other corpora, and for languages with especially few resources, the overlap with Wikipedia tends to be extremely high.
+We focus on manual or manually corrected annotations rather than fully automatically annotated data. For corpora with an “uncurated” note, we strongly recommend manually checking the data quality, as it might be low or mixed. We've excluded corpora where we were able to determine large-scale data quality issues. Note that the webcrawl-based corpora likely overlap with the contents of some of the other corpora, and for languages with especially few resources, the overlap with Wikipedia tends to be extremely high.
 
 The license names link to where the license is mentioned on the corpus website, unless the license is mentioned on the site linked in the first column, in the article accompanying the dataset, or in the downloaded corpus files. Always refer to the original corpus websites/papers to double-check the license information; we cannot guarantee that the information here is up to date.
 
-Did we forget a corpus for a Germanic low-resource language or dialect that fits these inclusion criteria? Please reach out to us via a GitHub issue or pull request or an email to `verena DOT blaschke ÄT cis.lmu.de`!
+Did we forget a corpus for a Germanic low-resource language or dialect that fits these inclusion criteria? Please reach out to us via a GitHub issue or an email to `verena DOT blaschke ÄT cis.lmu.de`!
 
 ## General
 
@@ -164,7 +164,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [Corpus of Regional African American Language (CORAAL) (Kendall & Farrington 2021)](https://oraal.uoregon.edu/coraal) | 6 locations, AAVE | 135.6 hrs / 1.5M tokens | audio, English ortho | CC BY-NC-SA 4.0 |
 | [Sound Comparisons: Englishes (Maguire ea 2019)](Sound Comparisons: Englishes) | word-based, 51 locations | 110 words × 51 locations | audio, phono (IPA), English ortho | CC BY-NC-ND 4.0 |
 
-**See also**: [SPADE: SPeech Across Dialects of English (Stuart-Smith ea 2017–2020)](https://spade.glasgow.ac.uk/)
+**See also**: [SPADE: SPeech Across Dialects of English (Stuart-Smith ea 2017–2020)](https://spade.glasgow.ac.uk/) and their [corpus collection](https://osf.io/4jfrm/).
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -442,6 +442,8 @@ Includes Palatin(at)e German · pfl · [pala1330](https://glottolog.org/resource
 | [Regional Variants of German 1 (RVG1)](https://www.bas.uni-muenchen.de/forschung/Bas/BasRVG1eng.html) (+[link2](https://clarin.phonetik.uni-muenchen.de/BASRepository/index.php?target=Public/Corpora/RVG1_CLARIN/RVG1_CLARIN.3.php)) ([Burger & Schiel 1998](https://www.phonetik.uni-muenchen.de/forschung/publikationen/Burger-98-RVG1.pdf)) | unclear whether all of the recordings are in regionally accented (Standard) German or some are in Low Saxon/Bavarian/Colognian/etc. instead | 500 × 1 min spontaneous speech | audio, phono (SAMPA), German ortho | CLARIN ACA |
 | [Texas German Sample Corpus (TGSC) (Blevins 2022)](https://dataverse.tdl.org/dataset.xhtml?persistentId=doi:10.18738/T8/IOX9ZA) | | 13.5 hrs / 75k tokens | audio, German ortho | CC0 1.0 |
 | [Wenkersätze](https://github.com/engsterhold/wenker-storage) (Wenker 1889–1923: Sprachatlas des Deutschen Reichs. Handdrawn by Emil Maurmann, Georg Wenker and Ferdinand Wrede. Published online as [Digitaler Wenker-Atlas](https://regionalsprache.de/home.aspx), [Schmidt ea 2020-](https://regionalsprache.de/)) | 40 German sentences, translated into various lects spoken in the German Reich at the turn of the century | 40 sentences × 2210 samples | various phonetic transcription styles and ad-hoc spellings | [CC BY-SA 4.0](https://apps.dsa.info/wenker/) | 
+
+For (mostly non-downloadable) resources for studying German dialect variation, see also the [updated overview](https://regionalsprache.de/regionalsprachenforschung-online.aspx) by [Fischer & Limper (2019)](https://www.degruyter.com/document/doi/10.1515/9783110261295-031/html).
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
 
