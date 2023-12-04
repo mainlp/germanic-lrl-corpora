@@ -25,7 +25,7 @@ Language varieties:
     - [Macro-Dutch](#macro-dutch) ([Dutch](#dutch--nld--dutc1256) · [West Flemish](#western-flemish--vls--vlaa1240) · [Zeelandic](#zeelandiczeeuws--zea--zeeu1238))
     - High German
         - [Central German](#central-german) ([Upper Saxon](#upper-saxon--sxu--uppe1400) · [Moselle Franconian incl. Luxembourgish](#moselle-franconian--luxe1241) · [Colognian](#colognian--ksh--kols1241) · [Limburgish](#limburgishlimburgan--lim--lim1263) · [Rhine Franconian incl. Palatine German](#rhinerhenish-franconian--rhin1244) · [Pennsylvania Dutch](#pennsylvania-dutch--pdc--penn1240) · [Yiddish](#yiddish--yid--west2361east2295))
-        - [Upper German](#upper-german) ([(non-std.) German](#german--deu--stan1295) · [Upper Franconian](#upperhigh-franconian--uppe1464) · [Bavarian](#bavarian--bar--bava1246) · [Cimbrian](#cimbrian--cim--cimb1238) · [Swabian](#swabian--swg--swab1242) · [Central Alemannic (Swiss German & Alsatian)](#central-alemannic-incl-swiss-german--alsatian--gsw--swis1247) · [Walser](#walser--wae--wals1238))
+        - [Upper German](#upper-german) ([(non-std.) German](#german--deu--stan1295) · [Upper Franconian](#upperhigh-franconian--uppe1464) · [Bavarian](#bavarian--bar--bava1246) · [Cimbrian](#cimbrian--cim--cimb1238) · [Mòcheno](#mòcheno--mhn--moch1255) · [Swabian](#swabian--swg--swab1242) · [Central Alemannic (Swiss German & Alsatian)](#central-alemannic-incl-swiss-german--alsatian--gsw--swis1247) · [Walser](#walser--wae--wals1238))
 
 Inclusion criteria:
 - Accessible to researchers
@@ -316,7 +316,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
-| SXUCorpus ([Herms ea 2016](https://aclanthology.org/L16-1736/)) (contact authors) | 8 locations | 500 min / 70 k tokens | German ortho |  |
+| SXUCorpus ([Herms ea 2016](https://aclanthology.org/L16-1736/)) (contact authors) | 8 locations | 500 min / 70 k tokens | audio, German ortho |  |
 | [Zwirner-Korpus](https://dgd.ids-mannheim.de/) (subset of downloadable subcorpus) ([Zwirner & Bethge 1958](https://katalog.slub-dresden.de/id/0-1116234068), [IDS: Datenbank für gesprochenes Deutsch (DGD)](https://dgd.ids-mannheim.de/)) | | 12 min / 1.7k tokens | audio, German ortho | [custom terms](https://dgd.ids-mannheim.de/dgd/pragdb.dgd_extern.sys_use) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
@@ -454,6 +454,8 @@ Including East Franconian · vmf · [main1267](https://glottolog.org/resource/la
 | [DiDi](https://clarin.eurac.edu/repository/xmlui/handle/20.500.12124/7) (Frey ea [2015](https://iiegn.eu/assets/outputs/FreyGlaznieksStemle2015.pdf), [2019](https://clarin.eurac.edu/repository/xmlui/handle/20.500.12124/7)) (subset) | South Tyrolean | 9.6k messages| ad-hoc pronunciation spelling | CLARIN ACA-BY-NC-NORED |
 | [Kontatti](https://kontatti.projects.unibz.it/) ([Ghilardi 2019](https://hrcak.srce.hr/231238)) (subset) | South Tyrolean | unknown (6:48 hrs total) | audio, German ortho | [custom](https://kontatti.projects.unibz.it/what-is-kontatti/conditions-of-use/) |
 | [Zwirner-Korpus](https://dgd.ids-mannheim.de/) (subset of downloadable subcorpus) ([Zwirner & Bethge 1958](https://katalog.slub-dresden.de/id/0-1116234068), [IDS: Datenbank für gesprochenes Deutsch (DGD)](https://dgd.ids-mannheim.de/)) | | between 21 and 34 min / between 2.7k and 3.2k tokens | audio, German ortho | [custom terms](https://dgd.ids-mannheim.de/dgd/pragdb.dgd_extern.sys_use) |
+| [AlpiLinK (Rabanus ea 2023)](https://zenodo.org/records/10224351) (*tir* subset) | South Tyrolean; location information | 1908 files (49 sentences, up to 43 speakers) | audio, German ortho | CC BY-NC-SA 4.0 |
+| [VinKo](https://clarin.eurac.edu/repository/xmlui/handle/20.500.12124/74) (*tir* subset) ([Rabanus ea 2023](https://clarin.eurac.edu/repository/xmlui/handle/20.500.12124/74), [Krujt ea 2023](https://iris.univr.it/handle/11562/1095869)) | South Tyrolean; location information | 148 sentences + 71 words (up to 195 speakers per entry) | audio, German ortho | CC BY-NC-ND 4.0 |
 | [Tatoeba](https://tatoeba.org/en/downloads) ([bar](https://tatoeba.org/en/sentences/show_all_in/bar/none) subset) | translations into other languages | 226 sentences | ad-hoc pronunciation spelling | CC BY 2.0 FR |
 | [Wikipedia](https://dumps.wikimedia.org/) ([bar](https://bar.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://bar.wikipedia.org/wiki/Kategorie:Artikel_nach_Dialekt) | 27k articles | [ad-hoc pronunciation spelling with some optional conventions](https://bar.wikipedia.org/wiki/Wikipedia:Wia_schreib_i_a_guads_Boarisch%3F) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
@@ -464,7 +466,18 @@ Including East Franconian · vmf · [main1267](https://glottolog.org/resource/la
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
 | [Kontatti](https://kontatti.projects.unibz.it/) ([Ghilardi 2019](https://hrcak.srce.hr/231238)) (subset) |  | unknown (6:48 hrs total) | audio, German ortho | [custom](https://kontatti.projects.unibz.it/what-is-kontatti/conditions-of-use/) |
+| [AlpiLinK (Rabanus ea 2023)](https://zenodo.org/records/10224351) (*cim* subset) | location information | 530 files (42 sentences, up to 14 speakers) | audio, German ortho | CC BY-NC-SA 4.0 |
+| [VinKo](https://clarin.eurac.edu/repository/xmlui/handle/20.500.12124/74) (*cim* subset) ([Rabanus ea 2023](https://clarin.eurac.edu/repository/xmlui/handle/20.500.12124/74), [Krujt ea 2023](https://iris.univr.it/handle/11562/1095869)) | location information | 159 sentences + 40 words (up to 14 speakers per entry) | audio, German ortho | CC BY-NC-ND 4.0 |
 
+
+[↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
+
+### Mòcheno · mhn · [moch1255](https://glottolog.org/resource/languoid/id/moch1255)
+
+| Corpus | Notes | Size | Representation | License |
+|--------|-------|------|----------------|---------|
+| [AlpiLinK (Rabanus ea 2023)](https://zenodo.org/records/10224351) (*mhn* subset) | location information | 42 sentences (1 speaker) | audio, German ortho | CC BY-NC-SA 4.0 |
+| [VinKo](https://clarin.eurac.edu/repository/xmlui/handle/20.500.12124/74) (*mhn* subset) ([Rabanus ea 2023](https://clarin.eurac.edu/repository/xmlui/handle/20.500.12124/74), [Krujt ea 2023](https://iris.univr.it/handle/11562/1095869)) | location information | 159 sentences + 30 words (up to 17 speakers per entry) | audio, German ortho | CC BY-NC-ND 4.0 |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -524,6 +537,7 @@ Including East Franconian · vmf · [main1267](https://glottolog.org/resource/la
 | [Walliserdeutsch/RRO](https://zenodo.org/record/4580286) ([Garner 2014](https://zenodo.org/record/4580286), [Garner ea 2014](https://www.isca-speech.org/archive/interspeech_2014/garner14_interspeech.html)) | | 8.3 hrs | audio, non-standardized transcription | custom |
 | [SwissDial](https://mtc.ethz.ch/publications/open-source/swiss-dial.html) (subset) ([Dogan-Schönberger ea 2021](https://arxiv.org/pdf/2103.11401.pdf)) | topics (14 classes), translations (into German and 7 Swiss German dialects) | 3.3 hrs | audio, pronunciation spelling, German ortho | CC BY-NC 4.0 |
 | [All Swiss German Dialects Test Set](https://www.cs.technik.fhnw.ch/i4ds-datasets) ([Plüss ea 2021b](https://ceur-ws.org/Vol-2957/sg_paper1.pdf)) | locations (cantons, incl. Wallis) | unk | audio, German ortho | MIT |
+| [AlpiLinK (Rabanus ea 2023)](https://zenodo.org/records/10224351) (*wae* subset) | location information | 122 files (42 sentences, up to 3 speakers) | audio, German ortho | CC BY-NC-SA 4.0 |
 | [Wikipedia](https://dumps.wikimedia.org/) (subset of [als](https://als.wikipedia.org/) subset)| uncurated | [35 (of 27k total) tagged as Wal(li)ser](https://als.wikipedia.org/wiki/Kategorie:Wikipedia:Dialekt) | [no defined standard, but a set of recommendations based on published works, the (Swiss German) Dieth orthography and the (Alsatian) Orthal orthography](https://als.wikipedia.org/wiki/Hilfe:Schrybig) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
