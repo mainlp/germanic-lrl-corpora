@@ -23,7 +23,7 @@ Language varieties:
     - North Sea Germanic
         - [Anglo-Frisian](#anglo-frisian) ([Scots](#scots--sco--scot1243) · [(non-std.) English](#english--eng--stan1293) · [West Frisian](#western-frisian--fry--west2354) · [North Frisian](#northern-frisian--frr--north2626) · [Saterland Frisian](#saterland-frisiansaterfrisian--stq--sate1242))
         - [Low German](#low-german) ([Low Saxon](#low-saxonlow-german--nds--lowg1239) · [East Frisian Low Saxon](#east-frisian-low-saxon--frs--east2288) · [Gronings](#gronings--gos--gron1242) · [Twents](#twents--twd--twen1241) · [Achterhoeks](#achterhoeks--act--acht1238) · [Westphalian](#westphalicwestphalishwestphalian--wep--west2356))
-    - [Macro-Dutch](#macro-dutch) ([Dutch](#dutch--nld--dutc1256) · [West Flemish](#western-flemish--vls--vlaa1240) · [Zeelandic](#zeelandiczeeuws--zea--zeeu1238))
+    - [Macro-Dutch](#macro-dutch) ([(non-std.) Dutch](#dutch--nld--dutc1256) · [West Flemish](#western-flemish--vls--vlaa1240) · [Zeelandic](#zeelandiczeeuws--zea--zeeu1238))
     - High German
         - [Central German](#central-german) ([Upper Saxon](#upper-saxon--sxu--uppe1400) · [Moselle Franconian incl. Luxembourgish](#moselle-franconian--luxe1241) · [Colognian](#colognian--ksh--kols1241) · [Limburgish](#limburgishlimburgan--lim--lim1263) · [Rhine Franconian incl. Palatine German](#rhinerhenish-franconian--rhin1244) · [Pennsylvania Dutch](#pennsylvania-dutch--pdc--penn1240) · [Yiddish](#yiddish--yid--west2361east2295))
         - [Upper German](#upper-german) ([(non-std.) German](#german--deu--stan1295) · [Upper Franconian](#upperhigh-franconian--uppe1464) · [Bavarian](#bavarian--bar--bava1246) · [Cimbrian](#cimbrian--cim--cimb1238) · [Mòcheno](#mòcheno--mhn--moch1255) · [Swabian](#swabian--swg--swab1242) · [Central Alemannic (Swiss German & Alsatian)](#central-alemannic-incl-swiss-german--alsatian--gsw--swis1247) · [Walser](#walser--wae--wals1238))
@@ -47,8 +47,6 @@ Did we forget a corpus for a Germanic low-resource language or dialect that fits
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
 | [Sound Comparisons: Germanic (Paschen ea 2019)](https://soundcomparisons.com/Germanic) | word-based, 120 locations/doculects from all Germanic sub-branches | 106 words × 120 locations | audio, phono (IPA), English ortho, ortho of relevant std languages | CC BY-NC-ND 4.0 |
-
-## North Germanic
 
 ### Faroese · fao · [fao1244](https://glottolog.org/resource/languoid/id/faro1244)
 
@@ -162,7 +160,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [Helsinki Corpus of British English Dialects](https://varieng.helsinki.fi/CoRD/corpora/Dialects/) | locations (UK: Cambridgeshire, Devon, Essex/Lancashire, Isle of Ely, Somerset, Suffolk) | 1M tokens | audio, English ortho | |
 | [Nationwide Speech Project (NSP)](https://u.osu.edu/nspcorpus/) ([Clopper & Pisoni 2006](https://www.sciencedirect.com/science/article/abs/pii/S0167639305002232)) | locations (USA: West, Midland, North, South, New England, Mid-Atlantic) | 60 × 1 hr | audio, partially: English ortho |
 | [Corpus of Regional African American Language (CORAAL) (Kendall & Farrington 2021)](https://oraal.uoregon.edu/coraal) | 6 locations, AAVE | 135.6 hrs / 1.5M tokens | audio, English ortho | CC BY-NC-SA 4.0 |
-| [Sound Comparisons: Englishes (Maguire ea 2019)](Sound Comparisons: Englishes) | word-based, 51 locations | 110 words × 51 locations | audio, phono (IPA), English ortho | CC BY-NC-ND 4.0 |
+| [Sound Comparisons: Englishes (Maguire ea 2019)](https://soundcomparisons.com/Englishes) | word-based, 51 locations | 110 words × 51 locations | audio, phono (IPA), English ortho | CC BY-NC-ND 4.0 |
 
 **See also**: [SPADE: SPeech Across Dialects of English (Stuart-Smith ea 2017–2020)](https://spade.glasgow.ac.uk/) and their [corpus collection](https://osf.io/4jfrm/).
 
@@ -295,6 +293,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
 | [Corpus of Southern Dutch Dialects (GCND)](https://www.gcnd.ugent.be/en/about-the-gcnd/) ([Breitbarth ea 2018](https://openjournals.ugent.be/kzm/article/id/71958/)) | under construction!; might also include West Flemish, Zeelandic, and/or Limburgs | | audio, [transcriptions](https://www.gcnd.ugent.be/wp-content/uploads/2022/11/2022_10_06_Transcriptieprotocol.pdf) |
+| [MAND/FAND/GTRP (Goeman ea)](https://www.meertens.knaw.nl/mand/database/index.php) ([contact institute](https://projecten.meertens.knaw.nl/mand/cat/Ecdrom.html)) | Locations | | phono ([K-IPA](https://projecten.meertens.knaw.nl/mand/EGTRPkipatabel.html)) | |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
 
