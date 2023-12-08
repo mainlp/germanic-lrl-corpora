@@ -293,7 +293,8 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
 | [Corpus of Southern Dutch Dialects (GCND)](https://www.gcnd.ugent.be/en/about-the-gcnd/) ([Breitbarth ea 2018](https://openjournals.ugent.be/kzm/article/id/71958/)) | under construction!; might also include West Flemish, Zeelandic, and/or Limburgs | | audio, [transcriptions](https://www.gcnd.ugent.be/wp-content/uploads/2022/11/2022_10_06_Transcriptieprotocol.pdf) |
-| [MAND/FAND/GTRP (Goeman ea)](https://www.meertens.knaw.nl/mand/database/index.php) ([contact institute](https://projecten.meertens.knaw.nl/mand/cat/Ecdrom.html)) | Locations | | phono ([K-IPA](https://projecten.meertens.knaw.nl/mand/EGTRPkipatabel.html)) | |
+| [SAND (Barbiers ea 2006)](https://www.meertens.knaw.nl/sand/zoeken/tei/index.php) | locations | ? | phono | custom |
+| [MAND/FAND/GTRP (Goeman ea)](https://www.meertens.knaw.nl/mand/database/index.php) ([contact institute](https://projecten.meertens.knaw.nl/mand/cat/Ecdrom.html)) | locations | | phono ([K-IPA](https://projecten.meertens.knaw.nl/mand/EGTRPkipatabel.html)) | |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
 
