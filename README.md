@@ -411,6 +411,7 @@ Includes Palatin(at)e German · pfl · [pala1330](https://glottolog.org/resource
 
 | Corpus | Notes | Size | Representation | License |
 |--------|-------|------|----------------|---------|
+| [Thorsten-Voice Dataset 2023.09 Hessisch (Müller & Kreutz 2024)](https://zenodo.org/records/10511260) | Hessian | 2 hrs / 2.1k sentences | audio, German ortho | CC0/CC-BY 4.0 |
 | [Zwirner-Korpus](https://dgd.ids-mannheim.de/) (subset of downloadable subcorpus) ([Zwirner & Bethge 1958](https://katalog.slub-dresden.de/id/0-1116234068), [IDS: Datenbank für gesprochenes Deutsch (DGD)](https://dgd.ids-mannheim.de/)) | Hessian | 8 min / 1.4k tokens | audio, German ortho | [custom terms](https://dgd.ids-mannheim.de/dgd/pragdb.dgd_extern.sys_use) |
 | [Wikipedia](https://dumps.wikimedia.org/) ([pfl](https://pfl.wikipedia.org/) subset)| uncurated, partially [tagged with dialect information](https://pfl.wikipedia.org/wiki/Sachgrubb:Adiggel_noch_em_Dialegd); contains articles in Palatine German, Lorraine Franconian, Hessian | 3k articles | [(implied) ad-hoc spelling](https://pfl.wikipedia.org/wiki/Wikipedia_Dischbediere:Schdammdisch) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
