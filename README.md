@@ -197,7 +197,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) (subset) ([Nguyen ea 2023](https://arxiv.org/abs/2309.09400)) | uncurated, subset of *mc4* and *OSCAR* | 223k sentences | | see mc4 & OSCAR | 
 | [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 3.7M sentences | | CC-BY-4.0 |
 | [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, corpus overlap documented in data | 927k sentences | | Apache 2.0 + licenses of source datasets |
-| [Wikipedia](https://dumps.wikimedia.org/) ([fy](https://fy.wikipedia.org/wiki/) subset)| uncurated | 50k articles | Frisian ortho | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([fy](https://fy.wikipedia.org/wiki/) subset)| uncurated | 50k articles | [Frisian ortho](https://fy.wikipedia.org/wiki/Wikipedy:Stikken_skriuwe_yn_Wikipedia-styl) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
 
@@ -367,7 +367,7 @@ Glottolog 4.7 categorizes Elfdalian as a dialect of Dalecarlian/[dale1238](https
 | [OSCAR](https://oscar-project.github.io/documentation/versions/oscar-2301/) (subset) ([Abadji ea 2022](https://aclanthology.org/2022.lrec-1.463/)) | uncurated, subset of *CommonCrawl* | 2.5M tokens / 18.4 MB | ? |[Metadata/annotations: CC0 1.0](https://huggingface.co/datasets/oscar-corpus/OSCAR-2301), [Common Crawl: custom](https://commoncrawl.org/terms-of-use/) |
 | [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) (subset) ([Nguyen ea 2023](https://arxiv.org/abs/2309.09400)) | uncurated, subset of *mc4* and *OSCAR* | 166k sentences | | see mc4 & OSCAR | 
 | [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 3.4M sentences | | CC-BY-4.0 |
-| [Wikipedia](https://dumps.wikimedia.org/) ([lb](https://lb.wikipedia.org/) subset)| uncurated | 61k articles | Luxembourgish ortho | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([lb](https://lb.wikipedia.org/) subset)| uncurated | 61k articles | [Luxembourgish ortho](https://lb.wikipedia.org/wiki/Wikipedia:Eis_Schreifweis) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 For other kinds of resources/tools, see also [questoph/NLPforLTZ](https://github.com/questoph/NLPforLTZ).
 
@@ -444,7 +444,7 @@ Includes Palatin(at)e German · pfl · [pala1330](https://glottolog.org/resource
 | [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) (subset) ([Nguyen ea 2023](https://arxiv.org/abs/2309.09400)) | uncurated, subset of *mc4* and *OSCAR* | 141k sentences | | see mc4 & OSCAR | 
 | [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) (subset) ([Kudugunta ea 2023](https://arxiv.org/abs/2309.04662)) | uncurated, subset of *CommonCrawl* | 1.9M sentences | | CC-BY-4.0 |
 | [Glot500-c](https://github.com/cisnlp/Glot500) (subset) ([Imani ea 2023](https://aclanthology.org/2023.acl-long.61/)) | partially uncurated, corpus overlap documented in data | 220k sentences | | Apache 2.0 + licenses of source datasets |
-| [Wikipedia](https://dumps.wikimedia.org/) ([yi](https://yi.wikipedia.org/) subset)| uncurated | 15k articles | | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
+| [Wikipedia](https://dumps.wikimedia.org/) ([yi](https://yi.wikipedia.org/) subset)| uncurated | 15k articles | [YIVO and Hasidic orthographies](https://yi.wikipedia.org/wiki/%D7%B0%D7%99%D7%A7%D7%99%D7%A4%D6%BC%D7%A2%D7%93%D7%99%D7%A2:%D7%99%D7%99%D7%93%D7%99%D7%A9,_%D7%99%D7%95%D7%93%D7%99%D7%A9,_%D7%90%D7%93%D7%A2%D7%A8_%D7%90%D7%99%D7%93%D7%99%D7%A9) | [text: GFDL, CC BY-SA 3.0; images: CC BY-SA 4.0](https://dumps.wikimedia.org/legal.html) |
 
 [↑ top](#a-survey-of-corpora-for-germanic-low-resource-languages-and-dialects)
 
